@@ -1,0 +1,15 @@
+{
+	"include": ["src/**/*.ts"],
+	"exclude": ["dist"],
+	"compilerOptions": {
+		"lib": ["es6", "dom"],
+		"types": ["react", "react-dom"],
+		"jsx": "react",
+		"target": "es6",
+		"module": "commonjs",
+		"outDir": "dist",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"plugins": [{ "name": "typescript-tslint-plugin" }]
+	}
+}

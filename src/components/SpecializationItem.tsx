@@ -1,8 +1,8 @@
 import * as React from "react"
-import { SpecializationItem } from "../lib/types"
+import { Specialization } from "../lib/types"
 
 
-export default (props: SpecializationItem) => {
+export default (props: Specialization) => {
 	return (
 		<div>
 			<div>

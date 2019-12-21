@@ -6,7 +6,8 @@ export interface Career {
 }
 
 export interface Specialization {
-	name: string
+  name: string
+  subtitle: string
 	description: string
 	careerSkills: string
 }

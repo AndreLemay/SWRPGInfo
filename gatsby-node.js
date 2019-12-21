@@ -1,6 +1,6 @@
 exports.createPages = async ({ actions: { createPage } }) => {
 	const { careers } = await getData()
-	console.log(careers)
+
 	createPage({
 		path: `/`,
 		component: require.resolve('./src/templates/index.tsx'),
@@ -21,7 +21,26 @@ const getData = () => {
 				name: 'Bounty Hunter',
 				description: 'Hunt bounties',
 				careerSkills: null,
-				specializations: []
+				specializations: [
+					{
+						name: 'Assassin',
+						subtitle: 'Instrument of Policy',
+						description: null,
+						careerSkills: null
+					},
+					{
+						name: 'Gadgeteer',
+						subtitle: 'Connoisseur of Tech',
+						description: null,
+						careerSkills: null
+					},
+					{
+						name: 'Survivalist',
+						subtitle: 'Master of the Wild',
+						description: null,
+						careerSkills: null
+					}
+				]
 			},
 			{
 				name: 'Colonist',

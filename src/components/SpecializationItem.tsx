@@ -1,16 +1,16 @@
-import * as React from "react"
-import { Specialization } from "../lib/types"
-
+import * as React from 'react'
+import { Specialization } from '../lib/types'
+import { Card } from 'react-bootstrap'
+import CareerSkillAccordion from './CareerSkillAccordion'
 
 export default (props: Specialization) => {
 	return (
-		<div>
-			<div>
-				<span>{props.name}</span>
-			</div>
-			<div>
-				<span>{props.description}</span>
-			</div>
-		</div>
+		<Card>
+			<Card.Body>
+				<Card.Title>{props.name}</Card.Title>
+				<Card.Text>{props.description}</Card.Text>
+				<CareerSkillAccordion careerSkills={props.careerSkills} />
+			</Card.Body>
+		</Card>
 	)
 }

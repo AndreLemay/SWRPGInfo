@@ -20,56 +20,65 @@ const getData = () => {
 			{
 				name: 'Bounty Hunter',
 				description: 'Hunt bounties',
-				careerSkills: null,
+				careerSkills: [
+					'Athletics',
+					'Brawl',
+					'Perception',
+					'Piloting (Planetary)',
+					'Piloting (Space)',
+					'Ranged (Heavy)',
+					'Streetwise',
+					'Vigilance'
+				],
 				specializations: [
 					{
 						name: 'Assassin',
 						subtitle: 'Instrument of Policy',
 						description: null,
-						careerSkills: null
+						careerSkills: []
 					},
 					{
 						name: 'Gadgeteer',
 						subtitle: 'Connoisseur of Tech',
 						description: null,
-						careerSkills: null
+						careerSkills: []
 					},
 					{
 						name: 'Survivalist',
 						subtitle: 'Master of the Wild',
 						description: null,
-						careerSkills: null
+						careerSkills: []
 					}
 				]
 			},
 			{
 				name: 'Colonist',
 				description: 'Colonize',
-				careerSkills: null,
+				careerSkills: [],
 				specializations: []
 			},
 			{
 				name: 'Explorer',
 				description: 'Explore',
-				careerSkills: null,
+				careerSkills: [],
 				specializations: []
 			},
 			{
 				name: 'Hired Gun',
 				description: 'Apply Gun',
-				careerSkills: null,
+				careerSkills: [],
 				specializations: []
 			},
 			{
 				name: 'Smuggler',
 				description: 'Smuggle',
-				careerSkills: null,
+				careerSkills: [],
 				specializations: []
 			},
 			{
 				name: 'Technician',
 				description: 'Fix shit',
-				careerSkills: null,
+				careerSkills: [],
 				specializations: []
 			}
 		]

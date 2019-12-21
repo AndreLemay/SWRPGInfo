@@ -7,8 +7,8 @@ import CareerSkillAccordion from './CareerSkillAccordion'
 const CareerItem = (props: Career) => {
 	return (
 		<Card>
+			<Card.Header>{props.name}</Card.Header>
 			<Card.Body>
-				<Card.Title>{props.name}</Card.Title>
 				<Card.Text>{props.description}</Card.Text>
 				<CareerSkillAccordion careerSkills={props.careerSkills} />
 				<Accordion>

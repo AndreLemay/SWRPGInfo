@@ -2,9 +2,9 @@ import * as React from 'react'
 import { Talent } from '../lib/types'
 import { Card } from 'react-bootstrap'
 
-export default (props: Talent & { id: string }) => {
+export default (props: Talent) => {
 	return (
-		<Card id={props.id} className={props.passive && "passive"}>
+		<Card className={props.passive && "passive"} style={{height: '100%'}}>
 			<Card.Header>{props.name}</Card.Header>
 			<Card.Body>
 				<Card.Text>{props.description}</Card.Text>

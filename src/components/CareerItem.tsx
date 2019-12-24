@@ -18,9 +18,10 @@ const CareerItem = (props: Career) => {
 						</Accordion.Toggle>
 						<Accordion.Collapse eventKey="1" style={{ margin: '10px' }}>
 							<ListGroup>
-								{props.specializations.map(spec => {
+								{props.specializations.map((spec, ind) => {
 									return (
 										<ListGroup.Item
+											key={ind}
 											action
 											onClick={() => {
 												navigate('/Specialization/', {

@@ -19,5 +19,5 @@ export interface Talent {
   row: number
   column: number
   passive: boolean
-  connections: [boolean, boolean, boolean, boolean]
+  connections: boolean[]
 }

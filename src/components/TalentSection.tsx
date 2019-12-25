@@ -1,5 +1,4 @@
 import * as React from 'react'
-import * as ReactDOM from 'react-dom'
 import { Talent } from '../lib/types'
 import TalentItem from './TalentItem'
 import { Accordion, Card, Container, Row, Col } from 'react-bootstrap'

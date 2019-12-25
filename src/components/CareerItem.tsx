@@ -24,9 +24,7 @@ const CareerItem = (props: Career) => {
 											key={ind}
 											action
 											onClick={() => {
-												navigate('/Specialization/', {
-													state: spec
-												})
+												navigate(`/Specialization/${spec.name}`)
 											}}>
 											{spec.name} - {spec.subtitle}
 										</ListGroup.Item>

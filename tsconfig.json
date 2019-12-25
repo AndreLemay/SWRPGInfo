@@ -1,5 +1,5 @@
 {
-	"include": ["src/**/*.ts", "src/**/*.tsx"],
+	"include": ["src/**/*.ts", "src/**/*.tsx", "src/templates/Specialization.tsx"],
 	"exclude": ["dist"],
 	"compilerOptions": {
 		"lib": ["es6", "dom"],

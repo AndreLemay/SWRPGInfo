@@ -353,17 +353,688 @@
 				{
 					"name": "Survivalist",
 					"subtitle": "Master of the Wild",
-					"description": null,
-					"careerSkills": [],
-					"talents": []
+					"description": "A Survivalist has the necessary knowledge and training to make his way in rural or wilderness environments, and help the far more urban-minded folks he's likely traveling with. Despite their capacity to live off the land, Survivalists enjoy credits and the things that can be purchased with them just like anyone else. They will often look to hire themselves out to customers who need their expertise in seeking out (or hunting) something beyond the duracrete and tapcafs.",
+					"careerSkills": [
+						"Knowledge (Xenology)",
+						"Perception",
+						"Resilience",
+						"Survival"
+					],
+					"talents": [
+						{
+							"name": "Forager",
+							"description": "Remove up to 2 Setback from skill checks to find food, water, or shelter. Survival checks to forage take half the time.",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Stalker",
+							"description": "Add 1 Boost per rank of Stalker to all Stealth and Coordination checks",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Outdoorsman",
+							"description": "Remove 1 Setback per rank of Outdoorsman from checks to move through terrain or manage environmental effects. Decrease overland travel times by half.",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Expert Tracker",
+							"description": "Remove 1 Setback per rank of Expert Tracker from checks to find tracks or track targets. Derease time to track a target by half.",
+							"column": 4,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Outdoorsman",
+							"description": "Remove 1 Setback per rank of Outdoorsman from checks to move through terrain or manage environmental effects. Decrease overland travel times by half.",
+							"column": 1,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Swift",
+							"description": "Do not suffer usual penalties for moving through difficult terrain.",
+							"column": 2,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Hunter",
+							"description": "Add 1 boost per rank of Hunter to all checks when interacting with beasts or animals (including combat checks). Add +10 to Critical Injury results against beasts or animals per rank of Hunter.",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Soft Spot",
+							"description": "After making a successful attack, may spend 1 Destiny Point to add damage equal to Cunning to one hit.",
+							"column": 4,
+							"row": 2,
+							"passive": false,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 1,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Expert Tracker",
+							"description": "Remove 1 Setback per rank of Expert Tracker from checks to find tracks or track targets. Derease time to track a target by half.",
+							"column": 2,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Stalker",
+							"description": "Add 1 Boost per rank of Stalker to all Stealth and Coordination checks",
+							"column": 3,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Natural Outdoorsman",
+							"description": "Once per session, may re-roll any 1 Resilience or Survival check.",
+							"column": 4,
+							"row": 3,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 1,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Hunter",
+							"description": "Add 1 boost per rank of Hunter to all checks when interacting with beasts or animals (including combat checks). Add +10 to Critical Injury results against beasts or animals per rank of Hunter.",
+							"column": 2,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Expert Tracker",
+							"description": "Remove 1 Setback per rank of Expert Tracker from checks to find tracks or track targets. Derease time to track a target by half.",
+							"column": 3,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Blooded",
+							"description": "Add 1 Boost per rank of Blooded to all checks to resist or recover from poisons, venoms, or toxins. Reduce duration of ongoing poisons by 1 round per rank of Blooded to a minimum of 1.",
+							"column": 4,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Enduring",
+							"description": "Gain +1 Soak Value",
+							"column": 1,
+							"row": 5,
+							"passive": true,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 2,
+							"row": 5,
+							"passive": true,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 3,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Heroic Fortitude",
+							"description": "May spend 1 Destiny Point to ignore effects of Critical Injuries on Brawn or Agility checks until the end of the encounter.",
+							"column": 4,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, false, false]
+						}
+					]
 				}
 			]
 		},
 		{
 			"name": "Colonist",
-			"description": "Colonize",
-			"careerSkills": [],
-			"specializations": []
+			"description": "In a way, Colonists are the most out-of-place people in the Outer Rim. They are most often from the Core Worlds, where they were well educated and part of the cultural and professional elite. A Colonist doesn't tend to have the training to survive in areas of high conflict, and he isn't particular adept at physical exploits. What he does possess, however, is a keen grasp of the bigger picture, and he usually has both the knowledge to understand problems and the capacity to get them solved.",
+			"careerSkills": ["Charm", "Deception", "Knowledge (Core Worlds)", "Knowledge (Education)", "Knowledge (Lore)", "Leadership", "Negotiation", "Streetwise"],
+			"specializations": [
+				{
+					"name": "Doctor",
+					"subtitle": "The Gift of Healing",
+					"description": "They are in high demand almost anywhere they go. Unfortunately, most of what they are asked to do involves patching up the wounds of the worst kind of beings. Most Doctors trade their healing talents for a chance to see more of the galaxy than their time in medical school ever allowed. Their overall motives can be as varied as those of any being, yet they tend to share a common instinct to heal where there is harm. While many will simply take up residence with whatever lord, corporation, or boss will hire them, other Doctors will find a way to get out into the larger galaxy, both to bring help to those in need and to experience life in some fashion.",
+					"careerSkills": ["Cool", "Knowledge (Education)", "Medicine", "Resilience"],
+					"talents": [
+						{
+							"name": "Surgeon",
+							"description": "When making a Medicine check to help a character heal wounds, the target heals 1 additional wound per rank of Surgeon.",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Bacta Specialist",
+							"description": "Patients regain 1 additional wound per rank of Bacta Specialist when they recover wounds from bacta tanks or long term care.",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Resolve",
+							"description": "When a character involuntarily suffers strain, he suffers 1 less strain per rank of Resolve, to a minimum of 1.",
+							"column": 4,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Stim Application",
+							"description": "Take the Stim Application Action: make an Average Medicine check. If successful, 1 engaged ally increases 1 characteristic by 1 for the remainder of the encounter and suffers 4 strain.",
+							"column": 1,
+							"row": 2,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 2,
+							"row": 2,
+							"passive": true,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Surgeon",
+							"description": "When making a Medicine check to help a character heal wounds, the target heals 1 additional wound per rank of Surgeon.",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Resolve",
+							"description": "When a character involuntarily suffers strain, he suffers 1 less strain per rank of Resolve, to a minimum of 1.",
+							"column": 4,
+							"row": 2,
+							"passive": true,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Surgeon",
+							"description": "When making a Medicine check to help a character heal wounds, the target heals 1 additional wound per rank of Surgeon.",
+							"column": 1,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 2,
+							"row": 3,
+							"passive": true,
+							"connections": [true, false, true, true]
+						},
+						{
+							"name": "Bacta Specialist",
+							"description": "Patients regain 1 additional wound per rank of Bacta Specialist when they recover wounds from bacta tanks or long term care.",
+							"column": 3,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Pressure Point",
+							"description": "When making a Brawl check against an opponent, instead of dealing damage, may deal equivalent strain plus additional strain equal to ranks of Medicine (this ignores soak).",
+							"column": 4,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Improved Stim Application",
+							"description": "When performing Stim Application Action, may increase difficulty of check to Hard and target only suffers 1 strain.",
+							"column": 1,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Natural Doctor",
+							"description": "Once per session, may re-roll any 1 Medicine check",
+							"column": 2,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 3,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Anatomy Lessons",
+							"description": "After making a successful attack, may spend 1 Destiny Point to add damage equal to Intellect to one hit",
+							"column": 4,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Supreme Stim Application",
+							"description": "When performing the Stim Application Action, spend 1 Triumph to increase an additional Characteristic by 1.",
+							"column": 1,
+							"row": 5,
+							"passive": true,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Master Doctor",
+							"description": "Once per round, wuffer 2 strain to decrease the difficulty of a Medicine check by 1.",
+							"column": 2,
+							"row": 5,
+							"passive": false,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 3,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Dodge",
+							"description": "When targeted by combat check, may perform a Dodge incidental to suffer a number of strain no greater than ranks of Dodge, then upgrade the difficulty of the check by that number",
+							"column": 4,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, false, false]
+						}
+					]
+				},
+				{
+					"name": "Politico",
+					"subtitle": "The Gift of Leadership",
+					"description": "If there is one thing a Politico knows how to do better than anyone else in the galaxy, it's talking. He can talk to anyone about anything in any necessary way. What others accomplish with might and fear, a talented Politico may well achieve with a few well-placed words and a decent plan. Politicos in the Outer Rim are usually up to something; ambition is hardwired into their very being. They may not yet know what they wish to accomplish, but when they see an opportunity to achieve some kind of greater goal, they will turn all their will and personality towards acheiving it. Politicos might sign on to temporarily work for another, but they will not long be happy in a subservient role. Leadership is the core of who they are. In a group, the Politico works best as the front-man, or the \"face\". More than anyone, he is best suited for initial contacts with any being or group, and hes' the best to have at any negotiation, social gathering, or interrogation. There are even times when he can bring up morale in combat and crisis situations, though the palace throne room, corporate board room, or casino floor tend to be better battlefields for him.",
+					"careerSkills": ["Charm", "Coercion", "Deception", "Knowledge (Core Worlds)"],
+					"talents": [
+						{
+							"name": "Kill with Kindness",
+							"description": "Remove 1 Setback per rank of Kill with Kindness from all Charm and Leadership checks.",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Plausible Deniability",
+							"description": "Remove 1 Setback per rank of Plausible Deniability from all Coercion and Deception checks.",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 4,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Inspiring Rhetoric",
+							"description": "Take the Inspiring Rhetoric action: make an Average Leadership check. Each Success causes 1 ally in close range to recover 1 strain. Spend 1 Advantage to cause 1 affected ally to recover 1 additional strain.",
+							"column": 1,
+							"row": 2,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Kill with Kindness",
+							"description": "Remove 1 Setback per rank of Kill with Kindness from all Charm and Leadership checks.",
+							"column": 2,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Scathing Tirade",
+							"description": "Take a Scathing Tirade action: make an Average Coercion check. Each Success causes 1 enemy in close range to suffer 1 strain. Spend 1 Advantage to cause 1 affected enemy to suffer 1 additional strain.",
+							"column": 3,
+							"row": 2,
+							"passive": false,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Plausible Deniability",
+							"description": "Remove 1 Setback per rank of Plausible Deniability from all Coercion and Deception checks.",
+							"column": 4,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Dodge",
+							"description": "When targeted by combat check, may perform a Dodge incidental to suffer a number of strain no greater than ranks of Dodge, then upgrade the difficulty of the check by that number",
+							"column": 1,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Improved Inspiring Rhetoric",
+							"description": "Each ally affected by Inspiring Rhetoric gains 1 Boost on all skil lchecks for a number of rounds equal to ranks in Leadership",
+							"column": 2,
+							"row": 3,
+							"passive": true,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Improved Scathing Tirade",
+							"description": "Each enemy affected by Scathing Tirade suffers 1 Setback on all skill checks for a number of rounds equal to ranks in Coercion",
+							"column": 3,
+							"row": 3,
+							"passive": true,
+							"connections": [false, false, true, true]
+						},
+						{
+							"name": "Well Rounded",
+							"description": "Choose any 2 skills. They permanently become career skills.",
+							"column": 4,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 1,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Supreme Inspiring Rhetoric",
+							"description": "Suffer 1 strain to perform Inspiring Rhetoric as a maneuver, not an action.",
+							"column": 2,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Supreme Scathing Tirade",
+							"description": "Suffer 1 strain to perform Scathing Tirade as a maneuver, not an action.",
+							"column": 3,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Nobody's Fool",
+							"description": "May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool",
+							"column": 4,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Steely Nerves",
+							"description": "Spend 1 Destiny Point to ignore effects of Critical Injuries on Willpower or Presene checks until the end of the encounter.",
+							"column": 1,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Dedicated",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 2,
+							"row": 5,
+							"passive": true,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Natural Charmer",
+							"description": "Once per session, may re-roll any 1 Charm or Deception check.",
+							"column": 3,
+							"row": 5,
+							"passive": false,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Intense Presence",
+							"description": "Spend 1 Destiny Point to recover strain equal to Presence rating.",
+							"column": 4,
+							"row": 5,
+							"passive": false,
+							"connections": [true, true, false, false]
+						}
+					]
+				},
+				{
+					"name": "Scholar",
+					"subtitle": "The Gift of Knowledge",
+					"description": "At first, the idea of a Scholar wandering with a bunch of ne'er-do-wells in the Outer Rim might seem a bit odd, if not downright ridiculous. However, with all of the dangers and wonders of \"a thousand thousand worlds,\" having someone around who actually knows something more than how to reload a heavy blaster could be exceedingly useful under any number of circumstances. This is especially true when a group is faced with something truly unknown, or needs to find something that simple tracking alone cannot locate. Even in the Outer Rim, there are those who have a keen respect for knowledge and leraning. Even criminal overlords find having some \"brains\" around helps them when they want to expand theri operations or exploit a new opportunity. Other Scholars, however, are far more interested in getting out into the galaxy, seeing for themselves the things they with to study, and digging around in ancient places for the lost konwledge they want to uncover. A Scholar in a group is very likely of the field researcher variety; seeking allies with physical capabilities who can defend him is a matter of somple expediency. It may be that he's signed on with some kind of operation that actually has no direct impact on his research, but the group is likely to travel to places he wishes to go, which suits his desires well.",
+					"careerSkills": ["Knowledge (Outer Rim)", "Knowledge (Underworld)", "Knowledge (Xenology)", "Perception"],
+					"talents": [
+						{
+							"name": "Respected Scholar",
+							"description": "May downgrade difficulty of checks to interact with institutes of learning by 1 level per rank of Respected Scholar.",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Speaks Binary",
+							"description": "When directing NPC droids, may grant them 1 Boost per rank of Speaks Binary on checks.",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Brace",
+							"description": "Perform the Brace maneuver to remove 1 Setback per rank of Brace from next Action. This may only remove Setback added by environmental circumstances",
+							"column": 4,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Researcher",
+							"description": "Remove 1 Setback per rank of Researcher from all Knowledge checks. Researcing a subject takes half the time.",
+							"column": 1,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Respected Scholar",
+							"description": "May downgrade difficulty of checks to interact with institutes of learning by 1 level per rank of Respected Scholar.",
+							"column": 2,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Resolve",
+							"description": "When a character involuntarily suffers strain, he suffers 1 less strain per rank of Resolve, to a minimum of 1.",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Researcher",
+							"description": "Remove 1 Setback per rank of Researcher from all Knowledge checks. Researcing a subject takes half the time.",
+							"column": 4,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Codebreaker",
+							"description": "Remove 1 Setback per rank in Codebreaker from checks to break codes or decrypt communications. Decrease difficulty of checks to break codes or decrypt communications by 1.",
+							"column": 1,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Knowledge Specialization",
+							"description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend 1 Triumph result to gain additional successes equal to ranks in Knowledge Specialization.",
+							"column": 2,
+							"row": 3,
+							"passive": true,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Natural Scholar",
+							"description": "Once per session, may re-roll any 1 Knowledge skill check.",
+							"column": 3,
+							"row": 3,
+							"passive": false,
+							"connections": [false, false, true, true]
+						},
+						{
+							"name": "Well Rounded",
+							"description": "Choose any 2 skills. They permanently become career skills.",
+							"column": 4,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Knowledge Specialization",
+							"description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend 1 Triumph result to gain additional successes equal to ranks in Knowledge Specialization.",
+							"column": 1,
+							"row": 4,
+							"passive": true,
+							"connections": [false, false, true, true]
+						},
+						{
+							"name": "Intense Focus",
+							"description": "Perform an Intense Focus maneuver: suffer 1 strain and upgrade the ability of the next skill check once.",
+							"column": 2,
+							"row": 4,
+							"passive": false,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Confidence",
+							"description": "May decrease difficulty of Discipline checks to avoid fear by 1 per rank of Confidence.",
+							"column": 3,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Resolve",
+							"description": "When a character involuntarily suffers strain, he suffers 1 less strain per rank of Resolve, to a minimum of 1.",
+							"column": 4,
+							"row": 4,
+							"passive": true,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Stroke of Genius",
+							"description": "Once per session, make one skill check using Intellect rather than the characteristic linked to that skill.",
+							"column": 1,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Mental Fortress",
+							"description": "Spend 1 Destiny Point to ignore effects of Critical Injuries on Intellect or Cunning checks until end of encounter.",
+							"column": 2,
+							"row": 5,
+							"passive": false,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 3,
+							"row": 5,
+							"passive": true,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 4,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, false, false]
+						}
+					]
+				}
+			]
 		},
 		{
 			"name": "Explorer",

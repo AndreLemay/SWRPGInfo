@@ -2,21 +2,40 @@ import * as React from 'react'
 import { Career } from '../lib/types'
 import { Card, ListGroup, Accordion } from 'react-bootstrap'
 import { navigate } from 'gatsby'
-import CareerSkillAccordion from './CareerSkillAccordion'
 
 const CareerItem = (props: Career) => {
 	return (
 		<Card className="career">
 			<Card.Header className="header">{props.name}</Card.Header>
 			<Card.Body className="body">
-				<Card.Text className="text">{props.description}</Card.Text>
-				<CareerSkillAccordion careerSkills={props.careerSkills} />
-				<Accordion>
+				<Accordion defaultActiveKey="desc">
+					<Card>
+						<Accordion.Toggle as={Card.Header} eventKey="desc">
+							<span>Description</span>
+						</Accordion.Toggle>
+						<Accordion.Collapse eventKey="desc">
+							<Card.Text className="text">{props.description}</Card.Text>
+						</Accordion.Collapse>
+					</Card>
+					<Card className="careerSkills">
+						<Accordion.Toggle as={Card.Header} eventKey="skills" className="toggle">
+							<span>Career Skills</span>
+						</Accordion.Toggle>
+						<Accordion.Collapse eventKey="skills" className="body">
+							<div>
+								<ul>
+									{props.careerSkills.map((cs, ind) => {
+										return <li key={ind.toString()}>{cs}</li>
+									})}
+								</ul>
+							</div>
+						</Accordion.Collapse>
+					</Card>
 					<Card className="specializations">
-						<Accordion.Toggle as={Card.Header} eventKey="1" className="toggle">
+						<Accordion.Toggle as={Card.Header} eventKey="specs" className="toggle">
 							<span>Specializations</span>
 						</Accordion.Toggle>
-						<Accordion.Collapse eventKey="1" className="body">
+						<Accordion.Collapse eventKey="specs" className="body">
 							<ListGroup>
 								{props.specializations.map((spec, ind) => {
 									return (

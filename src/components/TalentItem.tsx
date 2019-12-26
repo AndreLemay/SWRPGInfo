@@ -4,10 +4,10 @@ import { Card } from 'react-bootstrap'
 
 export default (props: Talent) => {
 	return (
-		<Card className={props.passive && "passive"} style={{height: '100%'}}>
-			<Card.Header>{props.name}</Card.Header>
-			<Card.Body>
-				<Card.Text>{props.description}</Card.Text>
+		<Card className={`talent ${props.passive && 'passive'}`} style={{height: '100%'}}>
+			<Card.Header className="header">{props.name}</Card.Header>
+			<Card.Body className="body">
+				<Card.Text className="text">{props.description}</Card.Text>
 			</Card.Body>
 		</Card>
 	)

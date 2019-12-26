@@ -5,7 +5,7 @@ import CareerItem from '../components/CareerItem'
 
 export default (_) => {
 	return (
-		<Container fluid style={{ marginTop: '10px' }}>
+		<Container fluid style={{ marginTop: '10px' }} className="mainBody">
 			<Row>
 				{Data.careers.map((c, ind) => {
 					return (

@@ -6,10 +6,10 @@ import TalentSection from './TalentSection'
 
 export default (props: Specialization) => {
 	return (
-		<Card>
-			<Card.Header>{props.name}</Card.Header>
-			<Card.Body>
-				<Card.Text>{props.description}</Card.Text>
+		<Card className="spec">
+			<Card.Header className="header">{props.name}</Card.Header>
+			<Card.Body className="body">
+				<Card.Text className="text">{props.description}</Card.Text>
 				<CareerSkillAccordion careerSkills={props.careerSkills} />
 				<TalentSection talents={props.talents} />
 			</Card.Body>

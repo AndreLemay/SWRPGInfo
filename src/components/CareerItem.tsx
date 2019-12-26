@@ -6,25 +6,26 @@ import CareerSkillAccordion from './CareerSkillAccordion'
 
 const CareerItem = (props: Career) => {
 	return (
-		<Card>
-			<Card.Header>{props.name}</Card.Header>
-			<Card.Body>
-				<Card.Text>{props.description}</Card.Text>
+		<Card className="career">
+			<Card.Header className="header">{props.name}</Card.Header>
+			<Card.Body className="body">
+				<Card.Text className="text">{props.description}</Card.Text>
 				<CareerSkillAccordion careerSkills={props.careerSkills} />
 				<Accordion>
-					<Card>
-						<Accordion.Toggle as={Card.Header} eventKey="1">
+					<Card className="specializations">
+						<Accordion.Toggle as={Card.Header} eventKey="1" className="toggle">
 							<span>Specializations</span>
 						</Accordion.Toggle>
-						<Accordion.Collapse eventKey="1" style={{ margin: '10px' }}>
+						<Accordion.Collapse eventKey="1" className="body">
 							<ListGroup>
 								{props.specializations.map((spec, ind) => {
 									return (
 										<ListGroup.Item
+											className="specLink"
 											key={ind}
 											action
 											onClick={() => {
-												navigate(`/Specialization/${spec.name}`)
+												return navigate(`/Specialization/${spec.name}`)
 											}}>
 											{spec.name} - {spec.subtitle}
 										</ListGroup.Item>

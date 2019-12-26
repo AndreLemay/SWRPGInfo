@@ -1,0 +1,67 @@
+.mainBody,
+.careerSkills > .body {
+	margin-top: 10px;
+}
+
+.career .body .text {
+	max-height: 220px;
+	overflow-y: auto;
+}
+
+.talents > .body {
+	margin-top: 10px;
+	max-height: 550px;
+	overflow: scroll;
+}
+
+.talents > .body .left,
+.talents > .body .right,
+.talents > .body .top,
+.talents > .body .bottom {
+	background: black;
+	position: absolute;
+	content: '';
+}
+
+.talents > .body .left {	
+	left: -15px;
+	top: 50%;
+	height: 5px;
+	width: 30px;
+}
+
+.talents > .body .right {
+	left: 100%;
+	top: 50%;
+	height: 5px;
+	width: 30px;
+}
+
+.talents > .body .top {	
+	left: 50%;
+	top: -50px;
+	height: 50px;
+	width: 5px;
+}
+
+.talents > .body .bottom {	
+	left: 50%;
+	top: 100%;
+	height: 50px;
+	width: 5px;
+}
+
+.careerSkills {
+	margin-bottom: 10px;
+}
+
+.talent > .header {
+	background-color: #5E110F;
+	color: white;
+}
+
+.talent.passive > .header {
+	background-color: #261a2c;
+}
+
+

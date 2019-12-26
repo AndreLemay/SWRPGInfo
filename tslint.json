@@ -58,7 +58,8 @@
 		"semicolon": [true, "never"],
 		"space-before-function-paren": [true, "never"],
 		"strict-type-predicates": false,
-		"triple-equals": true
+		"triple-equals": true,
+		"jsx-boolean-value": false
 	},
 	"rulesDirectory": []
 }

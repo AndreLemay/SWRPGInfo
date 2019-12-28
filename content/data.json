@@ -1308,7 +1308,7 @@
 						},
 						{
 							"name": "Let's Ride",
-							"description": "Once per roudn, may mount or dismount a vehicle or beast, or enter a cockpit or weapon station on a vehicle, as an incidental.",
+							"description": "Once per round, may mount or dismount a vehicle or beast, or enter a cockpit or weapon station on a vehicle, as an incidental.",
 							"column": 3,
 							"row": 2,
 							"passive": false,

@@ -2116,9 +2116,514 @@
 		},
 		{
 			"name": "Smuggler",
-			"description": "Smuggle",
-			"careerSkills": [],
-			"specializations": []
+			"description": "Smugglers are a vital part of Outer Rim society. With tariffs, quantity restrictions, and outright banning of even basic necessities being shipped to worlds not fully under Imperial Law, a great many people would be stratching out the poorest sort of existence, or perhaps dying outright due to lack of food and medicine. Smugglers' ships are the lifelines that keep many distant population centers going.",
+			"careerSkills": ["Coordination", "Deception", "Knowledge (Underworld)", "Perception", "Piloting (Space)", "Skulduggery", "Streetwise", "Vigilance"],
+			"specializations": [
+				{
+					"name": "Pilot",
+					"subtitle": "A Galaxy of Destinations",
+					"description": "Plenty of folks know how to fly a starship, but a Smuggler who specializes as a Pilot develops a relationship with his ship, and it becomes an extension of his wit and his will. He can make a plodding old transport run far above its performance ratings, and given time and some modifications, he can turn it into one of the fleetest and most maneuverable craft ever to take to the stars.",
+					"careerSkills": ["Astrogation", "Gunnery", "Piloting (Planetary)", "Piloting (Space)"],
+					"talents": [
+						{
+							"name": "Full Throttle",
+							"description": "Take a Full Throttle action: make a Hard Piloting check ot increase a vehicle's top speed by 1 for a number of rounds equal to Cunning.",
+							"column": 1,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Skilled Jockey",
+							"description": "Remove 1 Setback per rank of Skilled Jockey from all Piloting (Planetary) and Piloting (Space) checks the character attempts.",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Galaxy Mapper",
+							"description": "Remove 1 Setback per rank of Galaxy Mapper from Astrogation checks. Astrogation checks take half normal time.",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Let's Ride",
+							"description": "Once per round, may mount or dismount a vehicle or beast, or enter a cockpit or weapon station on a vehicle, as an incidental.",
+							"column": 4,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Skilled Jockey",
+							"description": "Remove 1 Setback per rank of Skilled Jockey from all Piloting (Planetary) and Piloting (Space) checks the character attempts.",
+							"column": 1,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Dead to Rights",
+							"description": "Spend 1 Destiny Point to add additional damage equal to half Agility (rounded up) to one hit of successful attack made with ship or vehicle-mounted weaponry.",
+							"column": 2,
+							"row": 2,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Galaxy Mapper",
+							"description": "Remove 1 Setback per rank of Galaxy Mapper from Astrogation checks. Astrogation checks take half normal time.",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Rapid Recovery",
+							"description": "When healing strain after an encounter, heal 1 additional strain per rank of Rapid Recovery.",
+							"column": 4,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Improved Full Throttle",
+							"description": "Suffer 1 strain to attempt Full Throttle as a maneuver and decrease its difficulty to Average.",
+							"column": 1,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Improved Dead to Rights",
+							"description": "Spend 1 Destiny Point to add additional damage equal to Agility (rounded up) to one hit of successful attack made with ship or vehicle-mounted weaponry.",
+							"column": 2,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 3,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Natural Pilot",
+							"description": "Once per session, may re-roll any 1 Piloting (Space) or Gunnery check.",
+							"column": 4,
+							"row": 3,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 1,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Supreme Full Throttle",
+							"description": "When performing Full Throttle, top speed increases by 2 instead of 1.",
+							"column": 2,
+							"row": 4,
+							"passive": true,
+							"connections": [true, false, false, false]
+						},
+						{
+							"name": "Tricky Target",
+							"description": "Count vehicle or starship piloted as having a silhouette 1 lower when being attacked.",
+							"column": 3,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Defensive Driving",
+							"description": "Increase defense of vehicle or starship being piloted by 1 per rank of Defensive Driving.",
+							"column": 4,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Master Pilot",
+							"description": "Once per round when piloting a starship, may suffer 2 strain to perform any action as a maneuver.",
+							"column": 1,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 2,
+							"row": 5,
+							"passive": true,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 3,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Brilliant Evasion",
+							"description": "Once per encoutner, may take Brilliant Evasion action: select 1 opponent and make Opposed Piloting check to stop opponent from attacking character for rounds equal to Agility.",
+							"column": 4,
+							"row": 5,
+							"passive": false,
+							"connections": [true, true, false, false]
+						}
+					]
+				},
+				{
+					"name": "Scoundrel",
+					"subtitle": "A Galaxy of Marks",
+					"description": "Part con artist, part gunslinger, and part contina brawler, the Scoundrel is quick-witted, quick on his feet, nad quick to get himself into a great deal of trouble at teh drop of a hat. He doesn't care one whit for rules or laws, except where he can use them to work an angle that either nets him a lot of credits or brings down an enemy. If he's really lucky - and he tends to have an unshakable faith in his luck - he'll manage both.",
+					"careerSkills": ["Charm", "Cool", "Deception", "Ranged (Light)"],
+					"talents": [
+						{
+							"name": "Black Market Contacts",
+							"description": "When purchasing illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost by 50% of base cost per reduction.",
+							"column": 1,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Convincing Demeanor",
+							"description": "Remove 1 Setback per rank of Convincing Demeanor from Deception or Skulduggery checks.",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Quick Draw",
+							"description": "Once per round, draw or holster a weapon or accessible item as an incidental",
+							"column": 3,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Rapid Reaction",
+							"description": "Suffer a number of strain no greater than ranks in Rapid Reaction, then add an equal number of Success to initiative checks.",
+							"column": 4,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Convincing Demeanor",
+							"description": "Remove 1 Setback per rank of Convincing Demeanor from Deception or Skulduggery checks.",
+							"column": 1,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Black Market Contacts",
+							"description": "When purchasing illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost by 50% of base cost per reduction.",
+							"column": 2,
+							"row": 2,
+							"passive": false,
+							"connections": [false, false, true, true]
+						},
+						{
+							"name": "Convincing Demeanor",
+							"description": "Remove 1 Setback per rank of Convincing Demeanor from Deception or Skulduggery checks.",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Quick Strike",
+							"description": "Add 1 Boost per rank of Quick Strike to combat checks against targets that have not acted yet this encounter",
+							"column": 4,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Hidden Storage",
+							"description": "Gain hidden storage in vehicles or equipment that holds items with total encumbrance equal to ranks in Hidden Storage.",
+							"column": 1,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 2,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Black Market Contacts",
+							"description": "When purchasing illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost by 50% of base cost per reduction.",
+							"column": 3,
+							"row": 3,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Side Step",
+							"description": "Once per round, may perform Side Step maneuver and suffer a number of strain no greater than ranks in Side Step, then upgrade difficulty of all incoming ranged attacks by that number for the next round.",
+							"column": 4,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 1,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Rapid Reaction",
+							"description": "Suffer a number of strain no greater than ranks in Rapid Reaction, then add an equal number of Success to initiative checks.",
+							"column": 2,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Hidden Storage",
+							"description": "Gain hidden storage in vehicles or equipment that holds items with total encumbrance equal to ranks in Hidden Storage.",
+							"column": 3,
+							"row": 4,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Side Step",
+							"description": "Once per round, may perform Side Step maneuver and suffer a number of strain no greater than ranks in Side Step, then upgrade difficulty of all incoming ranged attacks by that number for the next round.",
+							"column": 4,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 1,
+							"row": 5,
+							"passive": true,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Natural Charmer",
+							"description": "Once per session, may re-roll any 1 Charm or Deception check.",
+							"column": 2,
+							"row": 5,
+							"passive": false,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Soft Spot",
+							"description": "After making a successful attack, may spend 1 Destiny Point to add damage equal to Cunning to one hit.",
+							"column": 3,
+							"row": 5,
+							"passive": false,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Quick Strike",
+							"description": "Add 1 Boost per rank of Quick Strike to combat checks against targets that have not acted yet this encounter",
+							"column": 4,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, false, false]
+						}
+					]
+				},
+				{
+					"name": "Thief",
+					"subtitle": "A Galaxy of Treasures",
+					"description": "Where the Scoundrel is a bit flashier, and the Pilot focuses on mastering his ship, the Thief really is a covert operative. His ideal circumstance is to get into places blocked to others, grab things he's not suposed to have, and get out without anyone ever knowing he was there. If he can sell what he grabbed for a tidy sum, that makes for a perfect day.",
+					"careerSkills": ["Computers", "Skulduggery", "Stealth", "Vigilance"],
+					"talents": [
+						{
+							"name": "Street Smarts",
+							"description": "Remove 1 Setback per rank of Street Smarts from Streetwise or Knowledge (Underworld) checks.",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Black Market Contacts",
+							"description": "When purchasing illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost by 50% of base cost per reduction.",
+							"column": 2,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Indistinguishable",
+							"description": "Upgrade difficulty of checks to identify character once per rank of Indistinguishable.",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Bypass Security",
+							"description": "Remove 1 Setback per rank of Bypass Security from checks made to disable a security device or open a locked door.",
+							"column": 4,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Black Market Contacts",
+							"description": "When purchasing illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost by 50% of base cost per reduction.",
+							"column": 1,
+							"row": 2,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Dodge",
+							"description": "When targeted by combat check, may perform a Dodge incidental to suffer a number of strain no greater than ranks of Dodge, then upgrade the difficulty of the check by that number",
+							"column": 2,
+							"row": 2,
+							"passive": false,
+							"connections": [true, false, true, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [true, false, true, true]
+						},
+						{
+							"name": "Hidden Storage",
+							"description": "Gain hidden storage in vehicles or equipment that holds items with total encumbrance equal to ranks in Hidden Storage.",
+							"column": 4,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Stalker",
+							"description": "Add 1 Boost per rank of Stalker to all Stealth and Coordination checks",
+							"column": 1,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 2,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Rapid Reaction",
+							"description": "Suffer a number of strain no greater than ranks in Rapid Reaction, then add an equal number of Success to initiative checks.",
+							"column": 3,
+							"row": 3,
+							"passive": false,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Shortcut",
+							"description": "During a chase, add 1 Boost per rank in Shortcut to any checks made to catch or escape and opponent.",
+							"column": 4,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Bypass Security",
+							"description": "Remove 1 Setback per rank of Bypass Security from checks made to disable a security device or open a locked door.",
+							"column": 1,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Natural Rogue",
+							"description": "Once per session, may re-roll any 1 Skulduggery or Stealth check.",
+							"column": 2,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Street Smarts",
+							"description": "Remove 1 Setback per rank of Street Smarts from Streetwise or Knowledge (Underworld) checks.",
+							"column": 3,
+							"row": 4,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Jump Up",
+							"description": "Once per round, may stand from seated or prone as an incidental",
+							"column": 4,
+							"row": 4,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Master of Shadows",
+							"description": "Once per round, suffer 2 strain to decrease difficulty of next Stealth or Skulduggery check by one",
+							"column": 1,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Dodge",
+							"description": "When targeted by combat check, may perform a Dodge incidental to suffer a number of strain no greater than ranks of Dodge, then upgrade the difficulty of the check by that number",
+							"column": 2,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Indistinguishable",
+							"description": "Upgrade difficulty of checks to identify character once per rank of Indistinguishable.",
+							"column": 3,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 4,
+							"row": 5,
+							"passive": true,
+							"connections": [false, true, false, false]
+						}
+					]
+				}
+			]
 		},
 		{
 			"name": "Technician",

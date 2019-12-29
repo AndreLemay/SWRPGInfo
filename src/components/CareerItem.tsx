@@ -9,11 +9,11 @@ const CareerItem = (props: Career) => {
 			<Card.Header className="header">{props.name}</Card.Header>
 			<Card.Body className="body">
 				<Accordion defaultActiveKey="desc">
-					<Card>
+					<Card className="description">
 						<Accordion.Toggle as={Card.Header} eventKey="desc">
 							<span>Description</span>
 						</Accordion.Toggle>
-						<Accordion.Collapse eventKey="desc">
+						<Accordion.Collapse eventKey="desc" className="body">
 							<Card.Text className="text">{props.description}</Card.Text>
 						</Accordion.Collapse>
 					</Card>

@@ -20,7 +20,9 @@
 	height: 535px;
 }
 
-.career .body .text {
+.career .description .body,
+.career .careerSkills .body,
+.career .specializations .body {
 	max-height: 300px;
 	overflow-y: auto;
 }

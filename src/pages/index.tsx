@@ -9,7 +9,7 @@ export default (_) => {
 			<Row>
 				{Data.careers.map((c, ind) => {
 					return (
-						<Col xs={4} style={{ marginBottom: '10px' }} key={ind}>
+						<Col xs={12} md={6} lg={4} style={{ marginBottom: '10px' }} key={ind}>
 							<CareerItem {...c} />
 						</Col>
 					)

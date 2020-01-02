@@ -12,7 +12,11 @@ export default class TalentSection extends React.Component<PropType> {
 		return (
 			<Card className="talents">
 				<Accordion.Toggle as={Card.Header} eventKey="talents" className="toggle">
-					Talents
+					<span>Talents</span>
+					<span className="connections">
+						(Connections {'{'}Row|Col{'}'})
+					</span>
+					<span className="rowCol">R:Row|C:Col</span>
 				</Accordion.Toggle>
 				<Accordion.Collapse className="body" eventKey="talents">
 					<Container fluid>
@@ -25,7 +29,7 @@ export default class TalentSection extends React.Component<PropType> {
 									let [left, top, right, bottom] = t.connections
 
 									return (
-										<Col xs={3} style={{ marginBottom: '50px' }} key={ind}>
+										<Col md={3} xs={12} style={{ marginBottom: '50px' }} key={ind}>
 											<TalentItem {...t} />
 											{left && <div className="left" />}
 											{right && <div className="right" />}

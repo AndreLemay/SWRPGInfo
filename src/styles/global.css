@@ -22,7 +22,7 @@
 
 .career .description .body,
 .career .careerSkills .body,
-.career .specializations .body {
+.career .specializations {
 	max-height: 300px;
 	overflow-y: auto;
 }
@@ -69,6 +69,41 @@
 	top: 100%;
 	height: 50px;
 	width: 5px;
+}
+
+.talents .rowCol,
+.talents .connections {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.left,
+	.right,
+	.top,
+	.bottom {
+		display: none;
+	}
+
+	.talents .rowCol {
+		display: initial;
+	}
+
+	.talents .connections {
+		display: initial;
+	}
+
+	.card-header {
+		display: flex;
+		text-align: center;
+	}
+
+	.card-header > span {
+		flex: 0;
+	}
+
+	.card-header .connections {
+		flex: 1;
+	}
 }
 
 .talent > .header {

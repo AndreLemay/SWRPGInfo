@@ -1959,7 +1959,7 @@
 							"connections": [false, false, false, true]
 						},
 						{
-							"name": "Second Win",
+							"name": "Second Wind",
 							"description": "Once per encounter, may use Second Wind incidental to heal strain equal to ranks in Second Wind.",
 							"column": 2,
 							"row": 1,
@@ -2109,6 +2109,510 @@
 							"row": 5,
 							"passive": false,
 							"connections": [true, true, false, false]
+						}
+					]
+				},
+				{
+					"name": "Enforcer",
+					"subtitle": "Ruthless Thugs",
+					"description": "While most Hired Guns focus almost exclusively on combat, Enforcers have a focus in intimidation and both learned and instinctual criminal knowledge. For the most part, Enforcers are not mindless thugs, but canny operators well-versed in hte ins and outs of the criminal underworld.",
+					"careerSkills": ["Brawl", "Coercion", "Knowledge (Underworld)", "Streetwise"],
+					"talents": [
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Intimidating",
+							"description": "May suffer a number of strain no greater than ranks in intimidating, then downgrade difficulty of Coercion checks or upgrade difficulty when targeted by Coercion checks, by an equal number.",
+							"column": 2,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Fearsome",
+							"description": "When an adversary becomes engaged with the character, the character may force the adversary to make a fear check, with the difficulty equal to ranks in Fearsome.",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Street Smarts",
+							"description": "Remove 1 Setback per rank of Street Smarts from Streetwise or Knowledge (Underworld) checks.",
+							"column": 4,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Durable",
+							"description": "May reduce any Critical Injury suffered by 10 per rank of Durable to a minimum of 1.",
+							"column": 1,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Stunning Blow",
+							"description": "When making Melee checks, may inflict damage as strain instead of wounds. This does not ignore soak",
+							"column": 2,
+							"row": 2,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Natural Enforcer",
+							"description": "Once per session, may re-roll any 1 Coercion or Streetwise check.",
+							"column": 3,
+							"row": 2,
+							"passive": false,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Talk the Talk",
+							"description": "When making a Knowledge skill check, the character may spend 1 Destiny Point to substitute Knowledge (Underworld) or Streetwise for the required skill.",
+							"column": 4,
+							"row": 2,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Intimidating",
+							"description": "May suffer a number of strain no greater than ranks in intimidating, then downgrade difficulty of Coercion checks or upgrade difficulty when targeted by Coercion checks, by an equal number.",
+							"column": 1,
+							"row": 3,
+							"passive": false,
+							"connections": [false, false, true, false]
+						},
+						{
+							"name": "Defensive Stance",
+							"description": "Once per round, may perform Defensive Stance maneuver and suffer a number of strain no greater than ranks in Defensive Stance to upgrade difficulty of all incoming melee attacks by that number",
+							"column": 2,
+							"row": 3,
+							"passive": false,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 3,
+							"row": 3,
+							"passive": true,
+							"connections": [true, false, false, false]
+						},
+						{
+							"name": "Loom",
+							"description": "When an ally engaged with the character makes a successful Charm, Deception, or Negotiation check, the character adds 1 Advantage per rank in Coercion to the ally's check.",
+							"column": 4,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Second Wind",
+							"description": "Once per encounter, may use Second Wind incidental to heal strain equal to ranks in Second Wind.",
+							"column": 1,
+							"row": 4,
+							"passive": false,
+							"connections": [false, false, true, true]
+						},
+						{
+							"name": "Street Smarts",
+							"description": "Remove 1 Setback per rank of Street Smarts from Streetwise or Knowledge (Underworld) checks.",
+							"column": 2,
+							"row": 4,
+							"passive": true,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Walk the Walk",
+							"description": "May spend 1 Destiny Point to add damage equal to his ranks in Streetwise to one hit of a successful Brawl check.",
+							"column": 3,
+							"row": 4,
+							"passive": false,
+							"connections": [true, false, false, false]
+						},
+						{
+							"name": "Intimidating",
+							"description": "May suffer a number of strain no greater than ranks in intimidating, then downgrade difficulty of Coercion checks or upgrade difficulty when targeted by Coercion checks, by an equal number.",
+							"column": 4,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Fearsome",
+							"description": "When an adversary becomes engaged with the character, the character may force the adversary to make a fear check, with the difficulty equal to ranks in Fearsome.",
+							"column": 1,
+							"row": 5,
+							"passive": true,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 2,
+							"row": 5,
+							"passive": true,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Black Market Contacts",
+							"description": "When purchasing illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost by 50% of base cost per reduction.",
+							"column": 3,
+							"row": 5,
+							"passive": false,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Fearsome",
+							"description": "When an adversary becomes engaged with the character, the character may force the adversary to make a fear check, with the difficulty equal to ranks in Fearsome.",
+							"column": 4,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, false, false]
+						}
+					]
+				},
+				{
+					"name": "Demolitionist",
+					"subtitle": "Force of Destruction",
+					"description": "Demolitionists can be much more technically-minded than most Hired Guns. They are also suited to much more than straightforward combat. They can excel at setting traps, from improvised trip-wires tied to grenades to sophisticated proximity and timed explosives. Whereas another Hired Gun might go after an enemy in a straight-up fight, a Demolitionist may find a more inventive route, such as rigging a thermal detonator to explode when the target starts up his speeder. Some Demolitionists enjoy the thrill of combat as much as any other Hired Gun, however they favor flame projectors, grenade launchers, and missile tubes - anything that creates a large blast.",
+					"careerSkills": ["Computers", "Cool", "Mechanics", "Skulduggery"],
+					"talents": [
+						{
+							"name": "Powerful Blast",
+							"description": "Increase Blast damage deal by explosives, explosive weapons, and grenades by 1 per rank of Powerful Blast.",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Selective Detonation",
+							"description": "When using a weapon with the Blast quality, spend 1 Advantage to exclude 1 target that would be affected by the explosion, up to ranks in Selective Detonation.",
+							"column": 3,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Steady Nerves",
+							"description": "Remove 1 Setback per rank of Steady Nerves from Cool or Skulduggery checks.",
+							"column": 4,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 1,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Time to Go",
+							"description": "May spend 1 Destiny Point to perform a Move maneuver as an incidental to attempt to move into cover or out of the blast range of a weapon or explosion.",
+							"column": 2,
+							"row": 2,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Powerful Blast",
+							"description": "Increase Blast damage deal by explosives, explosive weapons, and grenades by 1 per rank of Powerful Blast.",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [false, false, true, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 4,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Enduring",
+							"description": "Gain +1 Soak Value",
+							"column": 1,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Improved Time to Go",
+							"description": "When activating Time to Go, allow 1 engaged ally to also perform an out of turn Move maneuver as an incidental to attempt to move into cover or out of the blast range of a weapon or explosion.",
+							"column": 2,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Steady Nerves",
+							"description": "Remove 1 Setback per rank of Steady Nerves from Cool or Skulduggery checks.",
+							"column": 3,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Rapid Reaction",
+							"description": "Suffer a number of strain no greater than ranks in Rapid Reaction, then add an equal number of Success to initiative checks.",
+							"column": 4,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Improvised Detonation",
+							"description": "Once per session, make a Hard Mechanics check to perform the Improvised Detonation action and build an explosive device, dealing damage equal to ranks in Intellect + ranks in Mechanics + Damage",
+							"column": 1,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Powerful Blast",
+							"description": "Increase Blast damage deal by explosives, explosive weapons, and grenades by 1 per rank of Powerful Blast.",
+							"column": 2,
+							"row": 4,
+							"passive": true,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 3,
+							"row": 4,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Selective Detonation",
+							"description": "When using a weapon with the Blast quality, spend 1 Advantage to exclude 1 target that would be affected by the explosion, up to ranks in Selective Detonation.",
+							"column": 4,
+							"row": 4,
+							"passive": false,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Improved Improvised Detonation",
+							"description": "Reduce the difficulty of Improvised Detonation's check to Average and increase damage to twice ranks in Mechanics.",
+							"column": 1,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 2,
+							"row": 5,
+							"passive": true,
+							"connections": [false, false, true, false]
+						},
+						{
+							"name": "Master Grenadier",
+							"description": "Decrease the Advantage cost to activate the Blast quality on any weapon used by 1 to a minimum of 1.",
+							"column": 3,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Selective Detonation",
+							"description": "When using a weapon with the Blast quality, spend 1 Advantage to exclude 1 target that would be affected by the explosion, up to ranks in Selective Detonation.",
+							"column": 4,
+							"row": 5,
+							"passive": false,
+							"connections": [true, false, false, false]
+						}
+					]
+				},
+				{
+					"name": "Heavy",
+					"subtitle": "Overwhelming Firepower",
+					"description": "Heavies do primarily one thing: wield large, dangerous weapons. From heavy blasters to missile tubes, Heavies favor big, loud, and devastating weaponry. Using such weapons is often punishing for the wielder, and characters must possess great fortitude in order to wield such weapons extensively. A high Resilience is often a side effect of the Heavy's actions, rather than the result of conscious training. Lugging around heavy weapons builds stamina, and simply dealing with the recoil provides a workout.",
+					"careerSkills": ["Gunnery", "Perception", "Ranged (Heavy)", "Resilience"],
+					"talents": [
+						{
+							"name": "Burly",
+							"description": "Reduce any wielded weapon's Cumbersome quality and Encumbrance rating by a number equal to ranks in Burly, to a minimum of 1.",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Barrage",
+							"description": "Add 1 damage per rank of Barrage to 1 hit of successful attack while using Ranged (Heavy) or Gunnery skills at long or extreme range.",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 4,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Barrage",
+							"description": "Add 1 damage per rank of Barrage to 1 hit of successful attack while using Ranged (Heavy) or Gunnery skills at long or extreme range.",
+							"column": 1,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Brace",
+							"description": "Perform the Brace maneuver to remove 1 Setback per rank of Brace from next Action. This may only remove Setback added by environmental circumstances",
+							"column": 2,
+							"row": 2,
+							"passive": false,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Spare Clip",
+							"description": "Cannot run out of ammo due to Despair. Items with Limited-Ammo quality run out of ammo as normal",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [true, false, false, false]
+						},
+						{
+							"name": "Durable",
+							"description": "May reduce any Critical Injury suffered by 10 per rank of Durable to a minimum of 1.",
+							"column": 4,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Side Step",
+							"description": "Once per round, may perform Side Step maneuver and suffer a number of strain no greater than ranks in Side Step, then upgrade difficulty of all incoming ranged attacks by that number for the next round.",
+							"column": 1,
+							"row": 3,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Burly",
+							"description": "Reduce any wielded weapon's Cumbersome quality and Encumbrance rating by a number equal to ranks in Burly, to a minimum of 1.",
+							"column": 2,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Heroic Fortitude",
+							"description": "May spend 1 Destiny Point to ignore effects of Critical Injuries on Brawn or Agility checks until the end of the encounter.",
+							"column": 3,
+							"row": 3,
+							"passive": false,
+							"connections": [false, false, true, false]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 4,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Brace",
+							"description": "Perform the Brace maneuver to remove 1 Setback per rank of Brace from next Action. This may only remove Setback added by environmental circumstances",
+							"column": 1,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Barrage",
+							"description": "Add 1 damage per rank of Barrage to 1 hit of successful attack while using Ranged (Heavy) or Gunnery skills at long or extreme range.",
+							"column": 2,
+							"row": 4,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Rain of Death",
+							"description": "Perform the Rain of Death maneuver to ignore the increased difficulty due to the Auto-fire quality of attacks made this turn.",
+							"column": 3,
+							"row": 4,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Heroic Resilience",
+							"description": "Immediately after being hit by an attack but before suffering damage, spend 1 Destiny Point to increase Soak by ranks in Resilience.",
+							"column": 4,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Burly",
+							"description": "Reduce any wielded weapon's Cumbersome quality and Encumbrance rating by a number equal to ranks in Burly, to a minimum of 1.",
+							"column": 1,
+							"row": 5,
+							"passive": true,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 2,
+							"row": 5,
+							"passive": true,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Armor Master",
+							"description": "When wearing armor, increase total Soal Value by 1.",
+							"column": 2,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Heavy Hitter",
+							"description": "Once per session, spend 1 Triumph on a sucessful Ranged (Heavy) or Gunnery check to add the Breach 1 quality to the attack, or increase an existing Breach rating by 1.",
+							"column": 4,
+							"row": 5,
+							"passive": false,
+							"connections": [true, false, false, false]
 						}
 					]
 				}

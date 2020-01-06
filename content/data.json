@@ -522,6 +522,510 @@
 							"connections": [false, true, false, false]
 						}
 					]
+				},
+				{
+					"name": "Martial Artist",
+					"subtitle": "",
+					"description": "From the Kage Warriors of Quarzite to the enforcers of Black Sun, organizations and cultures across the galaxy have developed their own unique hand-to-hand combat styles to use their species' physiology to greatest effect. Over decades, centuries, and millenia, these combat forms become more than mere means of inflicting violence, generations of practicioners work to make them into art forms, philosophies, and ways of life. A desire to practice self-defense can become a belief in the value of self-betterment and the innate potential of others, though not all ideologies develop along such lines. More than a few Bounty Hunters have picked up techniques from martial arts styles across the galaxy to help in their hunts. Some are shining examples of their school's philosophies and traditions, but others are disgraced students, or have never even trained formally, earning their skills through hard experience on the battlefield.",
+					"careerSkills": ["Athletics", "Brawl", "Coordination", "Discipline"],
+					"talents": [
+						{
+							"name": "Iron Body",
+							"description": "Remove 1 Setback per rank of Iron Body from Coordination and Resilience checks. Reduce the critical rating of unarmed attacks by 1 per rank of Iron Body to a minimum of 1.",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Parry",
+							"description": "When hit by a melee attack, suffer 3 strain to reduce damage by 2 + ranks in Parry.",
+							"column": 2,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Precision Strike",
+							"description": "When a character inflicts a Critical Injury with a Brawl or Melee weapon, may suffer 1 strain to change the result to any Easy Critical Injury.",
+							"column": 4,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Parry",
+							"description": "When hit by a melee attack, suffer 3 strain to reduce damage by 2 + ranks in Parry.",
+							"column": 1,
+							"row": 2,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 2,
+							"row": 2,
+							"passive": true,
+							"connections": [true, false, true, true]
+						},
+						{
+							"name": "Martial Grace",
+							"description": "Once per round, suffer 2 strain to add damage equal to ranks in Coordination to next Brawl check made this turn.",
+							"column": 3,
+							"row": 2,
+							"passive": false,
+							"connections": [true, false, true, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 4,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Unarmed Parry",
+							"description": "May Parry while unarmed. Reduce strain cost to Parry while unarmed by 1 to a minimum of 1.",
+							"column": 1,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Grapple",
+							"description": "Once per round, may perform the Grapple maneuver. Until the beginning of the character's next turn, foes must spend 2 maneuvers to move from engaged to short instead of 1.",
+							"column": 2,
+							"row": 3,
+							"passive": false,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Iron Body",
+							"description": "Remove 1 Setback per rank of Iron Body from Coordination and Resilience checks. Reduce the critical rating of unarmed attacks by 1 per rank of Iron Body to a minimum of 1.",
+							"column": 3,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Improved Precision Strike",
+							"description": "Once per round, when inflicting a Critical Injury with a Brawl or Melee weapons, may suffer 2 strain to change the result to any Average Critical Injury.",
+							"column": 4,
+							"row": 3,
+							"passive": false,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Overbalance",
+							"description": "When a combat check made by an engaged foe generates 1 Despair or 3 Disadvantage, may stagger attacker until the end of his net turn.",
+							"column": 1,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 2,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Mind Over Matter",
+							"description": "The character may spend 1 Destiny Point to recover strain equal to Willpower rating.",
+							"column": 3,
+							"row": 4,
+							"passive": false,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 4,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Coordination Dodge",
+							"description": "When targeted by a combat check, may spend 1 Destiny Point to add Failure equal to ranks in Coordination to check.",
+							"column": 1,
+							"row": 5,
+							"passive": false,
+							"connections": [false, false, true, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 2,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Natural Brawler",
+							"description": "Once per session, may re-roll any 1 Brawl or Melee check.",
+							"column": 3,
+							"row": 5,
+							"passive": false,
+							"connections": [false, false, true, false]
+						},
+						{
+							"name": "Supreme Precision Strike",
+							"description": "Once per session, when inflicting a Critical Injury with an unarmed attack, may suffer 3 strain to change result to any Hard Critical Injury.",
+							"column": 4,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, false, false]
+						}
+					]
+				},
+				{
+					"name": "Operator",
+					"subtitle": "",
+					"description": "To catch a target, a Bounty Hunter must be fast, and even the swiftest sentient being cannot hope to outrace a speeder or starship on foot. An Operator prefers to undertake all pursuits from within a vehicle or spacecraft, keeping the target in sight with deft maneuvering and on the run with withering firepower. In a high-speed chase, few characters can match an Operator's expertise, and fewer still are prepared for the arsenal of daring moves and dirty tricks she can unleash.",
+					"careerSkills": ["Astrogation", "Gunnery", "Piloting (Planetary)", "Piloting (Space)"],
+					"talents": [
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Galaxy Mapper",
+							"description": "Remove 1 Setback per rank of Galaxy Mapper from Astrogation checks. Astrogation checks take half normal time.",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Shortcut",
+							"description": "During a chase, add 1 Boost per rank in Shortcut to any checks made to catch or escape an opponent.",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Overwhelm Defenses",
+							"description": "Upon unsuccessful attack with a starship or vehicle weapon, may spend 2 Advantage per rank of Overwhelm Defenses. Reduce the defense in the targeted zone by 1 for every 2 Advantage spent.",
+							"column": 4,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Full Throttle",
+							"description": "Take a Full Throttle action: make a Hard Piloting check ot increase a vehicle's top speed by 1 for a number of rounds equal to Cunning.",
+							"column": 1,
+							"row": 2,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Planet Mapper",
+							"description": "Remove 1 Setback per rank of Planet Mapper from Streetwise or Survival checks used for navigation on a world. Such checks also take half normal time.",
+							"column": 2,
+							"row": 2,
+							"passive": true,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Debilitating Shot",
+							"description": "Upon successful attack with a starship or vehicle weapon, may spend 2 Advantage to reduce the maximum speed of the target by 1 until the end of the next round.",
+							"column": 4,
+							"row": 2,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Skilled Jockey",
+							"description": "Remove 1 Setback per rank of Skilled Jockey from all Piloting (Planetary) and Piloting (Space) checks the character attempts.",
+							"column": 1,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "All-Terrain Driver",
+							"description": "Do not suffer usual penalties for driving through difficulty terrain when using Piloting (Planetary).",
+							"column": 2,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Defensive Driving",
+							"description": "As a maneuver, suffer system strain up to Vehicle's highest defense to upgrade the difficulty of target's next Piloting check that many times.",
+							"column": 3,
+							"row": 3,
+							"passive": false,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 4,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Let's Ride",
+							"description": "Once per round, may mount or dismount a vehicle or beast, or enter a cockpit or weapon station on a vehicle, as an incidental.",
+							"column": 1,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Shortcut",
+							"description": "During a chase, add 1 Boost per rank in Shortcut to any checks made to catch or escape and opponent.",
+							"column": 2,
+							"row": 4,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 3,
+							"row": 4,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Overwhelm Defenses",
+							"description": "Upon unsuccessful attack with a starship or vehicle weapon, may spend 2 Advantage per rank of Overwhelm Defenses. Reduce the defense in the targeted zone by 1 for every 2 Advantage spent.",
+							"column": 4,
+							"row": 4,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 1,
+							"row": 5,
+							"passive": true,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Improved Shortcut",
+							"description": "When engaging in a chase or race, may suffer 2 strain to add Success equal to ranks in Shortcut to the check.",
+							"column": 2,
+							"row": 5,
+							"passive": false,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Skilled Jockey",
+							"description": "Remove 1 Setback per rank of Skilled Jockey from all Piloting (Planetary) and Piloting (Space) checks the character attempts.",
+							"column": 3,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Hindering Shot",
+							"description": "Increase the difficulty of next Gunnery check by 1. If check deals damage, target starship or vehicle suffers system strain equal to speed when it moves until the end of the encounter.",
+							"column": 4,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, false, false]
+						}
+					]
+				},
+				{
+					"name": "Skip Tracer",
+					"subtitle": "",
+					"description": "Not all debts need to be settled with blasters. Sometimes, a Bounty Hunter just needs to do some legwork, find a target, and get that individual to pay what is owed with a few well-chosen words. This is the specialty of Skip Tracers, who take on commissions to seek out people with unpaid debts from clients who wish to have items returned, cash given back, or recompense paid in some other way. Most Skip Tracers prefer to keep their guns holstered for the whole job, and try their utmost to avoid causing negotiations with their targets to break down explosively. Property destruction and medical bills cut into the commission, after all. Of course, as most Skip Tracers know all too well, things rarely go so smoothly. More often, the Skip Tracer ends up needing to apply pressure.",
+					"careerSkills": ["Cool", "Knowledge (Underworld)", "Negotiation", "Skulduggery"],
+					"talents": [
+						{
+							"name": "Bypass Security",
+							"description": "Remove 1 Setback per rank of Bypass Security from checks made to disable a security device or open a locked door.",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Hard-Boiled",
+							"description": "When recovering strain after an encounter, may spend 1 Advantage up to ranks in Hard-Boiled to recover 1 wound per Advantage spent.",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Good Cop",
+							"description": "May spend 2 Advantage from a Charm or Negotiation check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Good Cop.",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Rapid Recovery",
+							"description": "When recovering strain after an encounter, may spend 1 Advantage up to ranks in Hard-Boiled to recover 1 wound per Advantage spent.",
+							"column": 4,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 1,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Expert Tracker",
+							"description": "Remove 1 Setback per rank of Expert Tracker from checks to find tracks or track targets. Derease time to track a target by half.",
+							"column": 2,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Street Smarts",
+							"description": "Remove 1 Setback per rank of Street Smarts from Streetwise or Knowledge (Underworld) checks.",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Bought Info",
+							"description": "Instead of making a Knowledge check, may take a Bought Info action: spend credits equal to 50 times the difficulty of the check to pass with 1 Success.",
+							"column": 4,
+							"row": 2,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Hard-Boiled",
+							"description": "When recovering strain after an encounter, may spend 1 Advantage up to ranks in Hard-Boiled to recover 1 wound per Advantage spent.",
+							"column": 1,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Rapid Recovery",
+							"description": "When recovering strain after an encounter, may spend 1 Advantage up to ranks in Hard-Boiled to recover 1 wound per Advantage spent.",
+							"column": 2,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Improved Street Smarts",
+							"description": "Once per session, may take an Improved Street Smarts action: make a Formidable Streetwise or Knowledge (Underworld) check to learn one vital clue from the GM. Reduce the difficulty once per rank of Street Smarts.",
+							"column": 3,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Street Smarts",
+							"description": "Remove 1 Setback per rank of Street Smarts from Streetwise or Knowledge (Underworld) checks.",
+							"column": 4,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Bypass Security",
+							"description": "Remove 1 Setback per rank of Bypass Security from checks made to disable a security device or open a locked door.",
+							"column": 1,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Nobody's Fool",
+							"description": "May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool",
+							"column": 2,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Good Cop",
+							"description": "May spend 2 Advantage from a Charm or Negotiation check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Good Cop.",
+							"column": 3,
+							"row": 4,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Informant",
+							"description": "Once per session, may reveal a contact who can shed light on a chosen subject.",
+							"column": 4,
+							"row": 4,
+							"passive": false,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Reconstruct the Scene",
+							"description": "Perform the Reconstruct the Scene action: make a Hard Perception check to identify the physical characteristics of persons present at the scene within 24 hours.",
+							"column": 1,
+							"row": 5,
+							"passive": false,
+							"connections": [false, false, true, false]
+						},
+						{
+							"name": "Hard-Boiled",
+							"description": "When recovering strain after an encounter, may spend 1 Advantage up to ranks in Hard-Boiled to recover 1 wound per Advantage spent.",
+							"column": 2,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 3,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Soft Spot",
+							"description": "After making a successful attack, may spend 1 Destiny Point to add damage equal to Cunning to one hit.",
+							"column": 4,
+							"row": 5,
+							"passive": false,
+							"connections": [true, false, false, false]
+						}
+					]
 				}
 			]
 		},

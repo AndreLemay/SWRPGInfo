@@ -1561,6 +1561,510 @@
 							"connections": [true, true, false, false]
 						}
 					]
+				},
+				{
+					"name": "Entrepreneur",
+					"subtitle": "The Burden of Vision",
+					"description": "Entrepreneurs may be free with their money, but they are never wasteful, and they are always looking for ways to cut costs, even if it skirts regulations. Most savvy businesspeople know that if one only plays by the rules, then one can only ever be as successful as the rules allow. Since the rules are usually written by the established corporations the Entrepreneur competes against, he believes the rules exist solely as a means to restrict progress, stifle innovation, and suppress competition. In short, rules were made to be broken. Even the most upstanding businessperson occasionally contracts operatives for industrial espionage or corporate intelligence gathering, and even if he morally objects to that behavior, he needs to know how to defend against it.",
+					"careerSkills": ["Discipline", "Knowledge (Education)", "Knowledge (Underworld)", "Negotiation"],
+					"talents": [
+						{
+							"name": "Sound Investments",
+							"description": "At the start of each session, gain 100 credits for reach rank of Sound Investments.",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Plausible Deniability",
+							"description": "Remove 1 Setback per rank of Plausible Deniability from all Coercion and Deception checks.",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Rapid Recovery",
+							"description": "When healing strain after an encounter, heal 1 additional strain per rank of Rapid Recovery.",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 4,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Rapid Recovery",
+							"description": "When healing strain after an encounter, heal 1 additional strain per rank of Rapid Recovery.",
+							"column": 1,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Wheel and Deal",
+							"description": "When selling goods legally, gain 10% more credits per rank of Wheel and Deal.",
+							"column": 2,
+							"row": 2,
+							"passive": true,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Sound Investments",
+							"description": "At the start of each session, gain 100 credits for reach rank of Sound Investments.",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Wheel and Deal",
+							"description": "When selling goods legally, gain 10% more credits per rank of Wheel and Deal.",
+							"column": 4,
+							"row": 2,
+							"passive": true,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Greased Palms",
+							"description": "Before making a social check, may spend up to 50 credits per rank of Greased Palms to upgrade the ability of the check one for every 50 spent.",
+							"column": 1,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Throwing Credits",
+							"description": "At beginning of session, spend 100 credits to ignore strain threshold penalty due to triggered Obligation.",
+							"column": 2,
+							"row": 3,
+							"passive": false,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Bought Info",
+							"description": "Instead of making a Knowledge check, may take a Bought Info action: spend credits equal to 50 times the difficulty of the check to pass with 1 Success.",
+							"column": 3,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Sound Investments",
+							"description": "At the start of each session, gain 100 credits for reach rank of Sound Investments.",
+							"column": 4,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Sound Investments",
+							"description": "At the start of each session, gain 100 credits for reach rank of Sound Investments.",
+							"column": 1,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 2,
+							"row": 4,
+							"passive": true,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Master Merchant",
+							"description": "When buying or selling goods, or paying off or taking Obligation, may suffer 2 strain to sell for 25% more, buy for 25% less, pay off 1 more Obligation, or take 1 less.",
+							"column": 3,
+							"row": 4,
+							"passive": false,
+							"connections": [false, false, true, false]
+						},
+						{
+							"name": "Know Somebody",
+							"description": "Once per session, when attempting to purchase a legally available item, reduce its rarity by 1 per rank of Know Somebody.",
+							"column": 4,
+							"row": 4,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Natural Merchant",
+							"description": "Once per session, may re-roll any 1 Streetwise or Negotiation check.",
+							"column": 1,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Intense Focus",
+							"description": "Perform an Intense Focus maneuver: suffer 1 strain and upgrade the ability of the next skill check once.",
+							"column": 2,
+							"row": 5,
+							"passive": false,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 3,
+							"row": 5,
+							"passive": true,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Sound Investments",
+							"description": "At the start of each session, gain 100 credits for reach rank of Sound Investments.",
+							"column": 4,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, false, false]
+						}
+					]
+				},
+				{
+					"name": "Marshal",
+					"subtitle": "The Burden of Peace",
+					"description": "Where most Colonists are forced to rely on talking their way out of trouble, the Marshal finds that his blaster speaks almost as well as he does. Most law officers know that holding the weight of the law over a potential witness is the quickest way to modify his attitude. Marshals can throw the weight of their authority around to get answeres. There is little government oversight on the fringe, and often a Marshal's word is the law.",
+					"careerSkills": ["Coercion", "Knowledge (Underworld)", "Ranged (Light)", "Vigilance"],
+					"talents": [
+						{
+							"name": "Hard Headed",
+							"description": "When staggered or disoriented, perform the Hard Headed action: make a Daunting Discipline check to remove status. Difficulty reduced per rank of Hard Headed.",
+							"column": 1,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Street Smarts",
+							"description": "Remove 1 Setback per rank of Street Smarts from Streetwise or Knowledge (Underworld) checks.",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 4,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Durable",
+							"description": "May reduce any Critical Injury suffered by 10 per rank of Durable to a minimum of 1.",
+							"column": 1,
+							"row": 2,
+							"passive": true,
+							"connections": [false, false, true, true]
+						},
+						{
+							"name": "Good Cop",
+							"description": "May spend 2 Advantage from a Charm or Negotiation check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Good Cop.",
+							"column": 2,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Bad Cop",
+							"description": "May spend 2 Advantage from a Deception or Coercion check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Bad Cop.",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Quick Draw",
+							"description": "Once per round, draw or holster a weapon or accessible item as an incidental",
+							"column": 4,
+							"row": 2,
+							"passive": false,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Hard Headed",
+							"description": "When staggered or disoriented, perform the Hard Headed action: make a Daunting Discipline check to remove status. Difficulty reduced per rank of Hard Headed.",
+							"column": 1,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 2,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Good Cop",
+							"description": "May spend 2 Advantage from a Charm or Negotiation check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Good Cop.",
+							"column": 3,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Point Blank",
+							"description": "Add 1 damage per rank of Point Blank to damage of one hit of successful attack while using Ranged (Heavy) or Ranged (Light) skills at close range or engaged",
+							"column": 4,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Durable",
+							"description": "May reduce any Critical Injury suffered by 10 per rank of Durable to a minimum of 1.",
+							"column": 1,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Unrelenting Skeptic",
+							"description": "When targeted by a Deception check, the character automatically adds Failure to the check equal to ranks in Vigilance.",
+							"column": 2,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Bad Cop",
+							"description": "May spend 2 Advantage from a Deception or Coercion check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Bad Cop.",
+							"column": 3,
+							"row": 4,
+							"passive": true,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Point Blank",
+							"description": "Add 1 damage per rank of Point Blank to damage of one hit of successful attack while using Ranged (Heavy) or Ranged (Light) skills at close range or engaged",
+							"column": 4,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Improved Hard Headed",
+							"description": "When incapacitated due to strain exceeding threshold, may take a more difficult Hard Headed action to reduce strain to 1 below threshold.",
+							"column": 1,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Improved Unrelenting Skeptic",
+							"description": "When targeted by a Deceptoin check that fails, may spend 1 Destiny Point to add 1 Despair to results.",
+							"column": 2,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 3,
+							"row": 5,
+							"passive": true,
+							"connections": [true, false, false, false]
+						},
+						{
+							"name": "Natural Marksman",
+							"description": "Once per session, may re-roll any 1 Ranged (Light) or Ranged (Heavy) check.",
+							"column": 4,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, false, false]
+						}
+					]
+				},
+				{
+					"name": "Performer",
+					"subtitle": "The Burden of Art",
+					"description": "The Performer often leans on pouts, winks, warm smiles, and well timed physical contact mixed with outright lies to get whatever he wants from whomever he wants. He draws on the best lines from the greatest works of literature, theater, and holo from millennia past, and always has a unique, flattering compliment for any being from whom he might want something.",
+					"careerSkills": ["Charm", "Coordination", "Deception", "Melee"],
+					"talents": [
+						{
+							"name": "Smooth Talker",
+							"description": "When first acquired, choose 1 skill: Charm, Coercion, Deception, or Negotiation. When making checks with that skill, spend 1 Triumph to gain additional Success equal to ranks in Smooth Talker.",
+							"column": 1,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Kill with Kindness",
+							"description": "Remove 1 Setback per rank of Kill with Kindness from all Charm and Leadership checks.",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Distracting Behavior",
+							"description": "Make a Distracting Behavior maneuver and suffer strain no greater than ranks in Cunning. Until beginning of next turn, equal number of NPCs suffer 1 Threat on checks. Range increases with additional ranks.",
+							"column": 3,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Convincing Demeanor",
+							"description": "Remove 1 Setback per rank of Convincing Demeanor from Deception or Skulduggery checks.",
+							"column": 4,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Distracting Behavior",
+							"description": "Make a Distracting Behavior maneuver and suffer strain no greater than ranks in Cunning. Until beginning of next turn, equal number of NPCs suffer 1 Threat on checks. Range increases with additional ranks.",
+							"column": 1,
+							"row": 2,
+							"passive": false,
+							"connections": [false, false, true, true]
+						},
+						{
+							"name": "Congenial",
+							"description": "May suffer a number of strain no greater than ranks in Congenial to downgrade difficulty of Charm or Negotiation checks or upgrade difficulty when targeted by Charm or Negotiation checks, by an equal number.",
+							"column": 2,
+							"row": 2,
+							"passive": false,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Dodge",
+							"description": "When targeted by combat check, may perform a Dodge incidental to suffer a number of strain no greater than ranks of Dodge, then upgrade the difficulty of the check by that number",
+							"column": 3,
+							"row": 2,
+							"passive": false,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Jump Up",
+							"description": "Once per round, may stand from seated or prone as an incidental",
+							"column": 4,
+							"row": 2,
+							"passive": false,
+							"connections": [true, false, false, false]
+						},
+						{
+							"name": "Distracting Behavior",
+							"description": "Make a Distracting Behavior maneuver and suffer strain no greater than ranks in Cunning. Until beginning of next turn, equal number of NPCs suffer 1 Threat on checks. Range increases with additional ranks.",
+							"column": 1,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Intense Presence",
+							"description": "Spend 1 Destiny Point to recover strain equal to Presence rating.",
+							"column": 2,
+							"row": 3,
+							"passive": false,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Natural Athlete",
+							"description": "Once per session, may re-roll any 1 Athletics or Coordination check.",
+							"column": 3,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Second Wind",
+							"description": "Once per encounter, may use Second Wind incidental to heal strain equal to ranks in Second Wind.",
+							"column": 4,
+							"row": 3,
+							"passive": false,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Smooth Talker",
+							"description": "When first acquired, choose 1 skill: Charm, Coercion, Deception, or Negotiation. When making checks with that skill, spend 1 Triumph to gain additional Success equal to ranks in Smooth Talker.",
+							"column": 1,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Improved Distracting Behavior",
+							"description": "The Distracting Behavior maneuver inflicts 2 Threat on NPCs' checks when NPCs target character's allies.",
+							"column": 2,
+							"row": 4,
+							"passive": false,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 3,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 4,
+							"row": 4,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Biggest Fan",
+							"description": "Once per session, may take a Biggest Fan action, make a Hard Charm check to turn one NPC into the character's biggest fan.",
+							"column": 1,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Deceptive Taunt",
+							"description": "Once per session, may make Deceptive Taunt action: make Opposed Deception check. If successful, one adversary must attack the character during adversary's next turn.",
+							"column": 2,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Coordination Dodge",
+							"description": "When targeted by a combat check, may spend 1 Destiny Point to add Failure equal to ranks in Coordination to check.",
+							"column": 3,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, false, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 4,
+							"row": 5,
+							"passive": true,
+							"connections": [false, true, false, false]
+						}
+					]
 				}
 			]
 		},

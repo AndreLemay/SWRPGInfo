@@ -4638,6 +4638,510 @@
 							"connections": [false, true, false, false]
 						}
 					]
+				},
+				{
+					"name": "Charmer",
+					"subtitle": "The Smooth Operator",
+					"description": "The chief weapon in a Charmer's arsenal is clearly his undeniable charisma. When coaxing his way into a private club or restricted area, the Charmer knows how to compliment without sounding sycophantic. In rare cases when his debonair appearance and refined taste fails him, the Charmer knows how ot resort to negotiation and trickery to get his way, doing so with his own smooth brand of flair and style. The Charmer keeps a cool head in the hottest situations, which often serves as inspiration to others, and he has no qualms with taking a leadership role if it furthers his purposes. Whether or not he knows the right thing to say, the Charmer always knows how to say it.",
+					"careerSkills": ["Charm", "Cool", "Leadership", "Negotiation"],
+					"talents": [
+						{
+							"name": "Smooth Talker",
+							"description": "When first acquired, choose 1 skill: Charm, Coercion, Deception, or Negotiation. When making checks with that skill, spend 1 Triumph to gain additional Success equal to ranks in Smooth Talker.",
+							"column": 1,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Inspiring Rhetoric",
+							"description": "Take the Inspiring Rhetoric action: make an Average Leadership check. Each Success causes 1 ally in close range to recover 1 strain. Spend 1 Advantage to cause 1 affected ally to recover 1 additional strain.",
+							"column": 2,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Kill with Kindness",
+							"description": "Remove 1 Setback per rank of Kill with Kindness from all Charm and Leadership checks.",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 4,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Kill with Kindness",
+							"description": "Remove 1 Setback per rank of Kill with Kindness from all Charm and Leadership checks.",
+							"column": 1,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Improved Inspiring Rhetoric",
+							"description": "Each ally affected by Inspiring Rhetoric gains 1 Boost on all skil lchecks for a number of rounds equal to ranks in Leadership",
+							"column": 2,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Congenial",
+							"description": "May suffer a number of strain no greater than ranks in Congenial to downgrade difficulty of Charm or Negotiation checks or upgrade difficulty when targeted by Charm or Negotiation checks, by an equal number.",
+							"column": 3,
+							"row": 2,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Plausible Deniability",
+							"description": "Remove 1 Setback per rank of Plausible Deniability from all Coercion and Deception checks.",
+							"column": 4,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Disarming Smile",
+							"description": "Take the Disarming Smile action: succeed at an Opposed Charm check to lower all defenses of a target by ranks in Disarming Smile until the end of the encounter.",
+							"column": 1,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Works Like a Charm",
+							"description": "Once per session, make one skill check using Presence rather than the characteristic linked to that skill.",
+							"column": 2,
+							"row": 3,
+							"passive": false,
+							"connections": [false, false, true, false]
+						},
+						{
+							"name": "Disarming Smile",
+							"description": "Take the Disarming Smile action: succeed at an Opposed Charm check to lower all defenses of a target by ranks in Disarming Smile until the end of the encounter.",
+							"column": 3,
+							"row": 3,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 4,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Smooth Talker",
+							"description": "When first acquired, choose 1 skill: Charm, Coercion, Deception, or Negotiation. When making checks with that skill, spend 1 Triumph to gain additional Success equal to ranks in Smooth Talker.",
+							"column": 1,
+							"row": 4,
+							"passive": false,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Congenial",
+							"description": "May suffer a number of strain no greater than ranks in Congenial to downgrade difficulty of Charm or Negotiation checks or upgrade difficulty when targeted by Charm or Negotiation checks, by an equal number.",
+							"column": 2,
+							"row": 4,
+							"passive": false,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Just Kidding!",
+							"description": "Once per round as an incidental, spend 1 Destiny Point to ignore 1 Despair generated on a social check by the character or any ally in short range.",
+							"column": 3,
+							"row": 4,
+							"passive": false,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Intense Presence",
+							"description": "Spend 1 Destiny Point to recover strain equal to Presence rating.",
+							"column": 4,
+							"row": 4,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Natural Charmer",
+							"description": "Once per session, may re-roll any 1 Charm or Deception check.",
+							"column": 1,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 2,
+							"row": 5,
+							"passive": true,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Don't Shoot!",
+							"description": "Once per session as an action, make a Hard Charm check. On success, cannot be the target of combat checks until the end of the encounter or until making combat check.",
+							"column": 3,
+							"row": 5,
+							"passive": false,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Resolve",
+							"description": "When a character involuntarily suffers strain, he suffers 1 less strain per rank of Resolve, to a minimum of 1.",
+							"column": 4,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, false, false]
+						}
+					]
+				},
+				{
+					"name": "Gambler",
+					"subtitle": "The Wild Card",
+					"description": "The Gambler knows how to play all the most popular games of chance, however, he also recognizes there is far more to winning than just knowing the rules. His ability to identify subtle clues in the body language, mannerisms, voice patterns, and behavior of his opponents gives the Gambler all the information he needs to decide when to make his move. The Gambler prides himself on being unpredictable, denying his opponents any hints to his intentions with this stone-cold expression. Whether the situation is a game of sabacc, betting on podraces, or talking a thug out of blasting his companions, the Gambler has a strategy, and rarely the one people expect.",
+					"careerSkills": ["Computers", "Cool", "Deception", "Skulduggery"],
+					"talents": [
+						{
+							"name": "Convincing Demeanor",
+							"description": "Remove 1 Setback per rank of Convincing Demeanor from Deception or Skulduggery checks.",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 3,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Up the Ante",
+							"description": "When gambling, win 10% more credits per rank of Up the Ante",
+							"column": 4,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, false]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 1,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Second Chances",
+							"description": "Once per encounter, choose a number of positive dice equal to ranks in Second Chances and re-roll them.",
+							"column": 2,
+							"row": 2,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [false, false, true, false]
+						},
+						{
+							"name": "Supreme Double or Nothing",
+							"description": "When performing the Double or Nothing incidental, also double the number of Triumph and Despair",
+							"column": 4,
+							"row": 2,
+							"passive": true,
+							"connections": [true, false, false, true]
+						},
+						{
+							"name": "Second Chances",
+							"description": "Once per encounter, choose a number of positive dice equal to ranks in Second Chances and re-roll them.",
+							"column": 1,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Convincing Demeanor",
+							"description": "Remove 1 Setback per rank of Convincing Demeanor from Deception or Skulduggery checks.",
+							"column": 2,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Fortune Favors the Bold",
+							"description": "Once per session as an incidental, suffer 2 strain to flip one dark side Destiny Point to light side.",
+							"column": 3,
+							"row": 3,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Natural Rogue",
+							"description": "Once per session, may re-roll any 1 Skulduggery or Stealth check.",
+							"column": 4,
+							"row": 3,
+							"passive": false,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Up the Ante",
+							"description": "When gambling, win 10% more credits per rank of Up the Ante",
+							"column": 1,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Up the Ante",
+							"description": "When gambling, win 10% more credits per rank of Up the Ante",
+							"column": 2,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Clever Solution",
+							"description": "Once per session, make one skill check using Cunning rather than the charactistic linked to that skill.",
+							"column": 3,
+							"row": 4,
+							"passive": false,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Second Chances",
+							"description": "Once per encounter, choose a number of positive dice equal to ranks in Second Chances and re-roll them.",
+							"column": 4,
+							"row": 4,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Double or Nothing",
+							"description": "Suffer 2 strain to perform the Double or Nothing incidental to increase the difficulty of the next check by one. Then, after cancelling opposing symbols, double the amount of remaining Advantage.",
+							"column": 1,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Smooth Talker",
+							"description": "When first acquired, choose 1 skill: Charm, Coercion, Deception, or Negotiation. When making checks with that skill, spend 1 Triumph to gain additional Success equal to ranks in Smooth Talker.",
+							"column": 2,
+							"row": 5,
+							"passive": false,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Natural Negotiator",
+							"description": "Once per session, may re-roll any 1 Cool or Negotiation check.",
+							"column": 3,
+							"row": 5,
+							"passive": false,
+							"connections": [true, false, true, false]
+						},
+						{
+							"name": "Improved Double or Nothing",
+							"description": "When performing the Double or Nothing incidental, after canceling opposing symbols, also double the amount of remaining Success.",
+							"column": 4,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, false, false]
+						}
+					]
+				},
+				{
+					"name": "Gunslinger",
+					"subtitle": "The Quick Draw",
+					"description": "The Gunsligner knows better than most that making a living in the Outer Rim Territories is a constant struggle. He needs to be fast on the draw to stay alive. The Gunslinger and his beloved sidearm are inseperable, but he often carries a holdout weapon when stuck in a hostile, target-rich environment. To face off iwth a Gunslinger is a dangerous and foolish proposition.",
+					"careerSkills": ["Coercion", "Cool", "Knowledge (Outer Rim)", "Ranged (Light)"],
+					"talents": [
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 1,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Quick Strike",
+							"description": "Add 1 Boost per rank of Quick Strike to combat checks against targets that have not acted yet this encounter",
+							"column": 2,
+							"row": 1,
+							"passive": true,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Rapid Reaction",
+							"description": "Suffer a number of strain no greater than ranks in Rapid Reaction, then add an equal number of Success to initiative checks.",
+							"column": 3,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Quick Draw",
+							"description": "Once per round, draw or holster a weapon or accessible item as an incidental",
+							"column": 4,
+							"row": 1,
+							"passive": false,
+							"connections": [false, false, false, true]
+						},
+						{
+							"name": "Lethal Blows",
+							"description": "Add +10 per rank of Lethal Blows to any Critical Injury results inflicted on opponents",
+							"column": 1,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Grit",
+							"description": "Gain +1 Strain Threshold",
+							"column": 2,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Quick Strike",
+							"description": "Add 1 Boost per rank of Quick Strike to combat checks against targets that have not acted yet this encounter",
+							"column": 3,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Improved Quick Draw",
+							"description": "May use Quick Draw twice per round",
+							"column": 4,
+							"row": 2,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Toughened",
+							"description": "Gain +2 Wound Threshold",
+							"column": 1,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, false, true]
+						},
+						{
+							"name": "Call 'Em",
+							"description": "Do not add 1 Setback to combat checks due to the use of the Aim maneuver.",
+							"column": 2,
+							"row": 3,
+							"passive": true,
+							"connections": [false, true, true, true]
+						},
+						{
+							"name": "Dodge",
+							"description": "When targeted by combat check, may perform a Dodge incidental to suffer a number of strain no greater than ranks of Dodge, then upgrade the difficulty of the check by that number",
+							"column": 3,
+							"row": 3,
+							"passive": false,
+							"connections": [true, true, true, false]
+						},
+						{
+							"name": "Sorry About the Mess",
+							"description": "Decrease the Critical Rating of a weapon by 1 (to a minimum of 1) against targets that have not yet acted this encounter.",
+							"column": 4,
+							"row": 3,
+							"passive": true,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Confidence",
+							"description": "May decrease difficulty of Discipline checks to avoid fear by 1 per rank of Confidence.",
+							"column": 1,
+							"row": 4,
+							"passive": true,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Lethal Blows",
+							"description": "Add +10 per rank of Lethal Blows to any Critical Injury results inflicted on opponents",
+							"column": 2,
+							"row": 4,
+							"passive": true,
+							"connections": [true, true, true, true]
+						},
+						{
+							"name": "Guns Blazing",
+							"description": "As an incidental, suffer 2 Strain to avoid increasing the difficulty of a Range (Light) check to attack with two weapons.",
+							"column": 3,
+							"row": 4,
+							"passive": false,
+							"connections": [true, false, true, true]
+						},
+						{
+							"name": "Rapid Reaction",
+							"description": "Suffer a number of strain no greater than ranks in Rapid Reaction, then add an equal number of Success to initiative checks.",
+							"column": 4,
+							"row": 4,
+							"passive": false,
+							"connections": [true, true, false, true]
+						},
+						{
+							"name": "Dedication",
+							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+							"column": 1,
+							"row": 5,
+							"passive": true,
+							"connections": [false, false, true, false]
+						},
+						{
+							"name": "Spitfire",
+							"description": "After a successful combined check with two Ranged (Light) weapons, additional hits can be allocated to other targets within range of the weapon.",
+							"column": 2,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, false, false]
+						},
+						{
+							"name": "Natural Marksman",
+							"description": "Once per session, may re-roll any 1 Ranged (Light) or Ranged (Heavy) check.",
+							"column": 3,
+							"row": 5,
+							"passive": false,
+							"connections": [false, true, true, false]
+						},
+						{
+							"name": "Deadly Accuracy",
+							"description": "When acquired, choose 1 combat skill. Add damage equal to ranks in that skill to one hit of successful attack made using that skill",
+							"column": 4,
+							"row": 5,
+							"passive": true,
+							"connections": [true, false, false, false]
+						}
+					]
 				}
 			]
 		},

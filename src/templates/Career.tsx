@@ -1,20 +1,20 @@
 import * as React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import SpecializationItem from '../components/SpecializationItem'
-import { Specialization } from '../lib/types'
 import Layout from '../components/Layout'
+import { Career } from '../lib/types'
+import CareerItem from '../components/CareerItem'
 
 export default ({
-	pageContext: { spec }
+	pageContext: { career }
 }: {
-	pageContext: { spec: Specialization }
+	pageContext: { career: Career }
 }) => {
 	return (
 		<Layout>
 			<Container fluid style={{ marginTop: '10px' }}>
 				<Row>
 					<Col>
-						<SpecializationItem {...spec} />
+						<CareerItem {...career} />
 					</Col>
 				</Row>
 			</Container>

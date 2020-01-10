@@ -16,6 +16,14 @@ exports.createPages = ({ actions: { createPage } }) => {
 			})
 		})
 	})
+
+	Data.universalSpecializations.forEach(spec => {
+		createPage({
+			path: `/Specialization/${spec.name}`,
+			component: require.resolve('./src/templates/Specialization.tsx'),
+			context: { spec }
+		})
+	})
 }
 
 exports.onCreateWebpackConfig = ({ actions }) => {

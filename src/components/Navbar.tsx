@@ -9,7 +9,8 @@ export default _ => {
 			<Navbar.Toggle aria-controls="nav" />
 			<Navbar.Collapse id="nav">
 				<Nav>
-					<Nav.Link eventKey="1"
+					<Nav.Link
+						eventKey="1"
 						onSelect={_ => {
 							return navigate('/')
 						}}>
@@ -24,6 +25,19 @@ export default _ => {
 										return navigate(`/Career/${c.name}`)
 									}}>
 									{c.name}
+								</NavDropdown.Item>
+							)
+						})}
+					</NavDropdown>
+					<NavDropdown title="Universal Specializations" id="dropdown-universal">
+						{Data.universalSpecializations.map((s, ind) => {
+							return (
+								<NavDropdown.Item
+									key={ind}
+									onSelect={(key, evt) => {
+										return navigate(`/Specialization/${s.name}`)
+									}}>
+									{s.name}
 								</NavDropdown.Item>
 							)
 						})}

@@ -11,12 +11,8 @@ export default ({
 }) => {
 	return (
 		<Layout>
-			<Container fluid style={{ marginTop: '10px' }}>
-				<Row>
-					<Col>
-						<CareerItem {...career} />
-					</Col>
-				</Row>
+			<Container fluid>
+				<CareerItem {...career} />
 			</Container>
 		</Layout>
 	)

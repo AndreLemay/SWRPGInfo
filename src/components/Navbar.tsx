@@ -5,7 +5,7 @@ import { navigate } from 'gatsby'
 
 export default _ => {
 	return (
-		<Navbar bg="dark" expand="lg">
+		<Navbar bg="dark" variant="dark" expand="lg">
 			<Navbar.Toggle aria-controls="nav" />
 			<Navbar.Collapse id="nav">
 				<Nav>

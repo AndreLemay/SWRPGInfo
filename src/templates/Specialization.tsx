@@ -11,12 +11,8 @@ export default ({
 }) => {
 	return (
 		<Layout>
-			<Container fluid style={{ marginTop: '10px' }}>
-				<Row>
-					<Col>
-						<SpecializationItem {...spec} />
-					</Col>
-				</Row>
+			<Container fluid>
+				<SpecializationItem {...spec} />
 			</Container>
 		</Layout>
 	)

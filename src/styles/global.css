@@ -1,5 +1,6 @@
-.mainBody {
-	margin-top: 10px;
+.navbar {
+	color: white;
+	margin-bottom: 10px;
 }
 
 .card .text,
@@ -16,13 +17,16 @@
 	padding: 5px;
 }
 
-.career {
-	height: 535px;
+.career,
+.spec {
+	min-height: 535px;
 }
 
 .career .description .body,
 .career .careerSkills .body,
-.career .specializations {
+.career .specializations,
+.spec .description .body,
+.spec .careerSkills .body {
 	max-height: 300px;
 	overflow-y: auto;
 }

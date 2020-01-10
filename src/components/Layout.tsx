@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 export default ({ children }) => {
 	return (
-		<div>
+		<div className="mainBody">
 			<Navbar />
 			{children}
 		</div>

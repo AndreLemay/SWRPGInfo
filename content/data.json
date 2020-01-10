@@ -6329,6 +6329,678 @@
 					"connections": [true, false, false, false]
 				}
 			]
+		},
+		{
+			"name": "Imperial Army Cadet",
+			"subtitle": "Rebellious Students",
+			"description": "To many individual in these times, the Empire represents stability and order. It is responsible for having saved them from the Separatists and the traitorous Jedi Order. The Imperial military, specifically, offers opportunities to serve that body in addition to the promise of patriotic fulfillment, exploration, and power. For those who haven't experienced the Empire's oppression, these can be powerful motivators to join up. Many adventurous souls desiring to escape the inevitability of a life without excitement or advancement have looked to the Imperial academies as a way to venture into the wider galaxy. Depending on the academy, however, even getting accepted can be a highly competitive affair, in which only the most naturally talented candidates have a chance - unless, of course, a candidate's family is connected.",
+			"careerSkills": ["Knowledge (Warfare)", "Leadership", "Piloting (Space)", "Ranged (Light)"],
+			"talents": [
+				{
+					"name": "Grit",
+					"description": "Gain +1 Strain Threshold",
+					"column": 1,
+					"row": 1,
+					"passive": true,
+					"connections": [false, false, false, true]
+				},
+				{
+					"name": "Vehicle Combat Training",
+					"description": "Gunnery and Piloting (Planetary) become career skills.",
+					"column": 2,
+					"row": 1,
+					"passive": true,
+					"connections": [false, false, false, false]
+				},
+				{
+					"name": "Conditioned",
+					"description": "Remove 1 Setback per rank of Conditioned from Athletics and Coordination checks. Reduce the damage and strain suffered from falling by 1 per rank of Conditioned.",
+					"column": 3,
+					"row": 1,
+					"passive": true,
+					"connections": [false, false, false, true]
+				},
+				{
+					"name": "Knowledge Specialization",
+					"description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend 1 Triumph result to gain additional successes equal to ranks in Knowledge Specialization.",
+					"column": 4,
+					"row": 1,
+					"passive": false,
+					"connections": [false, false, false, true]
+				},
+				{
+					"name": "Know the Enemy",
+					"description": "The character may use Knowledge (Warfare) skill when making checks to determine Initiative.",
+					"column": 1,
+					"row": 2,
+					"passive": true,
+					"connections": [false, true, true, true]
+				},
+				{
+					"name": "By the Book",
+					"description": "Once per encounter, before making a combat check, the character may suffer 2 strain to add Advantage to the results equal to his ranks in By the Book.",
+					"column": 2,
+					"row": 2,
+					"passive": true,
+					"connections": [true, false, true, false]
+				},
+				{
+					"name": "Defensive Driving",
+					"description": "Increase defense of vehicle or starship being piloted by 1 per rank of Defensive Driving.",
+					"column": 3,
+					"row": 2,
+					"passive": true,
+					"connections": [true, true, true, false]
+				},
+				{
+					"name": "Tactical Combat Training",
+					"description": "Melee and Ranged (Heavy) become career skills.",
+					"column": 4,
+					"row": 2,
+					"passive": true,
+					"connections": [true, true, false, true]
+				},
+				{
+					"name": "Formation Tactics",
+					"description": "May take the Formation Tactics action by making a Hard Leadership check. If successful, choose a number of allies within short range equal to Success generated. Upgrade the difficulty of attacks against these allies once until the end of next turn.",
+					"column": 1,
+					"row": 3,
+					"passive": false,
+					"connections": [false, true, true, false]
+				},
+				{
+					"name": "Command",
+					"description": "Add 1 Boost per rank of Command when making Leadership checks. Affected targets add 1 Boost to Discipline checks for next 24 hours.",
+					"column": 2,
+					"row": 3,
+					"passive": true,
+					"connections": [true, false, true, true]
+				},
+				{
+					"name": "Full Throttle",
+					"description": "Take a Full Throttle action: make a Hard Piloting check ot increase a vehicle's top speed by 1 for a number of rounds equal to Cunning.",
+					"column": 3,
+					"row": 3,
+					"passive": false,
+					"connections": [true, false, true, true]
+				},
+				{
+					"name": "Known Schematic",
+					"description": "Once per session, may perform the Known Schematic maneuver: make a Hard Knowledge (Education) check. Success grants familiarity with a building or ship's design.",
+					"column": 4,
+					"row": 3,
+					"passive": false,
+					"connections": [true, true, false, true]
+				},
+				{
+					"name": "Improved Formation Tactics",
+					"description": "The difficulty of Formation Tactics is reduced to Average. May spend 1 Triumph or 6 Advantage to have effect last until end of encounter.",
+					"column": 1,
+					"row": 4,
+					"passive": false,
+					"connections": [false, false, true, true]
+				},
+				{
+					"name": "By the Book",
+					"description": "Once per encounter, before making a combat check, the character may suffer 2 strain to add Advantage to the results equal to his ranks in By the Book.",
+					"column": 2,
+					"row": 4,
+					"passive": true,
+					"connections": [true, true, false, false]
+				},
+				{
+					"name": "Conditioned",
+					"description": "Remove 1 Setback per rank of Conditioned from Athletics and Coordination checks. Reduce the damage and strain suffered from falling by 1 per rank of Conditioned.",
+					"column": 3,
+					"row": 4,
+					"passive": true,
+					"connections": [false, true, true, true]
+				},
+				{
+					"name": "Knowledge Specialization",
+					"description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend 1 Triumph result to gain additional successes equal to ranks in Knowledge Specialization.",
+					"column": 4,
+					"row": 4,
+					"passive": false,
+					"connections": [true, true, false, false]
+				},
+				{
+					"name": "Natural Scholar",
+					"description": "Once per session, may re-roll any 1 Knowledge skill check.",
+					"column": 1,
+					"row": 5,
+					"passive": false,
+					"connections": [false, true, true, false]
+				},
+				{
+					"name": "Targeted Firepower",
+					"description": "Once per session may take the Targeted Firepower action: identify one enemy target and make a Hard Knowledge (Warfare) check. If successful, for the rest of encounter allies within short range of character add Advantage to attacks against target equal to Success gained in the check.",
+					"column": 2,
+					"row": 5,
+					"passive": false,
+					"connections": [true, false, true, false]
+				},
+				{
+					"name": "By the Book",
+					"description": "Once per encounter, before making a combat check, the character may suffer 2 strain to add Advantage to the results equal to his ranks in By the Book.",
+					"column": 3,
+					"row": 5,
+					"passive": true,
+					"connections": [true, true, true, false]
+				},
+				{
+					"name": "Dedication",
+					"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+					"column": 4,
+					"row": 5,
+					"passive": true,
+					"connections": [true, false, false, false]
+				}
+			]
+		},
+		{
+			"name": "Pirate",
+			"subtitle": "Nefarious Opportunists",
+			"description": "For these cunning \"entrepreneurs\" unafraid to break a few rules, take some risks, and resort to violence, anyone else's gains can become their own. The first law of piracy is that everything belongs to whomever can take it. However, this is an honorable profession, it's just business, and never personal. At least, it isn't until someone else makes it personal.",
+			"careerSkills": ["Coercion", "Deception", "Knowledge (Underworld)", "Skulduggery"],
+			"talents": [
+				{
+					"name": "Black Market Contacts",
+					"description": "When purchasing illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost by 50% of base cost per reduction.",
+					"column": 1,
+					"row": 1,
+					"passive": false,
+					"connections": [false, false, false, true]
+				},
+				{
+					"name": "Toughened",
+					"description": "Gain +2 Wound Threshold",
+					"column": 2,
+					"row": 1,
+					"passive": true,
+					"connections": [false, false, false, false]
+				},
+				{
+					"name": "Quick Draw",
+					"description": "Once per round, draw or holster a weapon or accessible item as an incidental",
+					"column": 3,
+					"row": 1,
+					"passive": false,
+					"connections": [false, false, false, false]
+				},
+				{
+					"name": "Knows the Ropes",
+					"description": "Add 1 Boost to checks made to escape from restraints equal to ranks in Knowledge (Underworld). Spend 1 Triumph to free all other allies within short range.",
+					"column": 4,
+					"row": 1,
+					"passive": true,
+					"connections": [false, false, false, true]
+				},
+				{
+					"name": "Greased Palms",
+					"description": "Before making a social check, may spend up to 50 credits per rank of Greased Palms to upgrade the ability of the check one for every 50 spent.",
+					"column": 1,
+					"row": 2,
+					"passive": false,
+					"connections": [false, true, true, true]
+				},
+				{
+					"name": "Toughened",
+					"description": "Gain +2 Wound Threshold",
+					"column": 2,
+					"row": 2,
+					"passive": true,
+					"connections": [true, false, true, true]
+				},
+				{
+					"name": "Fearsome Rep",
+					"description": "Add automatic Advantage to the results of Coercion checks equal to ranks in Fearsome Rep.",
+					"column": 3,
+					"row": 2,
+					"passive": true,
+					"connections": [true, false, true, true]
+				},
+				{
+					"name": "Commanding Presence",
+					"description": "Remove 1 Setback per rank of Commanding Presence from Leadership and Cool checks.",
+					"column": 4,
+					"row": 2,
+					"passive": true,
+					"connections": [true, true, false, true]
+				},
+				{
+					"name": "Black Market Contacts",
+					"description": "When purchasing illegal goods, may reduce rarity by 1 per rank of Black Market Contacts, increasing cost by 50% of base cost per reduction.",
+					"column": 1,
+					"row": 3,
+					"passive": false,
+					"connections": [false, true, true, true]
+				},
+				{
+					"name": "Double-Talk",
+					"description": "The character may spend 2 Advantage or 1 Triumph from a successful Charm or Deception check to disorient a number of opponents within short range equal to his Presence for remainder of round and next 2 rounds.",
+					"column": 2,
+					"row": 3,
+					"passive": true,
+					"connections": [true, true, false, true]
+				},
+				{
+					"name": "Street Smarts",
+					"description": "Remove 1 Setback per rank of Street Smarts from Streetwise or Knowledge (Underworld) checks.",
+					"column": 3,
+					"row": 3,
+					"passive": true,
+					"connections": [false, true, true, false]
+				},
+				{
+					"name": "Intimidating",
+					"description": "May suffer a number of strain no greater than ranks in intimidating, then downgrade difficulty of Coercion checks or upgrade difficulty when targeted by Coercion checks, by an equal number.",
+					"column": 4,
+					"row": 3,
+					"passive": false,
+					"connections": [true, true, false, true]
+				},
+				{
+					"name": "Fearsome Rep",
+					"description": "Add automatic Advantage to the results of Coercion checks equal to ranks in Fearsome Rep.",
+					"column": 1,
+					"row": 4,
+					"passive": true,
+					"connections": [false, true, true, false]
+				},
+				{
+					"name": "Intense Presence",
+					"description": "Spend 1 Destiny Point to recover strain equal to Presence rating.",
+					"column": 2,
+					"row": 4,
+					"passive": false,
+					"connections": [true, true, false, true]
+				},
+				{
+					"name": "Commanding Presence",
+					"description": "Remove 1 Setback per rank of Commanding Presence from Leadership and Cool checks.",
+					"column": 3,
+					"row": 4,
+					"passive": true,
+					"connections": [false, false, true, true]
+				},
+				{
+					"name": "Steely Nerves",
+					"description": "Spend 1 Destiny Point to ignore effects of Critical Injuries on Willpower and Presence checks until the end of the encounter.",
+					"column": 4,
+					"row": 4,
+					"passive": false,
+					"connections": [true, true, false, false]
+				},
+				{
+					"name": "Prepare to be Boarded!",
+					"description": "Once per encounter may take Prepare to be Boarded! action and make Opposed Coercion vs Discipline check against enemy ship captain. If successful, the enemy suffers 1 strain per uncancelled Success. The character may also spend 1 Triumph or 4 Advantage to inflict additional strain additional strain equal to ranks in Coercion. Should the enemy exceed his strain threshold as a result of resolving the check, he surrenders his ship.",
+					"column": 1,
+					"row": 5,
+					"passive": false,
+					"connections": [false, false, true, false]
+				},
+				{
+					"name": "Altered Deal",
+					"description": "Once per session may take the Altered Deal action and make Hard Coercion check to radically change a previously made deal or bargain to the character's advantage.",
+					"column": 2,
+					"row": 5,
+					"passive": false,
+					"connections": [true, true, true, false]
+				},
+				{
+					"name": "Natural Rogue",
+					"description": "Once per session, may re-roll any 1 Skulduggery or Stealth check.",
+					"column": 3,
+					"row": 5,
+					"passive": false,
+					"connections": [true, true, true, false]
+				},
+				{
+					"name": "Dedication",
+					"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+					"column": 4,
+					"row": 5,
+					"passive": true,
+					"connections": [true, false, false, false]
+				}
+			]
+		},
+		{
+			"name": "Retired Clone Trooper",
+			"subtitle": "Decommissioned Soldiers",
+			"description": "Retired Clone Troopers are powerful allies despite their age. Not only do they retain their tactical combat knowledge and training, but they have striven to maintain their genetically imbued physical conditioning as well. This is inhanced by the practical skills derived from their years of fighting and winning battles. As former soldiers of both the Republic and the Empire, they also know the location of multiple abandoned military bases scattered across the galaxy. Experience is power, and Retired Clone Troopers are steeped in it.",
+			"careerSkills": ["Discipline", "Knowledge (Warfare)", "Ranged (Heavy)", "Ranged (Light)", "Resilience", "Vigilance"],
+			"talents": [
+				{
+					"name": "Toughened",
+					"description": "Gain +2 Wound Threshold",
+					"column": 1,
+					"row": 1,
+					"passive": true,
+					"connections": [false, false, false, true]
+				},
+				{
+					"name": "Steady Aim",
+					"description": "The character does not lose the benefits of the Aim maneuver if he performs other maneuvers (including moving) or actions. He does lose the benefits of the Aim maneuver if the encounter ends.",
+					"column": 2,
+					"row": 1,
+					"passive": true,
+					"connections": [false, false, false, false]
+				},
+				{
+					"name": "Spare Clip",
+					"description": "Cannot run out of ammo due to Despair. Items with Limited-Ammo quality run out of ammo as normal",
+					"column": 3,
+					"row": 1,
+					"passive": true,
+					"connections": [false, false, false, false]
+				},
+				{
+					"name": "Grit",
+					"description": "Gain +1 Strain Threshold",
+					"column": 4,
+					"row": 1,
+					"passive": true,
+					"connections": [false, false, false, true]
+				},
+				{
+					"name": "Combat Veteran",
+					"description": "Add 1 Boost per rank of Combat Veteran to Brawl and Discipline checks.",
+					"column": 1,
+					"row": 2,
+					"passive": true,
+					"connections": [false, true, false, true]
+				},
+				{
+					"name": "Durable",
+					"description": "May reduce any Critical Injury suffered by 10 per rank of Durable to a minimum of 1.",
+					"column": 2,
+					"row": 2,
+					"passive": true,
+					"connections": [false, false, true, true]
+				},
+				{
+					"name": "Swift",
+					"description": "Do not suffer usual penalties for moving through difficult terrain.",
+					"column": 3,
+					"row": 2,
+					"passive": true,
+					"connections": [true, false, true, true]
+				},
+				{
+					"name": "Familiar Suns",
+					"description": "Once per session, may perform a Familiar Suns maneuver: make a Hard Knowledge (Outer Rim) or (Core Worlds) check to reveal the current type of planetary environment and other useful information.",
+					"column": 4,
+					"row": 2,
+					"passive": false,
+					"connections": [true, true, false, false]
+				},
+				{
+					"name": "Grit",
+					"description": "Gain +1 Strain Threshold",
+					"column": 1,
+					"row": 3,
+					"passive": true,
+					"connections": [false, true, true, false]
+				},
+				{
+					"name": "Stimpack Specialization",
+					"description": "Stimpacks heal 1 additional wound per rank of Stimpack Specialization.",
+					"column": 2,
+					"row": 3,
+					"passive": true,
+					"connections": [true, true, true, true]
+				},
+				{
+					"name": "Toughened",
+					"description": "Gain +2 Wound Threshold",
+					"column": 3,
+					"row": 3,
+					"passive": true,
+					"connections": [true, true, true, true]
+				},
+				{
+					"name": "Durable",
+					"description": "May reduce any Critical Injury suffered by 10 per rank of Durable to a minimum of 1.",
+					"column": 4,
+					"row": 3,
+					"passive": true,
+					"connections": [true, false, false, true]
+				},
+				{
+					"name": "Persistent Targeting",
+					"description": "After making one or ore successful combat checks against a target, add 1 Boost to combat checks against that same target for the remainder of the encounter.",
+					"column": 1,
+					"row": 4,
+					"passive": true,
+					"connections": [false, false, true, false]
+				},
+				{
+					"name": "Powerful Blast",
+					"description": "Increase Blast damage deal by explosives, explosive weapons, and grenades by 1 per rank of Powerful Blast.",
+					"column": 2,
+					"row": 4,
+					"passive": true,
+					"connections": [true, true, true, true]
+				},
+				{
+					"name": "Combat Veteran",
+					"description": "Add 1 Boost per rank of Combat Veteran to Brawl and Discipline checks.",
+					"column": 3,
+					"row": 4,
+					"passive": true,
+					"connections": [true, true, true, true]
+				},
+				{
+					"name": "Powerful Blast",
+					"description": "Increase Blast damage deal by explosives, explosive weapons, and grenades by 1 per rank of Powerful Blast.",
+					"column": 4,
+					"row": 4,
+					"passive": true,
+					"connections": [true, true, false, false]
+				},
+				{
+					"name": "Dedication",
+					"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+					"column": 1,
+					"row": 5,
+					"passive": true,
+					"connections": [false, false, true, false]
+				},
+				{
+					"name": "Improved Comrades in Arms",
+					"description": "Spend 3 Advantage or 1 Triumph from Comrades in Arms check to also gain +1 Soak or give one affected ally +1 Soak.",
+					"column": 2,
+					"row": 5,
+					"passive": true,
+					"connections": [true, true, true, false]
+				},
+				{
+					"name": "Comrades in Arms",
+					"description": "Once per encounter, take Comrades in Arms action and make a Hard Discipline check. If successful, the character plus one ally per Success withing medium range gains +1 defense for the remainder of the encounter.",
+					"column": 3,
+					"row": 5,
+					"passive": false,
+					"connections": [true, true, true, false]
+				},
+				{
+					"name": "Enduring",
+					"description": "Gain +1 Soak Value",
+					"column": 4,
+					"row": 5,
+					"passive": true,
+					"connections": [true, false, false, false]
+				}
+			]
+		},
+		{
+			"name": "Ship Captain",
+			"subtitle": "Independent Leaders",
+			"description": "Ship Captains captain ships. It's what they do and who they are. For most beings, investment in a vessel is an unfathomable dream. For Ship Captains, the lack of a vessel is an unbearable nightmare. Once they've tasted the freedom only a starship or wide ranging skimmer can provide, it becomes impossible to return to a predictable life and a seemingly meaningless existence. Ship Captains control their own lives.",
+			"careerSkills": ["Charm", "Leadership", "Negotiation", "Piloting (Space)"],
+			"talents": [
+				{
+					"name": "Wheel and Deal",
+					"description": "When selling goods legally, gain 10% more credits per rank of Wheel and Deal.",
+					"column": 1,
+					"row": 1,
+					"passive": true,
+					"connections": [false, false, false, true]
+				},
+				{
+					"name": "Pride and Joy",
+					"description": "Choose one starship or vehicle character owns with a silhouette of 4 or higher, it becomes his \"Pride and Joy\" vessel. He upgrades hte ability of all social skill checks he makes while within short range of the vessel once.",
+					"column": 2,
+					"row": 1,
+					"passive": true,
+					"connections": [false, false, false, true]
+				},
+				{
+					"name": "Grit",
+					"description": "Gain +1 Strain Threshold",
+					"column": 3,
+					"row": 1,
+					"passive": true,
+					"connections": [false, false, false, false]
+				},
+				{
+					"name": "Kill with Kindness",
+					"description": "Remove 1 Setback per rank of Kill with Kindness from all Charm and Leadership checks.",
+					"column": 4,
+					"row": 1,
+					"passive": true,
+					"connections": [false, false, false, true]
+				},
+				{
+					"name": "Kill with Kindness",
+					"description": "Remove 1 Setback per rank of Kill with Kindness from all Charm and Leadership checks.",
+					"column": 1,
+					"row": 2,
+					"passive": true,
+					"connections": [false, true, true, true]
+				},
+				{
+					"name": "Improved Pride and Joy",
+					"description": "While inside his Pride and Joy vessel, recover 1 additional strain whenever recovering strain and spend 1 Advantage on checks made to recover strain to allow an ally also within the vessel to recover 1 strain.",
+					"column": 2,
+					"row": 2,
+					"passive": true,
+					"connections": [true, true, true, false]
+				},
+				{
+					"name": "Field Commander",
+					"description": "Take the Field Commander action: make an Average Leadership check. A Number of allies equal to Presence may immediately suffer 1 strain to perform 1 free maneuver.",
+					"column": 3,
+					"row": 2,
+					"passive": false,
+					"connections": [true, false, true, true]
+				},
+				{
+					"name": "Skilled Jockey",
+					"description": "Remove 1 Setback per rank of Skilled Jockey from all Piloting (Planetary) and Piloting (Space) checks the character attempts.",
+					"column": 4,
+					"row": 2,
+					"passive": true,
+					"connections": [true, true, false, false]
+				},
+				{
+					"name": "Wheel and Deal",
+					"description": "When selling goods legally, gain 10% more credits per rank of Wheel and Deal.",
+					"column": 1,
+					"row": 3,
+					"passive": true,
+					"connections": [false, true, true, true]
+				},
+				{
+					"name": "Encouraging Words",
+					"description": "After an ally within short range fails a check, the character may suffer 1 strain to assist that ally's next check this encounter as an out-of-turn incidental.",
+					"column": 2,
+					"row": 3,
+					"passive": false,
+					"connections": [true, false, true, true]
+				},
+				{
+					"name": "Seen a Lot of Things",
+					"description": "Whenever the character fails a Knowledge check, he may spend 3 Advantage to roll the check again during his next turn.",
+					"column": 3,
+					"row": 3,
+					"passive": true,
+					"connections": [true, true, false, true]
+				},
+				{
+					"name": "Full Throttle",
+					"description": "Take a Full Throttle action: make a Hard Piloting check ot increase a vehicle's top speed by 1 for a number of rounds equal to Cunning.",
+					"column": 4,
+					"row": 3,
+					"passive": false,
+					"connections": [false, false, false, true]
+				},
+				{
+					"name": "Trust the Captain",
+					"description": "May take the Trust the Captain action by making a Hard Leadership check. If successful, for the rest of the encounter allies within short range increase their ranks in Discipline by an amount equal to ranks in Trust the Captain.",
+					"column": 1,
+					"row": 4,
+					"passive": false,
+					"connections": [false, true, true, false]
+				},
+				{
+					"name": "Inspiring Rhetoric",
+					"description": "Take the Inspiring Rhetoric action: make an Average Leadership check. Each Success causes 1 ally in close range to recover 1 strain. Spend 1 Advantage to cause 1 affected ally to recover 1 additional strain.",
+					"column": 2,
+					"row": 4,
+					"passive": false,
+					"connections": [true, true, true, true]
+				},
+				{
+					"name": "Trust the Captain",
+					"description": "May take the Trust the Captain action by making a Hard Leadership check. If successful, for the rest of the encounter allies within short range increase their ranks in Discipline by an amount equal to ranks in Trust the Captain.",
+					"column": 3,
+					"row": 4,
+					"passive": false,
+					"connections": [true, true, true, true]
+				},
+				{
+					"name": "Supreme Pride and Joy",
+					"description": "While inside his Pride and Joy vessil, once per session as an incidental, the character may reduce its silhouette by 2 (to a minimum of 0) for the remainder of the round and the following round.",
+					"column": 4,
+					"row": 4,
+					"passive": false,
+					"connections": [true, true, false, false]
+				},
+				{
+					"name": "Most Impressive",
+					"description": "Spend 1 Triumph from any skill check to allow a number of allies within short range not exceeding Presence to add 1 Advantage to their next check.",
+					"column": 1,
+					"row": 5,
+					"passive": false,
+					"connections": [false, false, true, false]
+				},
+				{
+					"name": "Inspiring Leadership",
+					"description": "Take the Inspiring Leadership action by making an Average Leadership check. If successful, a number of allies within short range not exceeding Presence add 1 Success to their next check.",
+					"column": 2,
+					"row": 5,
+					"passive": false,
+					"connections": [true, true, false, false]
+				},
+				{
+					"name": "Grit",
+					"description": "Gain +1 Strain Threshold",
+					"column": 3,
+					"row": 5,
+					"passive": true,
+					"connections": [false, true, true, false]
+				},
+				{
+					"name": "Dedication",
+					"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
+					"column": 4,
+					"row": 5,
+					"passive": true,
+					"connections": [true, false, false, false]
+				}
+			]
 		}
 	]
 }

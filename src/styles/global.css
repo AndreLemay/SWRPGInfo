@@ -1,6 +1,27 @@
+html, body, #___gatsby, #gatsby-focus-wrapper, .mainBody {
+	height: 100%;
+}
+
+.mainBody {
+	display: flex;
+	flex-direction: column;
+}
+
+.container-fluid,
+.logo {
+	margin-bottom: 10px;
+	flex: 1;
+}
+
 .navbar {
 	color: white;
 	margin-bottom: 10px;
+}
+
+.logo {
+	width: 100%;
+	min-height: 0;
+	margin-top: -10px;
 }
 
 .card .text,
@@ -20,6 +41,7 @@
 .career,
 .spec {
 	min-height: 535px;
+	height: 100%;
 }
 
 .career .description .body,

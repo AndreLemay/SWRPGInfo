@@ -19,7 +19,6 @@ html, body, #___gatsby, #gatsby-focus-wrapper, .mainBody {
 }
 
 .logo {
-	width: 100%;
 	min-height: 0;
 	margin-top: -10px;
 }

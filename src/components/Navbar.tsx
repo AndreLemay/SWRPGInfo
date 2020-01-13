@@ -42,6 +42,19 @@ export default _ => {
 							)
 						})}
 					</NavDropdown>
+					<NavDropdown title="Species" id="dropdown-species">
+						{Data.species.map((s, ind) => {
+							return (
+								<NavDropdown.Item
+									key={ind}
+									onSelect={(key, evt) => {
+										return navigate(`/Species/${s.name}`)
+									}}>
+									{s.name}
+								</NavDropdown.Item>
+							)
+						})}
+					</NavDropdown>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>

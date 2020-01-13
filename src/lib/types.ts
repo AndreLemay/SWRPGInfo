@@ -21,3 +21,19 @@ export interface Talent {
 	passive: boolean
 	connections: boolean[]
 }
+
+export interface Species {
+	name: string
+	description: string
+	brawn: number
+	agility: number
+	intellect: number
+	cunning: number
+	willpower: number
+	presence: number
+	startXP: number
+	wounds: number
+	strain: number
+	startSkills: string
+	specialAbilities: string
+}

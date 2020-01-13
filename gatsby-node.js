@@ -24,6 +24,14 @@ exports.createPages = ({ actions: { createPage } }) => {
 			context: { spec }
 		})
 	})
+
+	Data.species.forEach(species => {
+		createPage({
+			path: `/Species/${species.name}`,
+			component: require.resolve('./src/templates/Species.tsx'),
+			context: { species }
+		})
+	})
 }
 
 exports.onCreateWebpackConfig = ({ actions }) => {

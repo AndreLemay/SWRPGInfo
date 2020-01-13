@@ -140,4 +140,66 @@ html, body, #___gatsby, #gatsby-focus-wrapper, .mainBody {
 	background-color: #261a2c;
 }
 
+.species .info {
+	display: flex;
+	flex-direction: column;
+}
 
+.species .info .name {
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+.species .info .desc {
+	flex: 1
+}
+
+.species .image {
+	height: 600px;
+	width: 600px;
+	object-fit: contain;
+}
+
+.species .field {
+	display: flex;
+	flex-direction: column;
+}
+
+.species .stats {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.species .stats .field {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/*Need to override default bootstrap padding so these
+cells end up with the same size as the characteristic ones*/
+.species .stats .field .col-6 {
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+}
+
+.species .stats .field .circle {
+	border: 1px solid black;
+	border-radius: 50%;
+	position: relative;
+	padding-top: 100%;
+}
+
+.species .stats .field .circle > span {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.species .field label {
+	font-weight: bold;
+}

@@ -175,6 +175,10 @@ html, body, #___gatsby, #gatsby-focus-wrapper, .mainBody {
 	margin-bottom: 10px;
 }
 
+.species .skills {
+	margin-bottom: 10px;
+}
+
 /*Need to override default bootstrap padding so these
 cells end up with the same size as the characteristic ones*/
 .species .stats .field .col-6 {

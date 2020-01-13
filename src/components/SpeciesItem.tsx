@@ -81,7 +81,7 @@ export default (species: Species) => {
 							</Col>
 						</Col>
 					</Row>
-					<Row>
+					<Row className="skills">
 						<Col className="field">
 							<label>Starting Skills</label>
 							<span>{species.startSkills}</span>

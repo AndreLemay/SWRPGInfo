@@ -7213,6 +7213,51 @@
 			"strain": 9,
 			"startSkills": "Begin with 1 rank in Charm or Negotiation",
 			"specialAbilities": "When making ranged combat or Perception checks, remove up to 2 Setback imposed due to environmental conditions or concealment (but not defense)."
+		},
+		{
+			"name": "Falleen",
+			"description": "The Falleen are alluring reptilian humanoids with skin of supple scales in tones ranging from deep green to a dull gray-green hue. However, Falleen can temporarily change their skin color at will to shades of orange or red when they exude potent pheromones to attract mates. The scales of their lithe, contoured physiques stiffen along their backs, where sharp ridges run down their spines. Female Falleen exhibit muted skin tones and less defined spinal ridges compared to males, and their ability to modify their skin pigmentation is less pronounce.",
+			"brawn": 1,
+			"agility": 2,
+			"intellect": 2,
+			"cunning": 2,
+			"willpower": 2,
+			"presence": 3,
+			"startXP": 90,
+			"wounds": 10,
+			"strain": 12,
+			"startSkills": "Begin with 1 rank in Charm.",
+			"specialAbilities": "Once per check as an incidental, may suffer 2 strain to upgrade the ability of a Charm, Deception, or Negotiation check against a living sentient being within short range once. No effect on targets wearing breath masks or lacking respiratory systems."
+		},
+		{
+			"name": "Gotal",
+			"description": "Gotals are tall, burly humanoids that evolved as hunter-gatherer tribes on the harsh plains of Antar 4. A coarse, dense layer of fur covers these rugged bipeds in shades ranging from sandy brown to smoky gray. Tiny vestigial nostrils, a pair of beady red eyes, and a wide grimace adorn their gristly, elongated faces. From their heavily knobbed brow sprouts a pair of conical bovid horns packed with millions of nerve clusters sensistive to electromagnetic fields, radio waves, and numerous other forms of energy. Gotals use their energy detecting horns as their primary sensory organs, since the peculiar conditions of their moon make it difficult to function by sight alone.",
+			"brawn": 2,
+			"agility": 2,
+			"intellect": 2,
+			"cunning": 3,
+			"willpower": 2,
+			"presence": 1,
+			"startXP": 100,
+			"wounds": 9,
+			"strain": 8,
+			"startSkills": "Begin with 1 rank in Perception.",
+			"specialAbilities": "Once per encounter as a maneuver, may sense the presence and current emotional states of all living things within short range."
+		},
+		{
+			"name": "Quarren",
+			"description": "The Quarren are a sinewy, humanoid species descended from cephalopods, with triangular heads and four tentacles protruding from their faces. A trio of sharp fangs lines their tiny mounths and works in concert with their prehensile face tentacles to communicate and feed. Above the cluster of tentacles is a pair of luminous blue or turquoise eyes that other species find intense. This unusual appearance has led to members of many other species referring ot them by the derogatory term \"squid-faces\"",
+			"brawn": 2,
+			"agility": 2,
+			"intellect": 1,
+			"cunning": 2,
+			"willpower": 3,
+			"presence": 2,
+			"startXP": 95,
+			"wounds": 10,
+			"strain": 8,
+			"startSkills": "Begin with 1 rank in Negotiation.",
+			"specialAbilities": "Can breathe underwater without penalty and never suffer movement penalties for traveling through water. Once per encounter, as an out-of-turn incidental, may suffer 2 strain to add 1 Setback to a combat check by by a character within short range (under water, it adds 3 Setback instead)."
 		}
 	]
 }

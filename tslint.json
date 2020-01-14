@@ -44,6 +44,12 @@
 		"no-irregular-whitespace": true,
 		"no-magic-numbers": false,
 		"no-parameter-reassignment": true,
+		"no-shadowed-variable": [
+			true,
+			{
+				"underscore": false
+			}
+		],
 		"no-trailing-whitespace": true,
 		"no-unnecessary-initializer": true,
 		"no-unused-expression": true,

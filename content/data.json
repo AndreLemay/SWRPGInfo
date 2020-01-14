@@ -7123,6 +7123,51 @@
 			"strain": 8,
 			"startSkills": "Begin game with 1 rank in Brawl.",
 			"specialAbilities": "When any wounds have been suffered, deal +1 damage with Brawl and Melee attacks. When Critically Injured, instead deal +2 damage with Brawl and Melee attacks."
+		},
+		{
+			"name": "Chiss",
+			"description": "Near-humans with dark-blue skin and glowing red eyes, the Chiss tend ot run to the tall side of the human body type. Their skin color and eyes grow more intense the greater concentration of oxygen they are in. On average, Chiss tend to be more physically fit and overall more attractive than regular humans, assuming one is not thrown off by the skin and eyes. Their hair is universally jet black, save for the silvering found in those of advanced age.",
+			"brawn": 2,
+			"agility": 2,
+			"intellect": 3,
+			"cunning": 2,
+			"willpower": 2,
+			"presence": 1,
+			"startXP": 100,
+			"wounds": 10,
+			"strain": 10,
+			"startSkills": "Begin with 1 rank in Cool.",
+			"specialAbilities": "Can see in both infrared and visual spectrums: remove up to 1 Setback added to checks by lighting conditions."
+		},
+		{
+			"name": "Duro",
+			"description": "Descended from reptiles, Duros are bipedal humanoids with large red eyes; smooth blue-green skin; long fingers; bald, bulbous heads; and tiny slits below the eyes that proide their olfactory sense. Their young hatch as larvae from eggs laid by the females, but they are raised in a recognizable family unit. Duros aren't particularly brawny, but they possess sharp minds and keen intellects. Both males and females are bald, but other characteristics distinguish the sexes.",
+			"brawn": 1,
+			"agility": 2,
+			"intellect": 3,
+			"cunning": 2,
+			"willpower": 2,
+			"presence": 2,
+			"startXP": 110,
+			"wounds": 11,
+			"strain": 10,
+			"startSkills": "Begin with 1 rank in Piloting (Space).",
+			"specialAbilities": "May add 1 Advantage to all Astrogation checks they make."
+		},
+		{
+			"name": "Toydarian",
+			"description": "Toydarians have smallish, squat bodies that perpetually hover over the ground, thanks to a pair of wings on their back and an abundance of natural gasses absorbed into their frames. Stubby protruding snouts dominate their craggy faces, and their spindly arms and legs end with three fingers and three toes, respectively. One of their most interesting physical features has to do with their brains; they are completely immune to any manipulations via the Force.",
+			"brawn": 1,
+			"agility": 1,
+			"intellect": 2,
+			"cunning": 2,
+			"willpower": 3,
+			"presence": 3,
+			"startXP": 90,
+			"wounds": 9,
+			"strain": 12,
+			"startSkills": "None",
+			"specialAbilities": "Smaller than average and count as silhouette 0. Wings allow them to hover slightly off the ground. When hovering, do not have to spend additional maneuvers when navigating difficult terrain."
 		}
 	]
 }

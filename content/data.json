@@ -7318,6 +7318,66 @@
 			"strain": 9,
 			"startSkills": "Begin with 1 rank in Coordination and 1 rank in Perception thanks to Cybernetic implants and specialized lenses. This set of cybernetics counts as 1 implant against the character's implant limit.",
 			"specialAbilities": "Add 2 Setback to Coercion checks targeting Tognath characters. Must wear a specialized mask or breathing apparatus to breath outside native atmosphere. Start the game with a breath mask and treat oxygen as a corrosive atmosphere with rating 5. Can survive in vacuum for up to 5 minutes before suffering its effects."
+		},
+		{
+			"name": "Hutt",
+			"description": "As they age, Hutts continue to grow larger and, if wealthy and powerful, more corpulent. Since Hutts can live for over one thousand years, the oldest and most powerful Hutts are very massive indeed. Even a comparatively toung and vigorous Hutt has a flexible, muscular torso some two or three meters in length, topped by a broad head with two enormous eyes and a cavernous mouth. Compared to the rest of their bodies, Hutt arms seem stuggy and short, although they are still powerful in their own right.",
+			"brawn": 3,
+			"agility": 1,
+			"intellect": 2,
+			"cunning": 2,
+			"willpower": 3,
+			"presence": 2,
+			"startXP": 70,
+			"wounds": 13,
+			"strain": 11,
+			"startSkills": "Begin with 1 rank in Coercion or Discipline, 1 rank in the Enduring talent, and 1 rank in the Nobody's Fool talent.",
+			"specialAbilities": "Can never spend moe than 1 maneuver moving per turn."
+		},
+		{
+			"name": "Gank",
+			"description": "Beneath their armor and cybernetics, Ganks are powerfully built, carnivorous bipeds with fur ranging in color from golden yellow to a mix of dark brown to red. Their snarling visages and bady eyes give them a dangerous, predatory appearance. Aggressive and belligerent, Ganks are known to have short tempers and few scruples, though they are strongly protective of their own kind. Cybernetics are such an important element of Gank society that they are virtually a part of their physiology, with every Gank having a least a few different implants or proshtetics.",
+			"brawn": 2,
+			"agility": 2,
+			"intellect": 2,
+			"cunning": 2,
+			"willpower": 2,
+			"presence": 1,
+			"startXP": 110,
+			"wounds": 10,
+			"strain": 10,
+			"startSkills": "Begin with 1 rank in Coercion or Vigilance.",
+			"specialAbilities": "All Ganks are cyborgs; begin with up to 2 sybernetics that cost a total of up to 5000 credits. Additional credits recieved by taking on additional Obligation during character creation can be spent on top of this 5000 to purchase cybernetics. Cybernetic implant cap is 3 + Brawn."
+		},
+		{
+			"name": "Nikto",
+			"description": "Reptilian humanoids with tough, leathery skin and standing roughly the height of an average human, the Niktos are a product of their harsh environment. Bombarded for thousands of yeras by gamma radiation from a nearby magnetar star known as M'dweshuu, life on Kintan has had to adapt rapidly or face extinction. The frequency of mutation among the Niktos has sped up their evolutoin, altering their genome thousands of times faster than would otherwise be the case. The Niktos are capable of only very limited facial expression due to their lack of well-developed mimetic musculature, and their eyes are protected by a thin, transparent membrane. Their  seemingly blank expressions and unblinking stares often cause others to underestimate their intelligence.",
+			"brawn": 3,
+			"agility": 2,
+			"intellect": 2,
+			"cunning": 2,
+			"willpower": 2,
+			"presence": 1,
+			"startXP": 100,
+			"wounds": 11,
+			"strain": 10,
+			"startSkills": "Each subspecies has its own starting skills and special abilities, see Lords of Nal Hutta p.97-98",
+			"specialAbilities": ""
+		},
+		{
+			"name": "Sakiyan",
+			"description": "Though superficially similar to humans, Sakiyans are a distinct species, having evolved along convergent lines but possessing various notable features. Most visibly, Sakiyans have enlarged bifurcated craniums, lack any hair, and have pointed ears. Their skin is highly reflective, like burnished metal, and varies in color from jet black and dark grey to varying shades of red, blue, and purple. Pale-skinned and albino Sakiyans exist as well. Nearly twice the size of the average human brain, the highly evolved brains of the Sakiyans are able to process impressive amounts of sensory information. As such, Sakiyans have extraordinary sense: they are able to see int othe infrared spectrium and possess truly exceptional hearing and smell. Some Sakiyan hunters are said to track their prey by smell alone.",
+			"brawn": 2,
+			"agility": 2,
+			"intellect": 3,
+			"cunning": 2,
+			"willpower": 2,
+			"presence": 2,
+			"startXP": 80,
+			"wounds": 8,
+			"strain": 10,
+			"startSkills": "Begin with 1 rank in Perception or Vigilance, and 1 rank in Expert Tracker talent.",
+			"specialAbilities": ""
 		}
 	]
 }

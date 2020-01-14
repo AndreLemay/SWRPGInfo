@@ -7140,7 +7140,7 @@
 			"specialAbilities": "Can see in both infrared and visual spectrums: remove up to 1 Setback added to checks by lighting conditions."
 		},
 		{
-			"name": "Duro",
+			"name": "Duros",
 			"description": "Descended from reptiles, Duros are bipedal humanoids with large red eyes; smooth blue-green skin; long fingers; bald, bulbous heads; and tiny slits below the eyes that proide their olfactory sense. Their young hatch as larvae from eggs laid by the females, but they are raised in a recognizable family unit. Duros aren't particularly brawny, but they possess sharp minds and keen intellects. Both males and females are bald, but other characteristics distinguish the sexes.",
 			"brawn": 1,
 			"agility": 2,
@@ -7275,7 +7275,7 @@
 			"specialAbilities": "When making a Leadership or Coercion check, can spend 2 Advantage to affect 1 additional character not originally targeted by the check or affect targets at one range band further than normal."
 		},
 		{
-			"name": "Gigorans",
+			"name": "Gigoran",
 			"description": "Well over 2 meters of sinew and fur each, Gigorans are often mistaken for Wookiees or wampas. Their long, flowing hair is typically a pale shade of white, cream, gold, or even blue. Their long torso and arms are at odds with their relatively short, stumpy legs. Nevertheless, their limbs are thick and powerful, ending in massive paws. The hair atop their head often grows long, sometimes obscuring their dark eyes, and it tends to come in blackish streaks.",
 			"brawn": 3,
 			"agility": 2,

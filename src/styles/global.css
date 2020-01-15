@@ -218,3 +218,10 @@ cells end up with the same size as the characteristic ones*/
 .species .field label {
 	font-weight: bold;
 }
+
+/*Need to recreate nav-link styles because Gatsby's link sucks ass and won't pass a className down*/
+.navbar .navbar-nav .nav-item > a {
+	color: rgba(255, 255, 255, .5);
+	display: block;
+	padding: .5rem;
+}

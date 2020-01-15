@@ -1,7 +1,8 @@
 import * as React from 'react'
 import * as Data from '../../content/data.json'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
-import { navigate } from 'gatsby'
+import { Link } from 'gatsby'
+import { Specialization, Career } from '../lib/types.js'
 
 export default _ => {
 	return (
@@ -9,52 +10,30 @@ export default _ => {
 			<Navbar.Toggle aria-controls="nav" />
 			<Navbar.Collapse id="nav">
 				<Nav>
-					<Nav.Link
-						eventKey="1"
-						onSelect={_ => {
-							return navigate('/')
-						}}>
-						Home
-					</Nav.Link>
+					<Nav.Item>
+						<Link to="/">Home</Link>
+					</Nav.Item>
 					<NavDropdown title="Careers" id="dropdown-careers">
-						{Data.careers.map((c, ind) => {
+						{Data.careers.map((c: Career, ind) => {
 							return (
-								<NavDropdown.Item
-									key={ind}
-									onSelect={(key, evt) => {
-										return navigate(`/Career/${c.name}`)
-									}}>
-									{c.name}
+								<NavDropdown.Item key={ind}>
+									<Link to={`/Career/${c.name}`}>{c.name}</Link>
 								</NavDropdown.Item>
 							)
 						})}
 					</NavDropdown>
 					<NavDropdown title="Universal Specializations" id="dropdown-universal">
-						{Data.universalSpecializations.map((s, ind) => {
+						{Data.universalSpecializations.map((s: Specialization, ind) => {
 							return (
-								<NavDropdown.Item
-									key={ind}
-									onSelect={(key, evt) => {
-										return navigate(`/Specialization/${s.name}`)
-									}}>
-									{s.name}
+								<NavDropdown.Item key={ind}>
+									<Link to={`/Specialization/${s.name}`}>{s.name}</Link>
 								</NavDropdown.Item>
 							)
 						})}
 					</NavDropdown>
-					<NavDropdown title="Species" id="dropdown-species">
-						{Data.species.map((s, ind) => {
-							return (
-								<NavDropdown.Item
-									key={ind}
-									onSelect={(key, evt) => {
-										return navigate(`/Species/${s.name}`)
-									}}>
-									{s.name}
-								</NavDropdown.Item>
-							)
-						})}
-					</NavDropdown>
+					<Nav.Item>
+						<Link to="/SpeciesList">Species</Link>
+					</Nav.Item>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>

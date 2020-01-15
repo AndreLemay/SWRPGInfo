@@ -19,6 +19,11 @@ export default (species: Species) => {
 							<span className="desc">{species.description}</span>
 						</Col>
 					</Row>
+				</Col>
+				<Col xs={6}>
+					<Image className="image" src={imgSrc} />
+				</Col>
+				<Col lg={6}>
 					<Row className="stats">
 						<Col xs={2} className="field">
 							<label>Brawn</label>
@@ -58,7 +63,7 @@ export default (species: Species) => {
 						</Col>
 						<Col xs={4} className="field">
 							<label>Starting XP</label>
-							<Col xs={{span: 6, offset: 3}}>
+							<Col xs={{ span: 6, offset: 3 }}>
 								<div className="circle">
 									<span>{species.startXP}</span>
 								</div>
@@ -66,7 +71,7 @@ export default (species: Species) => {
 						</Col>
 						<Col xs={4} className="field">
 							<label>Wound Threshold</label>
-							<Col xs={{span: 6, offset: 3}}>
+							<Col xs={{ span: 6, offset: 3 }}>
 								<div className="circle">
 									<span>{species.wounds}</span>
 								</div>
@@ -74,7 +79,7 @@ export default (species: Species) => {
 						</Col>
 						<Col xs={4} className="field">
 							<label>Strain Threshold</label>
-							<Col xs={{span: 6, offset: 3}}>
+							<Col xs={{ span: 6, offset: 3 }}>
 								<div className="circle">
 									<span>{species.strain}</span>
 								</div>
@@ -95,9 +100,6 @@ export default (species: Species) => {
 							</Col>
 						</Row>
 					)}
-				</Col>
-				<Col xs={6}>
-					<Image className="image" src={imgSrc} />
 				</Col>
 			</Row>
 		</Container>

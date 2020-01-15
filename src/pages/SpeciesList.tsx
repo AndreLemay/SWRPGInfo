@@ -1,6 +1,14 @@
 import * as React from 'react'
 import * as Data from '../../content/data.json'
-import { Container, Row, Col, Table } from 'react-bootstrap'
+import {
+	Container,
+	Row,
+	Col,
+	Table,
+	OverlayTrigger,
+	Tooltip,
+	Image
+} from 'react-bootstrap'
 import Layout from '../components/Layout'
 import { Link } from 'gatsby'
 import { Species } from '../lib/types'
@@ -30,10 +38,20 @@ export default () => {
 							</thead>
 							<tbody>
 								{Data.species.map((s: Species, ind) => {
+									let imgSrc = require(`../../content/img/${s.name.toLowerCase()}.jpg`)
+
 									return (
 										<tr key={ind}>
 											<td>
-												<Link to={`/Species/${s.name}`}>{s.name}</Link>
+												<OverlayTrigger
+													placement="right"
+													overlay={
+														<Tooltip id={`tooltip-${s.name}`}>
+															<Image className="popupImg" src={imgSrc} fluid />
+														</Tooltip>
+													}>
+													<Link to={`/Species/${s.name}`}>{s.name}</Link>
+												</OverlayTrigger>
 											</td>
 											<td>{s.brawn}</td>
 											<td>{s.agility}</td>

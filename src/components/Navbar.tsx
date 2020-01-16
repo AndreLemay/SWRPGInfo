@@ -6,7 +6,7 @@ import { Specialization, Career } from '../lib/types.js'
 
 export default _ => {
 	return (
-		<Navbar bg="dark" variant="dark" expand="lg">
+		<Navbar bg="dark" variant="dark" expand="lg" fixed="top">
 			<Navbar.Toggle aria-controls="nav" />
 			<Navbar.Collapse id="nav">
 				<Nav>

@@ -9,6 +9,7 @@ html, body, #___gatsby, #gatsby-focus-wrapper, .mainBody {
 
 .container-fluid,
 .logo {
+	padding-top: 66px; /*Offset fixed navbar*/
 	margin-bottom: 10px;
 	flex: 1;
 }

@@ -37,31 +37,42 @@ export default () => {
 								</tr>
 							</thead>
 							<tbody>
-								{Data.species.map((s: Species, ind) => {
-									let imgSrc = require(`../../content/img/${s.name.toLowerCase()}.jpg`)
+								{Data.species
+									.sort((a: Species, b: Species) => {
+										let aName = a.name.toLowerCase()
+										let bName = b.name.toLowerCase()
 
-									return (
-										<tr key={ind}>
-											<td>
-												<OverlayTrigger
-													placement="right"
-													overlay={
-														<Tooltip id={`tooltip-${s.name}`}>
-															<Image className="popupImg" src={imgSrc} fluid />
-														</Tooltip>
-													}>
-													<Link to={`/Species/${s.name}`}>{s.name}</Link>
-												</OverlayTrigger>
-											</td>
-											<td>{s.brawn}</td>
-											<td>{s.agility}</td>
-											<td>{s.intellect}</td>
-											<td>{s.cunning}</td>
-											<td>{s.willpower}</td>
-											<td>{s.presence}</td>
-										</tr>
-									)
-								})}
+										if (aName < bName) {
+											return -1
+										} else if (aName > bName) {
+											return 1
+										} else return 0
+									})
+									.map((s: Species, ind) => {
+										let imgSrc = require(`../../content/img/${s.name.toLowerCase()}.jpg`)
+
+										return (
+											<tr key={ind}>
+												<td>
+													<OverlayTrigger
+														placement="right"
+														overlay={
+															<Tooltip id={`tooltip-${s.name}`}>
+																<Image className="popupImg" src={imgSrc} fluid />
+															</Tooltip>
+														}>
+														<Link to={`/Species/${s.name}`}>{s.name}</Link>
+													</OverlayTrigger>
+												</td>
+												<td>{s.brawn}</td>
+												<td>{s.agility}</td>
+												<td>{s.intellect}</td>
+												<td>{s.cunning}</td>
+												<td>{s.willpower}</td>
+												<td>{s.presence}</td>
+											</tr>
+										)
+									})}
 							</tbody>
 						</Table>
 					</Col>

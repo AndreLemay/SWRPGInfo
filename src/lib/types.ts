@@ -37,3 +37,32 @@ export interface Species {
 	startSkills: string
 	specialAbilities: string
 }
+
+export enum WeaponCategory {
+	Energy,
+	Slugthrower,
+	Thrown,
+	Explosive,
+	Other,
+	MicroRocket,
+	Missile,
+	Grenade,
+	Arrow,
+	Melee
+}
+
+export interface Weapon {
+	name: string
+	category: WeaponCategory
+	skill: string
+	damage: number
+	crit: number
+	range: string
+	encumbrance: number
+	hardPoints: number
+	price: number
+	rarity: number
+	qualities: string
+	special: string
+	restricted: boolean
+}

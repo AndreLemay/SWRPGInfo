@@ -8129,5 +8129,37 @@
 			"startSkills": "Begin with 1 rank in Cool or Discipline.",
 			"specialAbilities": "When recovering wounds naturally, heal 1 extra wound per full night's rest. May attempt to recover naturally from one Critical Injury after a full night's rest, instead of after a full week. If no other Phydolons are present, when recovering strain at the end of an encounter, recover 1 less strain (to a minimum of 1)."
 		}
+	],
+	"weapons": [
+		{
+			"name": "Czerka 411 Holdout Blaster",
+			"category": 0,
+			"skill": "Ranged (Light)",
+			"damage": 4,
+			"crit": 4,
+			"range": "Medium",
+			"encumbrance": 1,
+			"hardPoints": 1,
+			"price": 350,
+			"restricted": true,
+			"rarity": 5,
+			"qualities": "Stun setting",
+			"special": ""
+		},
+		{
+			"name": "Liquidsilver L7 Light Blaster Pistol",
+			"category": 0,
+			"skill": "Ranged (Light)",
+			"damage": 6,
+			"crit": 5,
+			"range": "Medium",
+			"encumbrance": 1,
+			"hardPoints": 1,
+			"price": 425,
+			"restricted": false,
+			"rarity": 4,
+			"qualities": "Stun setting",
+			"special": "Add 2 Setback to Perception checks attempting to find this blaster on a ship."
+		}
 	]
 }

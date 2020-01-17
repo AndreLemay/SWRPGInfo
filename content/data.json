@@ -9904,7 +9904,7 @@
 				"special": "Character hit must make a hard Resilience check or be immobilized until end of encounter"
 			},
 			{
-				"name": "Anti-Armor",
+				"name": "Anti-Armor Rocket",
 				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 8,
@@ -9919,7 +9919,7 @@
 				"special": "Can be rigged to fire without a launcher using a Mechanics check, with difficulty upgraded once. Rockets have several custom attachments, see No Disintegrations sourcebook"
 			},
 			{
-				"name": "Explosive",
+				"name": "Explosive Rocket",
 				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 7,
@@ -9933,7 +9933,7 @@
 				"qualities": "Blast 6, Limited Ammo 1"
 			},
 			{
-				"name": "Flechette",
+				"name": "Flechette Rocket",
 				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 6,
@@ -9947,7 +9947,7 @@
 				"qualities": "Blast 5, Vicious 2, Limited Ammo 1"
 			},
 			{
-				"name": "Incendiary",
+				"name": "Incendiary Rocket",
 				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 6,
@@ -9961,7 +9961,7 @@
 				"qualities": "Blast 6, Burn 2, Limited Ammo 1"
 			},
 			{
-				"name": "Ion",
+				"name": "Ion Rocket",
 				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 10,
@@ -9975,7 +9975,7 @@
 				"qualities": "Ion, Sunder, Limited Ammo 1"
 			},
 			{
-				"name": "Concussion",
+				"name": "Concussion Missile",
 				"category": 5,
 				"skill": "Gunnery",
 				"damage": 14,
@@ -9988,7 +9988,7 @@
 				"special": "Disorient affects all characters at short range of target, whether hit or not"
 			},
 			{
-				"name": "Fragmentation",
+				"name": "Fragmentation Missile",
 				"category": 5,
 				"skill": "Gunnery",
 				"damage": 12,
@@ -10000,7 +10000,7 @@
 				"qualities": "Blast 12, Guided 3"
 			},
 			{
-				"name": "Plasma",
+				"name": "Plasma Missile",
 				"category": 5,
 				"skill": "Gunnery",
 				"damage": 16,
@@ -10012,7 +10012,7 @@
 				"qualities": "Blast 14, Cumbersome 3, Inaccurate 1, Pierce 2"
 			},
 			{
-				"name": "Incendiary",
+				"name": "Incendiary Missile",
 				"category": 5,
 				"skill": "Gunnery",
 				"damage": 10,
@@ -10228,7 +10228,7 @@
 				"qualities": "Blast 4, Stun Damage, Concussive 1, Limited Ammo 1"
 			},
 			{
-				"name": "Wipe-3 Dat a-Purge Grenade",
+				"name": "Wipe-3 Data-Purge Grenade",
 				"category": 6,
 				"skill": "Ranged (Light)",
 				"damage": "NA",

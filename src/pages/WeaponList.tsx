@@ -9,65 +9,63 @@ export default () => {
 	return (
 		<Layout>
 			<Container fluid>
-				<Row>
-					<Col>
-						<DataTable
-							title="Weapons"
-							bordered
-							cols={[
-								{
-									label: 'Name',
-									field: 'name',
-									sortable: true
-								},
-								{
-									label: 'Skill',
-									field: 'skill',
-									sortable: true
-								},
-								{
-									label: 'Damage',
-									field: 'damage',
-									sortable: true
-								},
-								{
-									label: 'Crit',
-									field: 'crit',
-									sortable: true
-								},
-								{
-									label: 'Encumbrance',
-									field: 'encumbrance',
-									sortable: true
-								},
-								{
-									label: 'Hard Points',
-									field: 'hardPoints',
-									sortable: true
-								},
-								{
-									label: 'Price',
-									field: 'price',
-									sortable: true
-								},
-								{
-									label: 'Rarity',
-									field: 'rarity',
-									sortable: true
-								},
-								{
-									label: 'Qualities',
-									field: 'qualities'
-								},
-								{
-									label: 'Special',
-									field: 'special'
-								}
-							]}
-							data={Data.weapons}
-						/>
-
-						{/* <Table bordered>
+				<DataTable
+					title="Weapons"
+					bordered
+					cols={[
+						{
+							label: 'Name',
+							field: 'name',
+							sortable: true
+						},
+						{
+							label: 'Skill',
+							field: 'skill',
+							sortable: true
+						},
+						{
+							label: 'Damage',
+							field: 'damage',
+							sortable: true
+						},
+						{
+							label: 'Crit',
+							field: 'crit',
+							sortable: true
+						},
+						{
+							label: 'Encumbrance',
+							field: 'encumbrance',
+							sortable: true
+						},
+						{
+							label: 'Hard Points',
+							field: 'hardPoints',
+							sortable: true
+						},
+						{
+							label: 'Price',
+							field: 'price',
+							sortable: true
+						},
+						{
+							label: 'Rarity',
+							field: 'rarity',
+							sortable: true
+						},
+						{
+							label: 'Qualities',
+							field: 'qualities'
+						},
+						{
+							label: 'Special',
+							field: 'special'
+						}
+					]}
+					data={Data.weapons}
+				/>
+			</Container>
+			{/* <Table bordered>
 							<thead>
 								<tr>
 									<th>Name</th>
@@ -103,9 +101,6 @@ export default () => {
 								})}
 							</tbody>
 						</Table> */}
-					</Col>
-				</Row>
-			</Container>
 		</Layout>
 	)
 }

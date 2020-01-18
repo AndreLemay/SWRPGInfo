@@ -245,8 +245,7 @@ cells end up with the same size as the characteristic ones*/
 .datatable-table {
 	flex: 1;
 	overflow: auto;
-	overflow-x: hidden;
-	
+	min-width: 1300px;
 }
 
 .datatable-table .table {

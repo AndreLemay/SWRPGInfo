@@ -12,7 +12,8 @@ interface DataTableProps {
 		left?: boolean
 		right?: boolean
 	}>
-	data: object[]
+	data: any[]
+	rowStyle: (row: any) => any
 	bordered?: boolean
 }
 
@@ -85,7 +86,7 @@ class DataTable extends React.Component<DataTableProps> {
 								})
 								.map((d, ind) => {
 									return (
-										<tr key={ind}>
+										<tr key={ind} style={this.props.rowStyle ? this.props.rowStyle(d) : {}}>
 											{cols.map((c, ind2) => {
 												return (
 													<td

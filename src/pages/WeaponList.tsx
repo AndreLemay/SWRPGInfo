@@ -26,32 +26,38 @@ export default () => {
 						{
 							label: 'Damage',
 							field: 'damage',
-							sortable: true
+							sortable: true,
+							center: true
 						},
 						{
 							label: 'Crit',
 							field: 'crit',
-							sortable: true
+							sortable: true,
+							center: true
 						},
 						{
 							label: 'Encumbrance',
 							field: 'encumbrance',
-							sortable: true
+							sortable: true,
+							center: true
 						},
 						{
 							label: 'Hard Points',
 							field: 'hardPoints',
-							sortable: true
+							sortable: true,
+							center: true
 						},
 						{
 							label: 'Price',
 							field: 'price',
-							sortable: true
+							sortable: true,
+							center: true
 						},
 						{
 							label: 'Rarity',
 							field: 'rarity',
-							sortable: true
+							sortable: true,
+							center: true
 						},
 						{
 							label: 'Qualities',

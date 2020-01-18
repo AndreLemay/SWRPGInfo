@@ -8,6 +8,9 @@ interface DataTableProps {
 		field: string
 		width?: number
 		sortable?: boolean
+		center?: boolean
+		left?: boolean
+		right?: boolean
 	}>
 	data: object[]
 	bordered?: boolean
@@ -84,7 +87,15 @@ class DataTable extends React.Component<DataTableProps> {
 									return (
 										<tr key={ind}>
 											{cols.map((c, ind2) => {
-												return <td key={ind2}>{d[c.field]}</td>
+												return (
+													<td
+														key={ind2}
+														className={`${c.left ? 'text-left' : ''} ${
+															c.center ? 'text-center' : ''
+														} ${c.right ? 'text-right' : ''}`}>
+														{d[c.field]}
+													</td>
+												)
 											})}
 										</tr>
 									)

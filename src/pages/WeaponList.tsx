@@ -3,17 +3,71 @@ import * as Data from '../../content/data.json'
 import Layout from '../components/Layout'
 import { Container, Row, Col, Table } from 'react-bootstrap'
 import { WeaponCategory } from '../lib/types'
+import DataTable from '../components/DataTable'
 
 export default () => {
 	return (
 		<Layout>
 			<Container fluid>
 				<Row>
-					<Col>Weapons</Col>
-				</Row>
-				<Row>
 					<Col>
-						<Table bordered>
+						<DataTable
+							title="Weapons"
+							bordered
+							cols={[
+								{
+									label: 'Name',
+									field: 'name',
+									sortable: true
+								},
+								{
+									label: 'Skill',
+									field: 'skill',
+									sortable: true
+								},
+								{
+									label: 'Damage',
+									field: 'damage',
+									sortable: true
+								},
+								{
+									label: 'Crit',
+									field: 'crit',
+									sortable: true
+								},
+								{
+									label: 'Encumbrance',
+									field: 'encumbrance',
+									sortable: true
+								},
+								{
+									label: 'Hard Points',
+									field: 'hardPoints',
+									sortable: true
+								},
+								{
+									label: 'Price',
+									field: 'price',
+									sortable: true
+								},
+								{
+									label: 'Rarity',
+									field: 'rarity',
+									sortable: true
+								},
+								{
+									label: 'Qualities',
+									field: 'qualities'
+								},
+								{
+									label: 'Special',
+									field: 'special'
+								}
+							]}
+							data={Data.weapons}
+						/>
+
+						{/* <Table bordered>
 							<thead>
 								<tr>
 									<th>Name</th>
@@ -48,7 +102,7 @@ export default () => {
 									)
 								})}
 							</tbody>
-						</Table>
+						</Table> */}
 					</Col>
 				</Row>
 			</Container>

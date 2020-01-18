@@ -226,3 +226,32 @@ cells end up with the same size as the characteristic ones*/
 	display: block;
 	padding: .5rem;
 }
+
+/*Datatable styles*/
+.datatable-table {
+	height: 500px;
+	overflow: auto;
+}
+
+.datatable-table .table {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}
+
+.datatable-table .table > thead > tr > th {
+	position: sticky;
+	top: 0;
+	background: white;
+	z-index: 1;
+	box-shadow: 0 1px 0 0 #dee2e6;
+	border-left: 1px solid #dee2e6;
+	border-right: 1px solid #dee2e6;
+	border-top: 0;
+}
+
+.datatable-table .table > thead > tr > th:first-child,
+.datatable-table .table > thead > tr > th:last-child {
+	border-left: 0;
+	border-right: 0;
+}

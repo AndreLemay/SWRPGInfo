@@ -9571,7 +9571,7 @@
 			},
 			{
 				"name": "Flame Projector",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 8,
 				"crit": 2,
@@ -9601,7 +9601,7 @@
 			},
 			{
 				"name": "SSB-1 Static Pistol",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Light)",
 				"damage": 2,
 				"crit": 4,
@@ -9615,7 +9615,7 @@
 			},
 			{
 				"name": "CryoBan Projector",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 6,
 				"crit": 2,
@@ -9630,7 +9630,7 @@
 			},
 			{
 				"name": "R-88 Suppressor Riot Rifle",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 8,
 				"crit": "-",
@@ -9645,7 +9645,7 @@
 			},
 			{
 				"name": "Stokhli Spray Stick",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 0,
 				"crit": "-",
@@ -9660,7 +9660,7 @@
 			},
 			{
 				"name": "Tangle Gun 7",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 1,
 				"crit": 4,
@@ -9674,7 +9674,7 @@
 			},
 			{
 				"name": "CZ-28 Flamestrike",
-				"category": 3,
+				"category": 4,
 				"skill": "Gunnery",
 				"damage": 9,
 				"crit": 2,
@@ -9733,7 +9733,7 @@
 			},
 			{
 				"name": "L70 Acid Projector",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 6,
 				"crit": 2,
@@ -9748,7 +9748,7 @@
 			},
 			{
 				"name": "Corellian Compound Bow",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 5,
 				"crit": 5,
@@ -9763,7 +9763,7 @@
 			},
 			{
 				"name": "Styanax Lance",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 8,
 				"crit": 3,
@@ -9777,7 +9777,7 @@
 			},
 			{
 				"name": "\"Firecaller\" Light Flame Projector",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Light)",
 				"damage": 5,
 				"crit": 2,
@@ -9791,7 +9791,7 @@
 			},
 			{
 				"name": "Grapnel-Harpoon Launcher",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Light)",
 				"damage": 3,
 				"crit": 5,
@@ -9806,7 +9806,7 @@
 			},
 			{
 				"name": "\"Impact\" Repulsor Cannon",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 3,
 				"crit": 6,
@@ -9834,7 +9834,7 @@
 			},
 			{
 				"name": "Net Gun",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 3,
 				"crit": "-",
@@ -9891,7 +9891,7 @@
 			},
 			{
 				"name": "LJ-50 Concussion Rifle",
-				"category": 3,
+				"category": 4,
 				"skill": "Ranged (Heavy)",
 				"damage": 10,
 				"crit": 2,
@@ -9920,7 +9920,7 @@
 			},
 			{
 				"name": "Anti-Armor Rocket",
-				"category": 4,
+				"category": 5,
 				"skill": "Ranged (Heavy)",
 				"damage": 8,
 				"crit": 4,
@@ -9935,7 +9935,7 @@
 			},
 			{
 				"name": "Explosive Rocket",
-				"category": 4,
+				"category": 5,
 				"skill": "Ranged (Heavy)",
 				"damage": 7,
 				"crit": 2,
@@ -9949,7 +9949,7 @@
 			},
 			{
 				"name": "Flechette Rocket",
-				"category": 4,
+				"category": 5,
 				"skill": "Ranged (Heavy)",
 				"damage": 6,
 				"crit": 2,
@@ -9963,7 +9963,7 @@
 			},
 			{
 				"name": "Incendiary Rocket",
-				"category": 4,
+				"category": 5,
 				"skill": "Ranged (Heavy)",
 				"damage": 6,
 				"crit": 3,
@@ -9977,7 +9977,7 @@
 			},
 			{
 				"name": "Ion Rocket",
-				"category": 4,
+				"category": 5,
 				"skill": "Ranged (Heavy)",
 				"damage": 10,
 				"crit": 3,
@@ -9991,7 +9991,7 @@
 			},
 			{
 				"name": "Concussion Missile",
-				"category": 5,
+				"category": 6,
 				"skill": "Gunnery",
 				"damage": 14,
 				"crit": 5,
@@ -10006,7 +10006,7 @@
 			},
 			{
 				"name": "Fragmentation Missile",
-				"category": 5,
+				"category": 6,
 				"skill": "Gunnery",
 				"damage": 12,
 				"crit": 4,
@@ -10020,7 +10020,7 @@
 			},
 			{
 				"name": "Plasma Missile",
-				"category": 5,
+				"category": 6,
 				"skill": "Gunnery",
 				"damage": 16,
 				"crit": 3,
@@ -10034,7 +10034,7 @@
 			},
 			{
 				"name": "Incendiary Missile",
-				"category": 5,
+				"category": 6,
 				"skill": "Gunnery",
 				"damage": 10,
 				"crit": 3,
@@ -10048,7 +10048,7 @@
 			},
 			{
 				"name": "Frag Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": 8,
 				"crit": 4,
@@ -10063,7 +10063,7 @@
 			},
 			{
 				"name": "Stun Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": 8,
 				"crit": "-",
@@ -10078,7 +10078,7 @@
 			},
 			{
 				"name": "Thermal Detonator",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": 20,
 				"crit": 2,
@@ -10093,7 +10093,7 @@
 			},
 			{
 				"name": "Knockout Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": 12,
 				"crit": "-",
@@ -10108,7 +10108,7 @@
 			},
 			{
 				"name": "Inferno Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": 8,
 				"crit": 3,
@@ -10122,7 +10122,7 @@
 			},
 			{
 				"name": "Concussion Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": 10,
 				"crit": 5,
@@ -10137,7 +10137,7 @@
 			},
 			{
 				"name": "Ion Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": 10,
 				"crit": 5,
@@ -10151,7 +10151,7 @@
 			},
 			{
 				"name": "Plasma Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": 12,
 				"crit": 3,
@@ -10165,7 +10165,7 @@
 			},
 			{
 				"name": "Heavy Frag Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": 9,
 				"crit": 4,
@@ -10179,7 +10179,7 @@
 			},
 			{
 				"name": "Poison Gas Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": "-",
 				"crit": "-",
@@ -10194,7 +10194,7 @@
 			},
 			{
 				"name": "Glop Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": "-",
 				"crit": "-",
@@ -10209,7 +10209,7 @@
 			},
 			{
 				"name": "Armor-Piercing Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": 13,
 				"crit": 3,
@@ -10224,7 +10224,7 @@
 			},
 			{
 				"name": "Shaped Thermal Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": 20,
 				"crit": 2,
@@ -10238,7 +10238,7 @@
 			},
 			{
 				"name": "N-4 Noise Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": 4,
 				"crit": 6,
@@ -10252,7 +10252,7 @@
 			},
 			{
 				"name": "Wipe-3 Data-Purge Grenade",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": "NA",
 				"crit": "-",
@@ -10267,7 +10267,7 @@
 			},
 			{
 				"name": "HIC \"Mercy\" Grenades",
-				"category": 6,
+				"category": 7,
 				"skill": "Ranged (Light)",
 				"damage": 5,
 				"crit": "-",
@@ -10282,7 +10282,7 @@
 			},
 			{
 				"name": "Explosive Tipped Arrows",
-				"category": 7,
+				"category": 8,
 				"skill": "Ranged (Heavy)",
 				"damage": 6,
 				"crit": 3,
@@ -10296,7 +10296,7 @@
 			},
 			{
 				"name": "Stun Arrows",
-				"category": 7,
+				"category": 8,
 				"skill": "Ranged (Heavy)",
 				"damage": 6,
 				"crit": "-",
@@ -10310,7 +10310,7 @@
 			},
 			{
 				"name": "Brass Knuckles",
-				"category": 8,
+				"category": 9,
 				"skill": "Brawl",
 				"damage": 1,
 				"crit": 4,
@@ -10325,7 +10325,7 @@
 			},
 			{
 				"name": "Shock Gloves",
-				"category": 8,
+				"category": 9,
 				"skill": "Brawl",
 				"damage": 0,
 				"crit": 5,
@@ -10339,7 +10339,7 @@
 			},
 			{
 				"name": "Shock Boots",
-				"category": 8,
+				"category": 9,
 				"skill": "Brawl",
 				"damage": 0,
 				"crit": 5,
@@ -10354,7 +10354,7 @@
 			},
 			{
 				"name": "Backhand Shock Gloves",
-				"category": 8,
+				"category": 9,
 				"skill": "Brawl",
 				"damage": 1,
 				"crit": 3,
@@ -10368,7 +10368,7 @@
 			},
 			{
 				"name": "Blast Knuckles",
-				"category": 8,
+				"category": 9,
 				"skill": "Brawl",
 				"damage": 4,
 				"crit": 4,
@@ -10383,7 +10383,7 @@
 			},
 			{
 				"name": "S-1 Vamblade",
-				"category": 8,
+				"category": 9,
 				"skill": "Brawl",
 				"damage": 1,
 				"crit": 3,
@@ -10398,7 +10398,7 @@
 			},
 			{
 				"name": "Vibroknuckles",
-				"category": 8,
+				"category": 9,
 				"skill": "Brawl",
 				"damage": 1,
 				"crit": 2,
@@ -10413,7 +10413,7 @@
 			},
 			{
 				"name": "Needle Gloves",
-				"category": 8,
+				"category": 9,
 				"skill": "Brawl",
 				"damage": 0,
 				"crit": 5,
@@ -10427,7 +10427,7 @@
 			},
 			{
 				"name": "Combat Knife",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 1,
 				"crit": 3,
@@ -10440,7 +10440,7 @@
 			},
 			{
 				"name": "Gaffi Stick",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 3,
@@ -10455,7 +10455,7 @@
 			},
 			{
 				"name": "Force Pike",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 3,
 				"crit": 2,
@@ -10470,7 +10470,7 @@
 			},
 			{
 				"name": "Truncheon",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 5,
@@ -10485,7 +10485,7 @@
 			},
 			{
 				"name": "Vibro-axe",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 3,
 				"crit": 2,
@@ -10499,7 +10499,7 @@
 			},
 			{
 				"name": "Vibroknife",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 1,
 				"crit": 2,
@@ -10513,7 +10513,7 @@
 			},
 			{
 				"name": "Vibrosword",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 2,
@@ -10527,7 +10527,7 @@
 			},
 			{
 				"name": "Punch Dagger",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 1,
 				"crit": 3,
@@ -10542,7 +10542,7 @@
 			},
 			{
 				"name": "Vibrorapier",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 2,
@@ -10556,7 +10556,7 @@
 			},
 			{
 				"name": "Blade-Breaker",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 0,
 				"crit": 4,
@@ -10570,7 +10570,7 @@
 			},
 			{
 				"name": "Activv1 Riot Shield",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 0,
 				"crit": 6,
@@ -10585,7 +10585,7 @@
 			},
 			{
 				"name": "Thunderbolt Shock Prod",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 5,
 				"crit": 3,
@@ -10599,7 +10599,7 @@
 			},
 			{
 				"name": "MSW-9 Molecular Stiletto",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 0,
 				"crit": 2,
@@ -10614,7 +10614,7 @@
 			},
 			{
 				"name": "Z2 Stun Baton",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 6,
@@ -10628,7 +10628,7 @@
 			},
 			{
 				"name": "Ryyk Blade",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 2,
@@ -10642,7 +10642,7 @@
 			},
 			{
 				"name": "Model 7 Therm-Ax",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 3,
@@ -10657,7 +10657,7 @@
 			},
 			{
 				"name": "\"Czerhander\" VX Vibro-Greatsword",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 3,
 				"crit": 2,
@@ -10672,7 +10672,7 @@
 			},
 			{
 				"name": "Arg'Garok",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 5,
 				"crit": 3,
@@ -10687,7 +10687,7 @@
 			},
 			{
 				"name": "Beastmaster's Vibro-Glaive",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 2,
@@ -10702,7 +10702,7 @@
 			},
 			{
 				"name": "Morgukai Cortosis Staff",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 8,
 				"crit": 1,
@@ -10717,7 +10717,7 @@
 			},
 			{
 				"name": "Neuronic Whip",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 1,
 				"crit": 4,
@@ -10731,7 +10731,7 @@
 			},
 			{
 				"name": "Tuskbeast Pike",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 4,
 				"crit": 3,
@@ -10746,7 +10746,7 @@
 			},
 			{
 				"name": "Corellian Cutlass",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 3,
@@ -10760,7 +10760,7 @@
 			},
 			{
 				"name": "J-7b Beamdrill",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 9,
 				"crit": 2,
@@ -10775,7 +10775,7 @@
 			},
 			{
 				"name": "Drall Flashstick",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": "-",
@@ -10790,7 +10790,7 @@
 			},
 			{
 				"name": "Selonian Glaive",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 3,
 				"crit": 3,
@@ -10804,7 +10804,7 @@
 			},
 			{
 				"name": "Electromag-Pulse Disruptor",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 5,
 				"crit": 4,
@@ -10819,7 +10819,7 @@
 			},
 			{
 				"name": "\"Peacekeeper\" Stun Baton",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 4,
@@ -10833,7 +10833,7 @@
 			},
 			{
 				"name": "Ion Pike",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 10,
 				"crit": 3,
@@ -10848,7 +10848,7 @@
 			},
 			{
 				"name": "G9-GP Pulse Drill",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 5,
 				"crit": 4,
@@ -10862,7 +10862,7 @@
 			},
 			{
 				"name": "Laserhone Huntsman Vibrospear",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 3,
 				"crit": 3,
@@ -10877,7 +10877,7 @@
 			},
 			{
 				"name": "Mk. III Vibrosaw",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 4,
 				"crit": 2,
@@ -10892,7 +10892,7 @@
 			},
 			{
 				"name": "aKraB Clip-point Vibrodagger",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 1,
 				"crit": 2,
@@ -10906,7 +10906,7 @@
 			},
 			{
 				"name": "Kyuzo War Shield",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 1,
 				"crit": 4,
@@ -10921,7 +10921,7 @@
 			},
 			{
 				"name": "Shistavanen Combat Utility Vibroblade",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 1,
 				"crit": 2,
@@ -10936,7 +10936,7 @@
 			},
 			{
 				"name": "Longeing Whip",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 1,
 				"crit": 5,
@@ -10950,7 +10950,7 @@
 			},
 			{
 				"name": "\"Persuader\" Animal Shock Prod",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 4,
@@ -10965,7 +10965,7 @@
 			},
 			{
 				"name": "Ceremonial Blade",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 3,
@@ -10980,7 +10980,7 @@
 			},
 			{
 				"name": "Staff of Office",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 4,
@@ -10995,7 +10995,7 @@
 			},
 			{
 				"name": "Stealth Vibroknife",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 1,
 				"crit": 2,
@@ -11010,7 +11010,7 @@
 			},
 			{
 				"name": "Sword Cane",
-				"category": 8,
+				"category": 9,
 				"skill": "Melee",
 				"damage": 2,
 				"crit": 3,

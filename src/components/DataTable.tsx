@@ -16,6 +16,10 @@ interface DataTableProps {
 	rowStyle: (row: any) => any
 	bordered?: boolean
 	sort?: Sort
+	groups?: {
+		groupByField: string
+		groupLabels: Array<[any, string]>
+	}
 }
 
 interface Sort {
@@ -42,8 +46,40 @@ class DataTable extends React.Component<DataTableProps> {
 		})
 	}
 
+	sortFunc = (a, b) => {
+		if (!this.state.sort) return -1
+
+		let aVal = (a[this.state.sort.field] || '').toString()
+		let bVal = (b[this.state.sort.field] || '').toString()
+		let comp = aVal.localeCompare(bVal, 'en', {
+			sensitivity: 'accent',
+			ignorePunctuation: true,
+			numeric: true
+		})
+
+		return this.state.sort.dir === 'ASC' ? comp * -1 : comp
+	}
+
 	render() {
-		let { title, cols, data, bordered } = this.props
+		let { title, cols, data, bordered, rowStyle, groups } = this.props
+		let groupedAndSorted = []
+
+		if (groups) {
+			let grouped = data.reduce((g, i) => {
+				(g[i[groups.groupByField]] = g[i[groups.groupByField]] || []).push(i)
+
+				return g
+			}, {})
+
+			Object.keys(grouped).forEach(k => {
+				let groupLabel = groups.groupLabels.find(x => x[0].toString() === k.toString())[1]
+				groupedAndSorted.push({ groupLabel })
+				groupedAndSorted.push(...grouped[k].sort(this.sortFunc))
+			})
+		} else {
+			groupedAndSorted.push(data)
+			groupedAndSorted.sort(this.sortFunc)
+		}
 
 		return (
 			<div className="datatable-container">
@@ -76,35 +112,27 @@ class DataTable extends React.Component<DataTableProps> {
 							</tr>
 						</thead>
 						<tbody>
-							{data
-								.sort((a, b) => {
-									if (!this.state.sort) return -1
-
-									let aVal = (a[this.state.sort.field] || '').toString()
-									let bVal = (b[this.state.sort.field] || '').toString()
-									let comp = aVal.localeCompare(bVal, 'en', { sensitivity: 'accent', ignorePunctuation: true, numeric: true})
-
-									return this.state.sort.dir === 'ASC' ? comp * -1 : comp
-								})
-								.map((d, ind) => {
-									return (
-										<tr
-											key={ind}
-											style={this.props.rowStyle ? this.props.rowStyle(d) : {}}>
-											{cols.map((c, ind2) => {
-												return (
-													<td
-														key={ind2}
-														className={`${c.left ? 'text-left' : ''} ${
-															c.center ? 'text-center' : ''
-														} ${c.right ? 'text-right' : ''}`}>
-														{d[c.field]}
-													</td>
-												)
-											})}
-										</tr>
-									)
-								})}
+							{groupedAndSorted.map((d, ind) => {
+								return d.groupLabel ? (
+									<tr className="groupLabel" key={ind}>
+										<td colSpan={cols.length}>{d.groupLabel}</td>
+									</tr>
+								) : (
+									<tr key={ind} style={rowStyle ? rowStyle(d) : {}}>
+										{cols.map((c, ind2) => {
+											return (
+												<td
+													key={ind2}
+													className={`${c.left ? 'text-left' : ''} ${
+														c.center ? 'text-center' : ''
+													} ${c.right ? 'text-right' : ''}`}>
+													{d[c.field]}
+												</td>
+											)
+										})}
+									</tr>
+								)
+							})}
 						</tbody>
 					</Table>
 				</div>

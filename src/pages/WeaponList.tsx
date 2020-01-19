@@ -70,6 +70,21 @@ export default () => {
 					]}
 					data={Data.weapons}
 					sort={{ field: 'name', dir: 'ASC' }}
+					groups={{
+						groupByField: 'category',
+						groupLabels: [
+							[WeaponCategory.Arrow, 'Arrows'],
+							[WeaponCategory.Energy, 'Energy Weapons'],
+							[WeaponCategory.Explosive, 'Explosives'],
+							[WeaponCategory.Grenade, 'Grenades'],
+							[WeaponCategory.Melee, 'Melee Weapons'],
+							[WeaponCategory.MicroRocket, 'Micro-Rockets'],
+							[WeaponCategory.Missile, 'Missiles'],
+							[WeaponCategory.Other, 'Other Weapons'],
+							[WeaponCategory.Slugthrower, 'Slugthrowers'],
+							[WeaponCategory.Thrown, 'Thrown Weapons']
+						]
+					}}
 					rowStyle={(row: Weapon) => {
 						return row.restricted
 							? {

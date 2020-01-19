@@ -1,4 +1,8 @@
-html, body, #___gatsby, #gatsby-focus-wrapper, .mainBody {
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper,
+.mainBody {
 	height: 100%;
 }
 
@@ -12,7 +16,7 @@ html, body, #___gatsby, #gatsby-focus-wrapper, .mainBody {
 	padding-top: 66px; /*Offset fixed navbar*/
 	padding-bottom: 10px;
 	flex: 1;
-	height: 100%
+	height: 100%;
 }
 
 .navbar {
@@ -27,7 +31,7 @@ html, body, #___gatsby, #gatsby-focus-wrapper, .mainBody {
 
 .card .text,
 .card.talents .body > *:first-child {
-	padding: 10px
+	padding: 10px;
 }
 
 .card.careerSkills .body > *:first-child {
@@ -70,7 +74,7 @@ html, body, #___gatsby, #gatsby-focus-wrapper, .mainBody {
 	content: '';
 }
 
-.talents > .body .left {	
+.talents > .body .left {
 	left: -15px;
 	top: 50%;
 	height: 5px;
@@ -84,14 +88,14 @@ html, body, #___gatsby, #gatsby-focus-wrapper, .mainBody {
 	width: 30px;
 }
 
-.talents > .body .top {	
+.talents > .body .top {
 	left: 50%;
 	top: -50px;
 	height: 50px;
 	width: 5px;
 }
 
-.talents > .body .bottom {	
+.talents > .body .bottom {
 	left: 50%;
 	top: 100%;
 	height: 50px;
@@ -134,7 +138,7 @@ html, body, #___gatsby, #gatsby-focus-wrapper, .mainBody {
 }
 
 .talent > .header {
-	background-color: #5E110F;
+	background-color: #5e110f;
 	color: white;
 }
 
@@ -153,7 +157,7 @@ html, body, #___gatsby, #gatsby-focus-wrapper, .mainBody {
 }
 
 .species .info .desc {
-	flex: 1
+	flex: 1;
 }
 
 .species .image {
@@ -223,9 +227,9 @@ cells end up with the same size as the characteristic ones*/
 
 /*Need to recreate nav-link styles because Gatsby's link sucks ass and won't pass a className down*/
 .navbar .navbar-nav .nav-item > a {
-	color: rgba(255, 255, 255, .5);
+	color: rgba(255, 255, 255, 0.5);
 	display: block;
-	padding: .5rem;
+	padding: 0.5rem;
 }
 
 /*Datatable styles*/
@@ -270,4 +274,28 @@ cells end up with the same size as the characteristic ones*/
 .datatable-table .table > thead > tr > th:last-child {
 	border-left: 0;
 	border-right: 0;
+}
+
+.datatable-table .table > thead > tr > th.arrow-up:after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid black;
+	position: relative;
+	top: -15px;
+	left: 5px;
+}
+
+.datatable-table .table > thead > tr > th.arrow-down:after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid black;
+	position: relative;
+	top: 15px;
+	left: 5px;
 }

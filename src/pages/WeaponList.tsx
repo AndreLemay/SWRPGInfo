@@ -69,11 +69,14 @@ export default () => {
 						}
 					]}
 					data={Data.weapons}
+					sort={{ field: 'name', dir: 'ASC' }}
 					rowStyle={(row: Weapon) => {
-						return row.restricted ? {
-							background: 'red',
-							color: 'white'
-						} : {}
+						return row.restricted
+							? {
+									background: 'red',
+									color: 'white'
+							  }
+							: {}
 					}}
 				/>
 			</Container>

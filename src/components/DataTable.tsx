@@ -15,17 +15,20 @@ interface DataTableProps {
 	data: any[]
 	rowStyle: (row: any) => any
 	bordered?: boolean
+	sort?: Sort
+}
+
+interface Sort {
+	field: string
+	dir: string
 }
 
 interface DataTableState {
-	sort: {
-		field: string
-		dir: string
-	}
+	sort: Sort
 }
 
 class DataTable extends React.Component<DataTableProps> {
-	state = { sort: null }
+	state = { sort: this.props.sort }
 
 	setSort = field => {
 		this.setState((prevState: DataTableState) => {
@@ -55,9 +58,11 @@ class DataTable extends React.Component<DataTableProps> {
 									return (
 										<th
 											key={ind}
-											className={this.state.sort
-												&& this.state.sort.field === c.field
-												&& (this.state.sort.dir === 'ASC' ? 'arrow-up' : 'arrow-down')}
+											className={
+												this.state.sort &&
+												this.state.sort.field === c.field &&
+												(this.state.sort.dir === 'ASC' ? 'arrow-up' : 'arrow-down')
+											}
 											onClick={_ => {
 												if (c.sortable) this.setSort(c.field)
 											}}
@@ -75,21 +80,17 @@ class DataTable extends React.Component<DataTableProps> {
 								.sort((a, b) => {
 									if (!this.state.sort) return -1
 
-									if (a[this.state.sort.field] === b[this.state.sort.field]) {
-										return 0
-									} else {
-										return a[this.state.sort.field] < b[this.state.sort.field]
-											? this.state.sort.dir === 'ASC'
-												? -1
-												: 1
-											: this.state.sort.dir === 'ASC'
-											? 1
-											: -1
-									}
+									let aVal = (a[this.state.sort.field] || '').toString()
+									let bVal = (b[this.state.sort.field] || '').toString()
+									let comp = aVal.localeCompare(bVal, 'en', { sensitivity: 'accent', ignorePunctuation: true, numeric: true})
+
+									return this.state.sort.dir === 'ASC' ? comp * -1 : comp
 								})
 								.map((d, ind) => {
 									return (
-										<tr key={ind} style={this.props.rowStyle ? this.props.rowStyle(d) : {}}>
+										<tr
+											key={ind}
+											style={this.props.rowStyle ? this.props.rowStyle(d) : {}}>
 											{cols.map((c, ind2) => {
 												return (
 													<td

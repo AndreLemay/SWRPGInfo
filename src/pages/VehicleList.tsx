@@ -3,7 +3,7 @@ import * as Data from '../../content/data.json'
 import Layout from '../components/Layout'
 import { Container } from 'react-bootstrap'
 import DataTable from '../components/DataTable'
-import { VehicleType } from '../lib/types'
+import { VehicleType, Vehicle } from '../lib/types'
 
 export default () => {
 	return (

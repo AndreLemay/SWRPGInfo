@@ -187,3 +187,14 @@ export interface Ship {
 	weapons: string
 	special: string
 }
+
+export interface ShipMod {
+	name: string
+	price: string
+	restricted: boolean
+	rarity: number
+	hardPoints: number
+	appliesTo: string
+	description: string
+	modificationOptions: string
+}

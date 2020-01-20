@@ -17875,5 +17875,476 @@
 			"rarity": 5,
 			"hardPoints": 4
 		}
+	],
+	"shipMods": [
+		{
+			"name": "Advanced Targeting Array",
+			"price": 4000,
+			"restricted": false,
+			"rarity": 4,
+			"hardPoints": 1,
+			"appliesTo": "Any",
+			"description": "Upgrade Gunnery checks by 1",
+			"modificationOptions": "1x Additional upgrade, 1x Innate Talent (Sniper Shot), 1x Innate Talent (True Aim)"
+		},
+		{
+			"name": "Enhanced Carbon-Durasteel Armor",
+			"price": "2000 x Silhouette",
+			"restricted": false,
+			"rarity": 3,
+			"hardPoints": 2,
+			"appliesTo": "Any",
+			"description": "+1 Armor, -1 Handling"
+		},
+		{
+			"name": "Electronic Countermeasures",
+			"price": 3000,
+			"restricted": false,
+			"rarity": 6,
+			"hardPoints": 1,
+			"appliesTo": "Any",
+			"description": "-1 Silhouette to ships within range. All ship in system (or within 100km planetside) immediately notified of existence",
+			"modificationOptions": "1x Difficulty +1 vs subsequent attacks with Guided quality"
+		},
+		{
+			"name": "High Output Ion Turbine",
+			"price": 5300,
+			"restricted": false,
+			"rarity": 5,
+			"hardPoints": 1,
+			"appliesTo": "Any airspeeder or starship",
+			"description": "+1 speed, -1 system strain"
+		},
+		{
+			"name": "Hydraulic Control Circuits",
+			"price": 1000,
+			"restricted": false,
+			"rarity": 7,
+			"hardPoints": 2,
+			"appliesTo": "Non-fighter starships",
+			"description": "Half damage form ion weapons (after soak reduction), -1 handling, -1 system strain",
+			"modificationOptions": "1x Defender chooses component affected by ion weapon, 1x System Strain +1"
+		},
+		{
+			"name": "Hyperdrive Generator",
+			"price": 6400,
+			"restricted": false,
+			"rarity": 4,
+			"hardPoints": 1,
+			"appliesTo": "Any ship with hyperdrive",
+			"description": "-1 Hyperdrive class",
+			"modificationOptions": "2x -1 hyperdrive class"
+		},
+		{
+			"name": "Reinforced Shield Generator",
+			"price": 3800,
+			"restricted": false,
+			"rarity": 5,
+			"hardPoints": 2,
+			"appliesTo": "Any",
+			"description": "+1 Defense to defense zone of choice",
+			"modificationOptions": "2x +1 Defense to defense zone of choice"
+		},
+		{
+			"name": "Retrofitted Hangar Bay",
+			"price": "5000 x Silhouette",
+			"restricted": false,
+			"rarity": 3,
+			"hardPoints": 2,
+			"appliesTo": "Silhouette 5 or higher",
+			"description": "Vehicle can carry vehicles no larger than 2 silhouette smaller. Silhouette 5 can carry combined Silhouette of 5, 6 carries combined 20, 7+ carries combined 60",
+			"modificationOptions": "5x Max Silhouette +1 "
+		},
+		{
+			"name": "Smuggling Compartment",
+			"price": "1200",
+			"restricted": true,
+			"rarity": 1,
+			"hardPoints": 1,
+			"appliesTo": "Any ship with encumbrance 25 or higher",
+			"description": "Store up to 25 encumbrance, counts towards total ship encumbrance. +2 difficulty to locate compartment",
+			"modificationOptions": "2x Additional Storage (25 encumbrance)"
+		},
+		{
+			"name": "Astrogation Droid Brain",
+			"price": 7500,
+			"restricted": false,
+			"rarity": 6,
+			"hardPoints": 0,
+			"appliesTo": "Starships, can't be installed with Autopilot Droid Brain",
+			"description": "Can perform astrogation checks as if having skill of 2 and intelligence of 0",
+			"modificationOptions": "2x Increase Brain Astrogation Skill +1"
+		},
+		{
+			"name": "Autopilot Droid Brain",
+			"price": 6000,
+			"restricted": false,
+			"rarity": 5,
+			"hardPoints": 0,
+			"appliesTo": "Starships, can't be installed with Astrogation Droid Brain",
+			"description": "Can perform any Pilot checks as if having skill of 2 and Agility of 0. Can call ship remotely",
+			"modificationOptions": "2x Increase Brain Pilot Skill +1"
+		},
+		{
+			"name": "Ax108 Surface Defense Blaster Cannon",
+			"price": 2000,
+			"restricted": false,
+			"rarity": 5,
+			"hardPoints": 1,
+			"appliesTo": "Starships",
+			"description": "Provides 1 Light Blaster Cannon that can fire automatically with a Ranged (Heavy) skill of 2 and Agility of 0. Can also be manually operated from the cockpit.",
+			"modificationOptions": "2x Increase Ranged (Heavy) Skill +1"
+		},
+		{
+			"name": "Cloacked Smuggling Compartments",
+			"price": "2200",
+			"restricted": true,
+			"rarity": 4,
+			"hardPoints": 1,
+			"appliesTo": "Same as Smuggling Compartments",
+			"description": "Same as Smuggling Compartments, but checks to locate are +3 difficulty",
+			"modificationOptions": "Same as Smuggling Compartment"
+		},
+		{
+			"name": "Interior Broadcast Suite",
+			"price": 800,
+			"restricted": false,
+			"rarity": 3,
+			"hardPoints": 1,
+			"appliesTo": "Non-fighter starships",
+			"description": "+1 Strain Threshold for all crewmembers while aboard"
+		},
+		{
+			"name": "Nightshadow Coating",
+			"price": "3500",
+			"restricted": true,
+			"rarity": 8,
+			"hardPoints": 1,
+			"appliesTo": "Starships",
+			"description": "Reduce range band of enemy passive sensors by 1",
+			"modificationOptions": "1x -1 Silhouette in combat"
+		},
+		{
+			"name": "Onboard Amenities Unit",
+			"price": 750,
+			"restricted": false,
+			"rarity": 3,
+			"hardPoints": 1,
+			"appliesTo": "Non-fighter starships",
+			"description": "Upgrade Charm, Deception, or Negotiation checks made by crewmembers on board once"
+		},
+		{
+			"name": "Rapid Cargo Evacuation Chute",
+			"price": "500",
+			"restricted": true,
+			"rarity": 3,
+			"hardPoints": 1,
+			"appliesTo": "Starships",
+			"description": "Can make average Mechanics check as an action while in cockpit or cargo hold to immediately dump all cargo.",
+			"modificationOptions": "1x Can dump without skill check"
+		},
+		{
+			"name": "Whisperthrust Engine",
+			"price": "7500",
+			"restricted": true,
+			"rarity": 7,
+			"hardPoints": 1,
+			"appliesTo": "Starships",
+			"description": "+2 difficulty to detect vessel while traveling at speed 3 or lower"
+		},
+		{
+			"name": "Arakyd Missile Pack",
+			"price": "10000",
+			"restricted": true,
+			"rarity": 5,
+			"hardPoints": 1,
+			"appliesTo": "Any of Silhouette 2 or more",
+			"description": "Becoms a weapon with a single facing arc, using profile of the loaded missile, having Limited Ammo 2. Reloading 1 requires 5 missiles. Adds 2 boost to all combat checks, each success adds 2 damage",
+			"modificationOptions": "1x Change fire arc to All"
+		},
+		{
+			"name": "Arakyd Mini-Pack",
+			"price": "7000",
+			"restricted": true,
+			"rarity": 5,
+			"hardPoints": 1,
+			"appliesTo": "Any of Silhouette 2",
+			"description": "Becomes a weapon with a single firing arc, using profile of the loaded missile, having Limited Ammo 2. Reloading 1 requires 5 missiles. Adds 2 boost to all combat checks, each success adds 2 damage",
+			"modificationOptions": "1x Change fire arc to All"
+		},
+		{
+			"name": "MM-XT Mini-Missile Tube",
+			"price": "700",
+			"restricted": true,
+			"rarity": 4,
+			"hardPoints": 1,
+			"appliesTo": "Non-starship of silhouette 2 or more",
+			"description": "Becomes a weapon with a single firing arc that can fire a single missile. Always has Limited Ammo 1",
+			"modificationOptions": "1x Change fire arc to All"
+		},
+		{
+			"name": "Oversized External Weapons Mount",
+			"price": "3000 x Silhouette",
+			"restricted": true,
+			"rarity": 6,
+			"hardPoints": 2,
+			"appliesTo": "Any",
+			"description": "Vehicle can mount a weapon intended for vehicles of 1 Silhouette larger. -1 Handling, -4 System Strain Threshold"
+		},
+		{
+			"name": "T9 Stinger Assault Boarding Tube",
+			"price": "1000 x Silhouette",
+			"restricted": true,
+			"rarity": 4,
+			"hardPoints": 3,
+			"appliesTo": "Silhouette 3 or higher",
+			"description": "May attempt to cut hole in docked craft's hull or airlock. 5 rounds to cut Silhouette 1 sized hole. Military/Armored crafty may take 2 to 3 times longer.",
+			"modificationOptions": "4x -1 round taken to cut"
+		},
+		{
+			"name": "Fogger Smoke Generator",
+			"price": 2750,
+			"restricted": false,
+			"rarity": 2,
+			"hardPoints": 1,
+			"appliesTo": "Non-starships",
+			"description": "Activate as incidental, creating smoke screen up to 10m in diameter, trailing behind vehicle. Adds 3 setback to attacks from rear. Smoke lasts until end of turn following deactivation."
+		},
+		{
+			"name": "Grappler 213 Tactical Tractor Beam",
+			"price": 6200,
+			"restricted": false,
+			"rarity": 7,
+			"hardPoints": 1,
+			"appliesTo": "Any",
+			"description": "Ranged Gunnery attack to fire, at close range. If it hits, pilot must use a maneuver to maintain a lock and continue following target. Target adds 2 setback to all Piloting checks and attacks, and suffers 1 system strain when performing Accelerate/Decelerate, Fly/Drive, or Punch It maneuvers."
+		},
+		{
+			"name": "All-Terrain Legs",
+			"price": "3000 x Silhouette",
+			"restricted": false,
+			"rarity": 5,
+			"hardPoints": 2,
+			"appliesTo": "Any airspeeder or starship that can land on a planet",
+			"description": "As a maneuver, pilot may shift the vehicle in or out of walker mode. While in walker mode, it operates as a walker, with max speed reduced to 2. Can only be employed in appropriate terrain.",
+			"modificationOptions": "2x Remove 1 setback from Pilot (Planetary) checks due to difficult terrain, 2x Remove 1 setback from Gunnery checks due to cover or terrain"
+		},
+		{
+			"name": "Amphibious Modification",
+			"price": "1000 x Silhouette",
+			"restricted": false,
+			"rarity": 5,
+			"hardPoints": 1,
+			"appliesTo": "Any that can enter an atmosphere",
+			"description": "Can operate underwater without penalty"
+		},
+		{
+			"name": "Decoy Buoy",
+			"price": "5000",
+			"restricted": true,
+			"rarity": 5,
+			"hardPoints": 0,
+			"appliesTo": "Any starship",
+			"description": "Can be jettisoned as an action. Appears to sensors to be a ship, and can be programmed with a specific transponder signal with a hard Computers check. Can be set to transmit a distress signal or other data. Requires hard Computers check to identify that it is not an actual ship.",
+			"modificationOptions": "2x Add 1 setback to Computers check to identify"
+		},
+		{
+			"name": "Encrypted Computer",
+			"price": 1000,
+			"restricted": false,
+			"rarity": 6,
+			"hardPoints": 0,
+			"appliesTo": "Any",
+			"description": "Upgrade difficulty of all Computers checks to slice ship's computer once",
+			"modificationOptions": "2x Add 1 setback ot Computers checks to slice computer"
+		},
+		{
+			"name": "Enhanced Repulsorlift",
+			"price": "1000 x Silhouette",
+			"restricted": false,
+			"rarity": 3,
+			"hardPoints": 1,
+			"appliesTo": "Any speeder",
+			"description": "+1 Speed, -1 Handling",
+			"modificationOptions": "1x Innate Talent (Defensive Driving)"
+		},
+		{
+			"name": "Enhanced Hyperspace Shields",
+			"price": 4000,
+			"restricted": false,
+			"rarity": 5,
+			"hardPoints": 1,
+			"appliesTo": "Any with hyperdrive",
+			"description": "Downgrade difficulty of Astrogation checks to navigate through hyperspace once",
+			"modificationOptions": "2x Remove 1 setback from Astrogation checks to navigate through hyperspace"
+		},
+		{
+			"name": "Gunner Droid Brain",
+			"price": 7000,
+			"restricted": false,
+			"rarity": 6,
+			"hardPoints": 0,
+			"appliesTo": "Any",
+			"description": "Brain can perform Gunnery checks with Gunnery 2 and Agility 0.",
+			"modificationOptions": "2x Brain Gunnery +1"
+		},
+		{
+			"name": "Laser Focusing Array",
+			"price": "3000 per weapon",
+			"restricted": false,
+			"rarity": 6,
+			"hardPoints": 2,
+			"appliesTo": "Any starship",
+			"description": "Add automatic 1 Advantage to combat checks with ship's laser cannons and turbolasers"
+		},
+		{
+			"name": "Overcharged Ion Engines",
+			"price": 9500,
+			"restricted": false,
+			"rarity": 4,
+			"hardPoints": 3,
+			"appliesTo": "Any starship of Silhouette 3 or lower",
+			"description": "+1 Speed, -1 Handling",
+			"modificationOptions": "1x Innate Talent (Short Cut), 1x Innate Talent (Tricky Target)"
+		},
+		{
+			"name": "Pseudo-Cloaking Device",
+			"price": "12000",
+			"restricted": true,
+			"rarity": 8,
+			"hardPoints": 1,
+			"appliesTo": "Any",
+			"description": "Increase difficulty of checks to detect with sensors by 2. Upgrade difficulty of combat checks against ship at Short or further once",
+			"modificationOptions": "2x Add 1 setback to combat checks against ship at Short or further"
+		},
+		{
+			"name": "Secondary Transponder",
+			"price": "20000",
+			"restricted": true,
+			"rarity": 7,
+			"hardPoints": 1,
+			"appliesTo": "Any starship",
+			"description": "Crew can switch to a secondary transponder with an action and an average Computers check. Requires Daunting Computers check to notice discrepancies indicating secondary transponder",
+			"modificationOptions": "1x Activate as a maneuver, 3x Add 1 additional identity"
+		},
+		{
+			"name": "Security Measures",
+			"price": "500 x Silhouette",
+			"restricted": false,
+			"rarity": 4,
+			"hardPoints": 0,
+			"appliesTo": "Any",
+			"description": "Upgrade difficulty of Computers and Skulduggery checks to gian unauthorized access twice",
+			"modificationOptions": "2x Add 1 setback to Computers and Skulduggery checks to gain unauthorized access"
+		},
+		{
+			"name": "Slicing Computer",
+			"price": 5000,
+			"restricted": false,
+			"rarity": 6,
+			"hardPoints": 1,
+			"appliesTo": "Any starship",
+			"description": "Counts as slicer gear that can be used by 1 passenger. Add 1 automatic Advantage to Computers checks made to slice enemy ship's systems",
+			"modificationOptions": "2x Innate Talent (Codebreak), 1x Innate Talent (Defensive Slicing)"
+		},
+		{
+			"name": "Containment Field",
+			"price": "7500",
+			"restricted": true,
+			"rarity": 2,
+			"hardPoints": 9,
+			"appliesTo": "Any vessel of Silhouette 4 or higher",
+			"description": "Can hold 1 Silhouette 1 creature. Individual held can't move, but can still hear/see/speak. Operator can inflict harm, triggering hard Resilience check, suffering 1 wound per failure on the check. Can spend 1 Threat to inflict 1 strain."
+		},
+		{
+			"name": "Enhanced Prisoner Lockup",
+			"price": 3500,
+			"restricted": false,
+			"rarity": 3,
+			"hardPoints": 7,
+			"appliesTo": "Any capable of carrying prisoners",
+			"description": "Provides full incarceration/security suite for up to 2 prisoners",
+			"modificationOptions": "4x Support for +1 prisoners"
+		},
+		{
+			"name": "Minelayer",
+			"price": "4000",
+			"restricted": true,
+			"rarity": 2,
+			"hardPoints": 6,
+			"appliesTo": "Any starship",
+			"description": "Ship can carry a number of mines equal to its Silhouette. As an action, pilot or gunner can make an Average Mechanics check to deploy 1 mine anywhere within close range.",
+			"modificationOptions": "1x Increase deployable range to medium, 3x Mine capacity +1"
+		},
+		{
+			"name": "Astromech Droid Socket",
+			"price": 3000,
+			"restricted": false,
+			"rarity": 5,
+			"hardPoints": 2,
+			"appliesTo": "Any Silhouette 3 or higher",
+			"description": "Can link to astromech droid, benefiting from everything they provide",
+			"modificationOptions": "1x Automated Droid Ejection System"
+		},
+		{
+			"name": "Gravity Mine Launcher",
+			"price": 3500,
+			"restricted": false,
+			"rarity": 6,
+			"hardPoints": 1,
+			"appliesTo": "Landspeedeers",
+			"description": "Operator can deploy a single mine anywhere on the ground within close range as an action. Mine attaches to any other ship/vehicle using repulsolifts that comes within close range. Piloting (Planetary) vehicles reduce speed by 1 per attached mine, Piloting (Space) ships reduce speed by 1 per 2 attached mines. Average Mechanics check to remove mine.",
+			"modificationOptions": "1x Increase range to Short"
+		},
+		{
+			"name": "Hardened Circuits",
+			"price": 4500,
+			"restricted": false,
+			"rarity": 5,
+			"hardPoints": 2,
+			"appliesTo": "Any",
+			"description": "+2 System Strain Threshold",
+			"modificationOptions": "2x System Strain Threshold +1"
+		},
+		{
+			"name": "Hull/Keel Reinforcements",
+			"price": "2500 x Silhouette",
+			"restricted": false,
+			"rarity": 4,
+			"hardPoints": 2,
+			"appliesTo": "Any",
+			"description": "+2 Hull Trauma Threshold",
+			"modificationOptions": "2x Hull Trauma Threshold +1"
+		},
+		{
+			"name": "Physical Countermeasures",
+			"price": 2200,
+			"restricted": false,
+			"rarity": 4,
+			"hardPoints": 1,
+			"appliesTo": "Any",
+			"description": "Add 1 setback to all Gunnery checks using missiles/rockets/torpedos against it. GM can use 2 Advantage or 1 Triumph on such checks to have system run out of ammo",
+			"modificationOptions": "1x Setback on checks +1, 1x Difficulty of Guided checks +1"
+		},
+		{
+			"name": "Ram Attachment",
+			"price": 6500,
+			"restricted": false,
+			"rarity": 3,
+			"hardPoints": 2,
+			"appliesTo": "Any",
+			"description": "Treat defense as 2 higher when instigating collision",
+			"modificationOptions": "2x Defense on collisions +1"
+		},
+		{
+			"name": "Slave Circuit",
+			"price": 10000,
+			"restricted": false,
+			"rarity": 2,
+			"hardPoints": 1,
+			"appliesTo": "Any",
+			"description": "Vehicle/Ship can be activated or deactivated/locked down remotely.",
+			"modificationOptions": "1x Can move to owner's location, 1x Can use weapons"
+		}
 	]
 }

@@ -157,3 +157,33 @@ export interface Vehicle {
 	hardPoints: number
 	weapons: string
 }
+
+export enum ShipType {
+	Starfighter,
+	Freighter
+}
+
+export interface Ship {
+	name: string
+	category: ShipType
+	silhouette: number
+	speed: number
+	handling: number
+	defense: string
+	armor: number
+	hull: number
+	systemStrain: number
+	sensorRange: string
+	hyperdrive: string
+	navicomputer: string
+	crew: string
+	encumbrance: string
+	passengers: string
+	consumable: string
+	price: number
+	restricted: boolean
+	rarity: number
+	hardPoints: number
+	weapons: string
+	special: string
+}

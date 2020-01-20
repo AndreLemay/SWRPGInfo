@@ -58,7 +58,7 @@ class DataTable extends React.Component<DataTableProps> {
 			numeric: true
 		})
 
-		return this.state.sort.dir === 'ASC' ? comp * -1 : comp
+		return this.state.sort.dir === 'ASC' ? comp : comp * -1
 	}
 
 	render() {
@@ -100,7 +100,7 @@ class DataTable extends React.Component<DataTableProps> {
 											className={
 												this.state.sort &&
 												this.state.sort.field === c.field &&
-												(this.state.sort.dir === 'ASC' ? 'arrow-up' : 'arrow-down')
+												(this.state.sort.dir === 'ASC' ? 'arrow-down' : 'arrow-up')
 											}
 											onClick={_ => {
 												if (c.sortable) this.setSort(c.field)

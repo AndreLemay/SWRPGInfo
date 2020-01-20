@@ -79,3 +79,14 @@ export interface Armor {
 	special: string
 }
 
+export interface Attachment {
+	name: string
+	bonuses: string
+	modificationOptions: string
+	appliesTo: string
+	category: string
+	price: number
+	restricted: boolean
+	hardPoints: number
+	rarity: number
+}

@@ -2,7 +2,7 @@ import * as React from 'react'
 import * as Data from '../../content/data.json'
 import Layout from '../components/Layout'
 import { Container } from 'react-bootstrap'
-import { WeaponCategory, Weapon } from '../lib/types'
+import { Armor } from '../lib/types'
 import DataTable from '../components/DataTable'
 
 export default () => {
@@ -61,7 +61,7 @@ export default () => {
 					]}
 					data={Data.armors}
 					sort={{ field: 'name', dir: 'ASC' }}
-					rowStyle={(row: Weapon) => {
+					rowStyle={(row: Armor) => {
 						return row.restricted
 							? {
 									background: 'red',

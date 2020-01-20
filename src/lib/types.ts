@@ -66,3 +66,16 @@ export interface Weapon {
 	special: string
 	restricted: boolean
 }
+
+export interface Armor {
+	name: string
+	defense: number
+	soak: number
+	price: number
+	restricted: boolean
+	encumbrance: number
+	hardPoints: number
+	rarity: number
+	special: string
+}
+

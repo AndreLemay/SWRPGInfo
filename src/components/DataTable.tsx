@@ -11,9 +11,10 @@ interface DataTableProps {
 		center?: boolean
 		left?: boolean
 		right?: boolean
+		render?: (data: any) => JSX.Element
 	}>
 	data: any[]
-	rowStyle: (row: any) => any
+	rowStyle?: (row: any) => any
 	bordered?: boolean
 	sort?: Sort
 	groups?: {
@@ -66,18 +67,20 @@ class DataTable extends React.Component<DataTableProps> {
 
 		if (groups) {
 			let grouped = data.reduce((g, i) => {
-				(g[i[groups.groupByField]] = g[i[groups.groupByField]] || []).push(i)
+				;(g[i[groups.groupByField]] = g[i[groups.groupByField]] || []).push(i)
 
 				return g
 			}, {})
 
 			Object.keys(grouped).forEach(k => {
-				let groupLabel = groups.groupLabels.find(x => x[0].toString() === k.toString())[1]
+				let groupLabel = groups.groupLabels.find(
+					x => x[0].toString() === k.toString()
+				)[1]
 				groupedAndSorted.push({ groupLabel })
 				groupedAndSorted.push(...grouped[k].sort(this.sortFunc))
 			})
 		} else {
-			groupedAndSorted.push(data)
+			groupedAndSorted.push(...data)
 			groupedAndSorted.sort(this.sortFunc)
 		}
 
@@ -126,7 +129,7 @@ class DataTable extends React.Component<DataTableProps> {
 													className={`${c.left ? 'text-left' : ''} ${
 														c.center ? 'text-center' : ''
 													} ${c.right ? 'text-right' : ''}`}>
-													{d[c.field]}
+													{c.render ? c.render(d) : d[c.field]}
 												</td>
 											)
 										})}

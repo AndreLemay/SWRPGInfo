@@ -37,7 +37,7 @@ export default () => {
 							center: true
 						},
 						{
-							label: 'Defense',
+							label: 'Defense (Fore/Port/Starboard/Aft)',
 							field: 'defense',
 							center: true
 						},
@@ -73,13 +73,13 @@ export default () => {
 							field: 'crew'
 						},
 						{
-							label: 'Encumbrance',
+							label: 'Encumbrance Capacity',
 							field: 'encumbrance',
 							sortable: true,
 							center: true
 						},
 						{
-							label: 'Passengers',
+							label: 'Passenger Capacity',
 							field: 'passengers',
 							sortable: true,
 							center: true

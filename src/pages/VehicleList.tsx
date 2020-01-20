@@ -122,6 +122,14 @@ export default () => {
 							[VehicleType.Walker, 'Walkers']
 						]
 					}}
+					rowStyle={(row: Vehicle) => {
+						return row.restricted
+							? {
+									background: 'red',
+									color: 'white'
+							  }
+							: {}
+					}}
 				/>
 			</Container>
 		</Layout>

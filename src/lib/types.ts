@@ -127,3 +127,33 @@ export interface ShipWeapon {
 	minSizeToMount: number
 	special: string
 }
+
+export enum VehicleType {
+	Airspeeder,
+	Landspeeder,
+	WheelTrack,
+	Walker
+}
+
+export interface Vehicle {
+	name: string
+	category: VehicleType
+	silhouette: number
+	speed: number
+	handling: number
+	defense: string
+	armor: number
+	hull: number
+	systemStrain: number
+	sensorRange: string
+	maxAltitude: string
+	crew: string
+	encumbrance: string
+	passengers: string
+	consumable: string
+	price: number
+	restricted: boolean
+	rarity: number
+	hardPoints: number
+	weapons: string
+}

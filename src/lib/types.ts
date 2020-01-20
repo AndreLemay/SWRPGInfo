@@ -115,3 +115,15 @@ export interface Gear {
 	rarity: number
 
 }
+
+export interface ShipWeapon {
+	name: string
+	category: string
+	range: string
+	damage: number
+	crit: number
+	price: number
+	rarity: number
+	minSizeToMount: number
+	special: string
+}

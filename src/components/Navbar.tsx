@@ -46,6 +46,9 @@ export default _ => {
 					<Nav.Item>
 						<Link to="/GearList">Gear</Link>
 					</Nav.Item>
+					<Nav.Item>
+						<Link to="/ShipWeaponList">Ship Weapons</Link>
+					</Nav.Item>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>

@@ -14382,5 +14382,277 @@
 			"encumbrance": 1,
 			"rarity": 7
 		}
+	],
+	"shipWeapons": [
+		{
+			"name": "Auto-Blaster",
+			"category": "energy",
+			"range": "Close",
+			"damage": 3,
+			"crit": 5,
+			"price": 3000,
+			"rarity": 3,
+			"minSizeToMount": 2,
+			"special": "Auto-fire"
+		},
+		{
+			"name": "Blaster Cannon (Light)",
+			"category": "energy",
+			"range": "Close",
+			"damage": 4,
+			"crit": 4,
+			"price": 4000,
+			"rarity": 2,
+			"minSizeToMount": 2
+		},
+		{
+			"name": "Blaster Cannon (Heavy)",
+			"category": "energy",
+			"range": "Close",
+			"damage": 5,
+			"crit": 4,
+			"price": 5000,
+			"rarity": 3,
+			"minSizeToMount": 3
+		},
+		{
+			"name": "Ion Cannon (Light)",
+			"category": "energy",
+			"range": "Close",
+			"damage": 5,
+			"crit": 4,
+			"price": 5000,
+			"rarity": 5,
+			"minSizeToMount": 3,
+			"special": "Ion"
+		},
+		{
+			"name": "Ion Cannon (Medium)",
+			"category": "energy",
+			"range": "Short",
+			"damage": 6,
+			"crit": 4,
+			"price": 6000,
+			"rarity": 6,
+			"minSizeToMount": 5,
+			"special": "Ion"
+		},
+		{
+			"name": "Ion Cannon (Heavy)",
+			"category": "energy",
+			"range": "Medium",
+			"damage": 7,
+			"crit": 4,
+			"price": 7500,
+			"rarity": 7,
+			"minSizeToMount": 6,
+			"special": "Slow-Firing 1, Ion"
+		},
+		{
+			"name": "Laser Cannon (Light)",
+			"category": "energy",
+			"range": "Close",
+			"damage": 5,
+			"crit": 3,
+			"price": 5500,
+			"rarity": 4,
+			"minSizeToMount": 3
+		},
+		{
+			"name": "Laser Cannon (Medium)",
+			"category": "energy",
+			"range": "Close",
+			"damage": 6,
+			"crit": 3,
+			"price": 7000,
+			"rarity": 4,
+			"minSizeToMount": 3
+		},
+		{
+			"name": "Laser Cannon (Heavy)",
+			"category": "energy",
+			"range": "Short",
+			"damage": 6,
+			"crit": 3,
+			"price": 7500,
+			"rarity": 5,
+			"minSizeToMount": 4
+		},
+		{
+			"name": "Quad Laser Cannon",
+			"category": "energy",
+			"range": "Close",
+			"damage": 5,
+			"crit": 3,
+			"price": 8000,
+			"rarity": 6,
+			"minSizeToMount": 4,
+			"special": "Accurate 1, Linked 3"
+		},
+		{
+			"name": "Tractor Beam (Light)",
+			"category": "energy",
+			"range": "Close",
+			"damage": "-",
+			"crit": "-",
+			"price": 6000,
+			"rarity": 4,
+			"minSizeToMount": 4,
+			"special": "Tractor 2"
+		},
+		{
+			"name": "Tractor Beam (Medium)",
+			"category": "energy",
+			"range": "Short",
+			"damage": "-",
+			"crit": "-",
+			"price": 8000,
+			"rarity": 5,
+			"minSizeToMount": 5,
+			"special": "Tractor 4"
+		},
+		{
+			"name": "Tractor Beam (Heavy)",
+			"category": "energy",
+			"range": "Short",
+			"damage": "-",
+			"crit": "-",
+			"price": 10000,
+			"rarity": 6,
+			"minSizeToMount": 5,
+			"special": "Tractor 6"
+		},
+		{
+			"name": "Turbolaser (Light)",
+			"category": "energy",
+			"range": "Medium",
+			"damage": 9,
+			"crit": 3,
+			"price": "(R) 12000",
+			"rarity": 7,
+			"minSizeToMount": 5,
+			"special": "Breach 2, Slow-Firing 1"
+		},
+		{
+			"name": "Turbolaser (Medium)",
+			"category": "energy",
+			"range": "Long",
+			"damage": 10,
+			"crit": 3,
+			"price": "(R) 15000",
+			"rarity": 7,
+			"minSizeToMount": 6,
+			"special": "Breach 3, Slow-Firing 1"
+		},
+		{
+			"name": "Turbolaser (Heavy)",
+			"category": "energy",
+			"range": "Long",
+			"damage": 11,
+			"crit": 3,
+			"price": "(R) 20000",
+			"rarity": 8,
+			"minSizeToMount": 6,
+			"special": "Breach 4, Slow-Firing 2"
+		},
+		{
+			"name": "Concussion Missile Launcher",
+			"category": "projectile",
+			"range": "Short",
+			"damage": 6,
+			"crit": 3,
+			"price": 7500,
+			"rarity": 5,
+			"minSizeToMount": 3,
+			"special": "Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+		},
+		{
+			"name": "Proton Torpedo Launcher",
+			"category": "projectile",
+			"range": "Short",
+			"damage": 8,
+			"crit": 2,
+			"price": "(R) 9000",
+			"rarity": 7,
+			"minSizeToMount": 3,
+			"special": "Blast 6, Breach  6, Guided 2, Limited Ammo 3, Slow-Firing 1"
+		},
+		{
+			"name": "Mass Driver Cannon",
+			"category": "projectile",
+			"range": "Short",
+			"damage": 7,
+			"crit": 3,
+			"price": "N/A",
+			"rarity": 8,
+			"minSizeToMount": 4,
+			"special": "Breach 2, Slow-Firing 1"
+		},
+		{
+			"name": "Concussion Missile (Mini)",
+			"category": "special",
+			"range": "Short",
+			"damage": 4,
+			"crit": 4,
+			"price": 400,
+			"rarity": 5,
+			"minSizeToMount": "-",
+			"special": "Blast 2, Breach 2, Guided 3, Slow-Firing 1"
+		},
+		{
+			"name": "Decoy",
+			"category": "special",
+			"range": "Short",
+			"damage": "-",
+			"crit": "-",
+			"price": 400,
+			"rarity": 6,
+			"minSizeToMount": "-",
+			"special": "Slow-Firing 1, Easy Computers check to fire. If successful, any Guided attacks against ship upgrade difficulty by 1 + 1 / 2 Advantage while decoy is active. Lasts 1 round per success. If a Guided weapon misses its target, but generates 3 Advantage or 1 Triumph, it hits the decoy, ending this effect."
+		},
+		{
+			"name": "Jammer",
+			"category": "special",
+			"range": "Short",
+			"damage": "-",
+			"crit": "-",
+			"price": 300,
+			"rarity": 6,
+			"minSizeToMount": "-",
+			"special": "Guided 4, Slow-Firing 1. On successful attack, missile follows target for 1 round per success. Adds 2 setback to target's Gunnery, Piloting, and Computers checks. Self destructs after 3 rounds. Can be shot down as vehicle of Silhouette 1, any damage destroys it."
+		},
+		{
+			"name": "Jammer (mini)",
+			"category": "special",
+			"range": "Close",
+			"damage": "-",
+			"crit": "-",
+			"price": 400,
+			"rarity": 6,
+			"minSizeToMount": "-",
+			"special": "Same as Jammer, but can be mounted to Silhouette 2 or 3 vehicles"
+		},
+		{
+			"name": "Unguided Rocket",
+			"category": "special",
+			"range": "Short",
+			"damage": 5,
+			"crit": 3,
+			"price": 300,
+			"rarity": 4,
+			"minSizeToMount": "-",
+			"special": "Blast 3, Breach 3, Slow-Firing 1. 1 Setbck to Gunnery check when using."
+		},
+		{
+			"name": "Unguided Rocket (mini)",
+			"category": "special",
+			"range": "Close ",
+			"damage": 3,
+			"crit": 4,
+			"price": 250,
+			"rarity": 4,
+			"minSizeToMount": "-",
+			"special": "Blast 1, Breach 2, Slow-Firing 1. 1 setback to Gunnery check when using. Can be mounted to Silhouette 2 or 3 vehicles."
+		}
 	]
 }

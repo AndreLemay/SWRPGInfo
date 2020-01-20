@@ -12386,5 +12386,2001 @@
 			"hardPoints": 1,
 			"rarity": 7
 		}
+	],
+	"gear": [
+		{
+			"name": "Comlink (Short Range)",
+			"description": "Allows communication up to low orbit",
+			"category": 0,
+			"price": 25,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 0
+		},
+		{
+			"name": "Comlink (Long Range)",
+			"description": "Allows communication up to high orbit or across system",
+			"category": 0,
+			"price": 200,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 1
+		},
+		{
+			"name": "Holo-Messenger",
+			"description": "Usually only used for formal things and when dealing with the wealthy. Creates holographic recordings or transmissions that can be played back as a small projection",
+			"category": 0,
+			"price": 250,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 4
+		},
+		{
+			"name": "X-500 Portable Holonet Relay",
+			"description": "Portable WiFi stick.",
+			"category": 0,
+			"price": 75000,
+			"restricted": false,
+			"encumbrance": 15,
+			"rarity": 7
+		},
+		{
+			"name": "Collar-Amp",
+			"description": "Little button that acts as a megaphone, allowing wearer to be heard at long or extreme ranges",
+			"category": 0,
+			"price": 50,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 1
+		},
+		{
+			"name": "Shockhold Hardened Comm",
+			"description": "Satellite uplink for planet-wide or planet-to-orbit communications. Automatic 2 failure to checks made to decode and understand its transmissions, automatic 2 success to any checks made to broadcast through a com jammer",
+			"category": 0,
+			"price": 450,
+			"restricted": false,
+			"encumbrance": 3,
+			"rarity": 4
+		},
+		{
+			"name": "Pioneer Long-Range Transceiver",
+			"description": "Can transmit messages up to 100 light years",
+			"category": 0,
+			"price": 1000,
+			"restricted": false,
+			"encumbrance": 5,
+			"rarity": 3
+		},
+		{
+			"name": "Electronics Whistler",
+			"description": "Encryption module attaches to comlink or hypertransceiver. Requires a formidable check and sophisticated equipment to decode message. Without equipment, decoding is impossible",
+			"category": 0,
+			"price": 1250,
+			"restricted": false,
+			"encumbrance": 3,
+			"rarity": 6
+		},
+		{
+			"name": "Remote DVI Activator (Basic)",
+			"description": "Activate vehicle/ship at range. Works up to 5km. Only activates vehicle, some can remotely pilot vehicle, but this requires a Daunting Piloting check.",
+			"category": 0,
+			"price": 300,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 4
+		},
+		{
+			"name": "Remote DVI Activator (Advanced)",
+			"description": "Activate vehicle/ship at range. Works up to 1 parsec. Vehicle will fly to user, some can remotely pilot vehicle, but this requires a Daunting Piloting check.",
+			"category": 0,
+			"price": 1500,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 7
+		},
+		{
+			"name": "3-MAL Secure Comlink",
+			"description": "Transmits up to medium planetary range. Encryption adds 1 setback to checks made to intercept and unscramble signal. Monitoring a clear frequency on a civilized world can add 2 boost to Knowledge checks related to current events/conditions",
+			"category": 0,
+			"price": 250,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 4
+		},
+		{
+			"name": "DH77 Headcomm",
+			"description": "Transmits up to medium planetary range. Encryption adds 3 setback to attempts to intercept/unscramble.",
+			"category": 0,
+			"price": 400,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 3
+		},
+		{
+			"name": "Atgar Artillery Remote",
+			"description": "Can link 1 Gunnery weapon with hard Computers check (average if weapon is Atgar SpaceDefense). Linked weapon gains Inaccurate 2 and can be fired remotely from up to medium range",
+			"category": 0,
+			"price": 400,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 7
+		},
+		{
+			"name": "Neurotoxin",
+			"description": "Single dose requires average Resilience check, larger doses are hard. On failure, subject takes 5 wounds, each threat inflicts 1 strain, despair can be spent to force second check in next round",
+			"category": 1,
+			"price": 50,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 6
+		},
+		{
+			"name": "Anesthetic",
+			"description": "Single dose requires average Resilience check, larger doses are hard. On failure, subject takes 5 strain, 1 or 2 threat forfeits next free maneuver, 3 or more threat staggers next round, despair can be spent to force second check in next round",
+			"category": 1,
+			"price": 35,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 4
+		},
+		{
+			"name": "Neuroparalytic",
+			"description": "Any dose requires hard Resilience check. On failure, subject is stunned 3 rounds, each threat inflicts 1 strain, despaire can be spent to force second check in next round",
+			"category": 1,
+			"price": 75,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 6
+		},
+		{
+			"name": "Dendriton Toxin",
+			"description": "Any dose requires a daunting Resilience check. On failure, subject suffers 1 strain at end of next turn, 3 strain at end of subsequent turn, and 5 strain at end of turn after that (ignoring soak). Also suffers 1 setback to any check attempted while under the effects, and each Threat generated on those checks inflicts 1 additoinal strain. May spend 1 despair on initial Resilience check to add 1 additional check against 5 strain.",
+			"category": 1,
+			"price": 125,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 7
+		},
+		{
+			"name": "Dioxis Gas",
+			"description": "Single dose requires hard Resilience check, 2 or more requires Daunting. On failure, subject suffers 5 wounds (ignoring soak). Each Threat generated inflicts 2 strain. Lingers in the air up to 3 rounds, unless dissipated.",
+			"category": 1,
+			"price": 100,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 6
+		},
+		{
+			"name": "Raquor Venom",
+			"description": "Any dose requires Daunting Resilience check. On failure, subject is staggered for 2 rounds. Each threat generated inflicts 2 strain on subject. May spend 1 despair to Immobilize target for 2 rounds. Aerosolized versions only have difficulty of Hard.",
+			"category": 1,
+			"price": 150,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 7
+		},
+		{
+			"name": "Electrobinoculars",
+			"description": "User can see normally in low and extremely bright light, magnify targets up to ten km away. Can remove 1 setback imposed due to long range or poor light.",
+			"category": 2,
+			"price": 250,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 1
+		},
+		{
+			"name": "General Purpose Scanner",
+			"description": "Scans/picks up on all kinds of things (life forms, metal, motion sensing, comlink intercepting, etc.)",
+			"category": 2,
+			"price": 500,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 3
+		},
+		{
+			"name": "Hand Scanner",
+			"description": "Similar to above, or like medical scanners, that kinda thing",
+			"category": 2,
+			"price": 100,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 2
+		},
+		{
+			"name": "Macrobinoculars",
+			"description": "Regular binoculars",
+			"category": 2,
+			"price": 75,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 2
+		},
+		{
+			"name": "Scanner Goggles",
+			"description": "User can see normally in dark conditions",
+			"category": 2,
+			"price": 150,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 3
+		},
+		{
+			"name": "Surveillance Tagger",
+			"description": "Tracking device. Longer range costs more",
+			"category": 2,
+			"price": 175,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 4
+		},
+		{
+			"name": "Holoscanner",
+			"description": "-2 Difficulty to Perception or Vigilance checks to discover concealed items on a person or in a container or vehicle. Can't scan things with higher encumbrance than itself.",
+			"category": 2,
+			"price": "2000-10000",
+			"restricted": false,
+			"encumbrance": "10-100",
+			"rarity": 5
+		},
+		{
+			"name": "Mark 6 Combat Scanner",
+			"description": "Functions as a general-purpose scanner with 100km line of sight, 360-degree view, and integrated communications. Allows user to see normally in dark conditions, can be set to track motion, heat, and metal, adds 2 setback to any checks made to decode and understand transmissions from it",
+			"category": 2,
+			"price": 2000,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 6
+		},
+		{
+			"name": "Mark 10 Demolitions Scanner",
+			"description": "Allows user to detect concealed explosives, adds 1 boost to checks to do so.",
+			"category": 2,
+			"price": 300,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 4
+		},
+		{
+			"name": "Recon Remote",
+			"description": "Little floaty balls that go recon stuff up to 20km away. Can run for 24 hours on a charge",
+			"category": 2,
+			"price": 250,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 3
+		},
+		{
+			"name": "HSI-280 Hyperwave Signal Interceptor",
+			"description": "Can covertly listen in on FTL communications within 10 light year range. Can also get several minutes warning of ship exiting hyperspace or give a fairly good idea of general course and direction",
+			"category": 2,
+			"price": 10500,
+			"restricted": false,
+			"encumbrance": 5,
+			"rarity": 8
+		},
+		{
+			"name": "Armascan Weapon Detection Goggles",
+			"description": "Wearer adds up to 2 boost to Perception checks when attempting to find a concealed weapon on a person",
+			"category": 2,
+			"price": 750,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 5
+		},
+		{
+			"name": "Enhancescan Long-Range Terrain Scanner",
+			"description": "Can map an area within Long range. Requires average Computers check. Map generated gives 1 boost +1 success per 2 Advantage on the Computers check, to Survival checks made to navigate using the map.",
+			"category": 2,
+			"price": 850,
+			"restricted": false,
+			"encumbrance": 6,
+			"rarity": 6
+		},
+		{
+			"name": "Ground-Penetrating Sensor Pack",
+			"description": "Basically ground-penetrating radar, but Star Wars",
+			"category": 2,
+			"price": 950,
+			"restricted": false,
+			"encumbrance": 5,
+			"rarity": 7
+		},
+		{
+			"name": "ILF-6500 Life Form Scanner",
+			"description": "Can track up to 24 targets at once, in a radius of 500m, categorize and rank them according to threat level, and send updates to user's datapad or sound an alarm. Requires average Survival, or hard Knowledge (Education) or Computers check to ensure it is properly calibrated.",
+			"category": 2,
+			"price": 900,
+			"restricted": false,
+			"encumbrance": 4,
+			"rarity": 5
+		},
+		{
+			"name": "Hunting Goggles",
+			"description": "+1 boost to Perception checks to locate prey, -2 setback due to concealment/darness/fog/etc. on Ranged (Light) and Ranged (Heavy) checks",
+			"category": 2,
+			"price": 600,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 5
+		},
+		{
+			"name": "Low-Feedback Scanner",
+			"description": "Passive scanner that can't be detected. Can detect radiation sources of Silhouette 1 or larger within short range, life forms in medium, power sources in long, and comms in extreme. Detection range increases by 1 for every Silhouette size greater than 1 the target has",
+			"category": 2,
+			"price": 700,
+			"restricted": false,
+			"encumbrance": 4,
+			"rarity": 5
+		},
+		{
+			"name": "SE-Vigilant Automated Sensor",
+			"description": "Small sensor-on-a-stick that transmits to designated comlink/datapad/computers/droids",
+			"category": 2,
+			"price": 3000,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 4
+		},
+		{
+			"name": "Bacta (Litre)",
+			"category": 3,
+			"price": 20,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 1
+		},
+		{
+			"name": "Bacta Tank",
+			"description": "Injured character heals 1 wound per 2 hours, incapacitated character heals 1 wound per 6 hours. Every 24 hours, character can attempt Resilience check to remove 1 critical injury",
+			"category": 3,
+			"price": 4000,
+			"restricted": false,
+			"encumbrance": 12,
+			"rarity": 1
+		},
+		{
+			"name": "Emergency Medpac",
+			"description": "Allows for basic first aid. User can attempt to heal with medicine check without penalty",
+			"category": 3,
+			"price": 100,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 1
+		},
+		{
+			"name": "Medpac",
+			"description": "More complete than emergency medpac. Allows user to perform relatively complicated medical procedures in the field. Can attempt to heal others with medicine check without penalty, and gains 1 boost on all attempts. Provides 1 stimpack per scene",
+			"category": 3,
+			"price": 400,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 2
+		},
+		{
+			"name": "Stimpack",
+			"description": "Single-use. Maneuver to recover 5 wounds. Each consecutive one used within 24 hours reduces amount healed by 1 (so max 5 used in any 24 hour period).",
+			"category": 3,
+			"price": 25,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 1
+		},
+		{
+			"name": "Synthskin",
+			"description": "Can be used to treat cuts and bruises ",
+			"category": 3,
+			"price": 10,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 1
+		},
+		{
+			"name": "IRAPS Cerebral Stabilizer",
+			"description": "Can be applied to character suffering from Bleeding Out or The End is Nigh critical injuries within 1 round of them occuring, or a character who has died during the current round. Applying requires and average Medicine check. Once applied, character is stabilized. If he died, he is brought back to life and counts as suffering a Gruesome Injury critical injury. Otherwise, effects of the critical injury are cancelled (though he still suffers from the injury itself)",
+			"category": 3,
+			"price": 2200,
+			"restricted": false,
+			"encumbrance": 3,
+			"rarity": 7
+		},
+		{
+			"name": "Military Medpac",
+			"description": "If user has no ranks in Medicine, he counts as having 1 rank while using this.",
+			"category": 3,
+			"price": 400,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 3
+		},
+		{
+			"name": "ECM-598 Medical Backpack",
+			"description": "Includes a clinic's worth of medical gear, including a stretcher. Works like a medpac, but gives 1 boost to Medicine checks while using it, and reduces difficulty of Medicine checks to heal Critical Injuries by 1 (min Easy)",
+			"category": 3,
+			"price": 450,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 4
+		},
+		{
+			"name": "Nullicaine",
+			"description": "Application requires easy Medicine check. Choose 1 easy, average, or hard Critical Injury target is suffering. On success, target suffers 3 straing and ignores chosen Critical Innjury. Only affects living creatures.",
+			"category": 3,
+			"price": 25,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 2
+		},
+		{
+			"name": "Stimstick",
+			"description": "Small piece of wood. Chewing removes 1 setback from Discipline, Perception, Resilience, and Vigilance checks to stay awake or notice something, due to fatigue or lack of sleep until end of encounter. Character suffers 1 strain",
+			"category": 3,
+			"price": 5,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 2
+		},
+		{
+			"name": "Military Trumapac",
+			"description": "Medpac that only works for treating Critical Injuries",
+			"category": 3,
+			"price": 50,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 3
+		},
+		{
+			"name": "XV-3B Veterinary Kit",
+			"description": "Medpac for animals. 1 boost to Medicine, Survival, and Knowledge (Xenology) checks to analyze or treat animals",
+			"category": 3,
+			"price": 600,
+			"restricted": false,
+			"encumbrance": 3,
+			"rarity": 3
+		},
+		{
+			"name": "XV-09 Chemical Restraint Harness",
+			"description": "Like a restraining bolt for animals. Requires hard survival check to mount, or average with successful Knowledge (Xenology) check. Grants 2 boost to Survival checks to control animal. Animal gains 1 boost to Discipline checks.",
+			"category": 3,
+			"price": 1200,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 5
+		},
+		{
+			"name": "Arm Mod V/VI",
+			"description": "V gives +1 brawn, VI gives +1 agility. If replacing both arms, must use same model. Bonuses don't stack",
+			"category": 4,
+			"price": 10000,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 6
+		},
+		{
+			"name": "Brain Implant",
+			"description": "Gives +1 intelligence. Includes comlink and computer access link",
+			"category": 4,
+			"price": 10000,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 6
+		},
+		{
+			"name": "Eyes",
+			"description": "Gives +1 Vigilance and Perception",
+			"category": 4,
+			"price": 7500,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 6
+		},
+		{
+			"name": "Leg Mod II/III",
+			"description": "II gives +1 brawn, III gives + 1 agility. Must replace both legs to get bonus.",
+			"category": 4,
+			"price": 10000,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 6
+		},
+		{
+			"name": "Weapon",
+			"description": "Arm includes light blaster pistol that can't be removed, dropped, or disarmed",
+			"category": 4,
+			"price": 4000,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 7
+		},
+		{
+			"name": "Cyberscanner Limb",
+			"description": "Arm includes a basic medium range scanner. Displays data on a holo-projector above the user's hand and can show nearby motion, life-forms, energy signatures, and other common targets as desired",
+			"category": 4,
+			"price": 4000,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 7
+		},
+		{
+			"name": "Immune Implant",
+			"description": "Gives +1 Resilience",
+			"category": 4,
+			"price": 5000,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 6
+		},
+		{
+			"name": "Implant Armor",
+			"description": "Armor plates fitted under the skin. Gives +1 soak",
+			"category": 4,
+			"price": 7500,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 6
+		},
+		{
+			"name": "Prosthetic Limb",
+			"description": "No bonus, just replaces missing part",
+			"category": 4,
+			"price": 2000,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 4
+		},
+		{
+			"name": "Prosthetic Organ",
+			"description": "No bonus, just replaces missing part",
+			"category": 4,
+			"price": 1000,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 4
+		},
+		{
+			"name": "Appraiser's Eye",
+			"description": "Automatic 1 Advantage on Negotiation and Streetwise checks to buy/sell items",
+			"category": 4,
+			"price": 700,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 7
+		},
+		{
+			"name": "Cybernetic Cavity",
+			"description": "Provides 1 rank of Hidden Storage Talent",
+			"category": 4,
+			"price": 775,
+			"restricted": true,
+			"encumbrance": "-",
+			"rarity": 3
+		},
+		{
+			"name": "Digital Lockpick",
+			"description": "Provides 1 rank of Bypass Security Talent",
+			"category": 4,
+			"price": 2750,
+			"restricted": true,
+			"encumbrance": "-",
+			"rarity": 5
+		},
+		{
+			"name": "Adrenal Implant",
+			"description": "Provides 1 rank of Rapid Recovery Talent",
+			"category": 4,
+			"price": 2250,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 5
+		},
+		{
+			"name": "Cybernetic Reflexes",
+			"description": "Provides 1 rank of Rapid Reaction Talent",
+			"category": 4,
+			"price": 2750,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 5
+		},
+		{
+			"name": "Cybernetic Respirator",
+			"description": "Permanently provides charcater with benefits of Respirator and Breath Bask, and 1 rank of Blooded Talent",
+			"category": 4,
+			"price": 2000,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 4
+		},
+		{
+			"name": "Gank Comm Implant",
+			"description": "Characters can communicate silently with each other up to several kilometers. Must share a language. Communication is not auditory",
+			"category": 4,
+			"price": 250,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 7
+		},
+		{
+			"name": "Implanted Cyberjack",
+			"description": "Once per check, a character with it may suffer 2 strain to decrease difficulty of a Computers check to disable a security device or slice into a computer system by 1.",
+			"category": 4,
+			"price": 3750,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 6
+		},
+		{
+			"name": "Neuromachine Interface",
+			"description": "Allows user to control vehicle equipped with the linked control device with a thought. While piloting this vehicle, character may use his Coordination skill in place of the appropriate Pilot skill.",
+			"category": 4,
+			"price": 3500,
+			"restricted": true,
+			"encumbrance": "-",
+			"rarity": 6
+		},
+		{
+			"name": "Q-22 Retinal Tracker",
+			"description": "Provides automatic 1 Threat on Gunnery and Ranged (Heavy) checks",
+			"category": 4,
+			"price": 2500,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 6
+		},
+		{
+			"name": "Repulsor Fist",
+			"description": "Provides 1 rank of Defensive Stance Talent, counts as a Brawl weapon with Dam 8, Crit 3, Concussive 1, and Slow-Firing 2",
+			"category": 4,
+			"price": 4750,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 7
+		},
+		{
+			"name": "CAAF-2 Avionics Interface",
+			"description": "Characters with at least 1 rank in a Pilot skill can +1 to that skill when flying an appropriate ship. Generaly only works with Airspeeders and Starships",
+			"category": 4,
+			"price": 8000,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 6
+		},
+		{
+			"name": "Biofeedback Regulator",
+			"description": "Increases character's cybernetic implant cap by 2. Does not count towards implant cap. Cannot be installed on droids, and a character can only have 1 installed.",
+			"category": 4,
+			"price": 3000,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 8
+		},
+		{
+			"name": "Escape Circuit",
+			"description": "Can only be installed on droids. Droids so equipped can resist a restraining bolt with an easy Discipline check and may spend 2 Advantage from such a check to overload the bolt, making it entirely useless.",
+			"category": 4,
+			"price": 1000,
+			"restricted": true,
+			"encumbrance": "-",
+			"rarity": 6
+		},
+		{
+			"name": "Networked Slicing Uplink",
+			"description": "Can only be installed on droids. Counts as a set of slicer gear. When the droid is slicing or assisting with slicing, add 1 setback to Computers checks to identify the slicer based on these activities.",
+			"category": 4,
+			"price": 1250,
+			"restricted": true,
+			"encumbrance": "-",
+			"rarity": 7
+		},
+		{
+			"name": "Neural Recorder",
+			"description": "Allows the user to make an easy Discipline check to recall any information experienced while the recorder was running. Character can copy recordings to external storage.",
+			"category": 4,
+			"price": 250,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 8
+		},
+		{
+			"name": "Surge Override Switch",
+			"description": "Once per encounter as an action, character can make in average Discipline check. On success, can activate any number of cybernetic implants that have been overloaded by weapons with the Ion quality, the Overcharge talent, or similar effects. Suffer 2 strain for each implant reactivated this way. Cannot be disabled or overloaded.",
+			"category": 4,
+			"price": 1000,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 6
+		},
+		{
+			"name": "Chance Cube",
+			"category": 5,
+			"price": 1,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 0
+		},
+		{
+			"name": "Loaded Chance Cube",
+			"description": "May add up to 2 boost to Deception checks when gambling. Required a formidable Perception check to notice they're loaded on first roll, but difficulty decreases by 1 each subsequent roll.",
+			"category": 5,
+			"price": 100,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 5
+		},
+		{
+			"name": "Dejarik Table",
+			"category": 5,
+			"price": 350,
+			"restricted": false,
+			"encumbrance": 10,
+			"rarity": 1
+		},
+		{
+			"name": "Sabacc Deck",
+			"category": 5,
+			"price": 40,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 0
+		},
+		{
+			"name": "Marked Sabacc Deck",
+			"description": "Gain 1 boost to Deception checks when gambling. Noticing a deck is marked requires a Hard or Daunting Perception check depending on quality (higher quality costs double)",
+			"category": 5,
+			"price": 500,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 6
+		},
+		{
+			"name": "Binders",
+			"description": "Handcuffs. Requires daunting athletics or coordination check to break free",
+			"category": 6,
+			"price": 25,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 0
+		},
+		{
+			"name": "Comm Jammer",
+			"description": "Blocks wireless communications. Average computers check requires to cut through jamming, difficulty goes up with proximity and power.",
+			"category": 6,
+			"price": 400,
+			"restricted": false,
+			"encumbrance": 4,
+			"rarity": 3
+		},
+		{
+			"name": "Comm Scrambler",
+			"description": "Encryption. Add 2 setback to attempts to decode and understand transmission",
+			"category": 6,
+			"price": 1000,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 5
+		},
+		{
+			"name": "Disguise Kit",
+			"description": "Gives user a good disguise",
+			"category": 6,
+			"price": 100,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 4
+		},
+		{
+			"name": "Electronic Lock Breaker",
+			"description": "Can hack through most standard electronic locks. More expensive versions can get through better locks",
+			"category": 6,
+			"price": 1000,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 5
+		},
+		{
+			"name": "Restraining Bolt",
+			"description": "Shuts down or forces droid to do as controller wishes. PC droids can attempt daunting Discipline check to overcome effects",
+			"category": 6,
+			"price": 35,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 0
+		},
+		{
+			"name": "Slicer Gear",
+			"description": "Various custom gear to hack all kinds of systems",
+			"category": 6,
+			"price": 500,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 4
+		},
+		{
+			"name": "Lockpicking Tools",
+			"description": "Allows users to break physical locks",
+			"category": 6,
+			"price": 50,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 8
+		},
+		{
+			"name": "Shift Coffer",
+			"description": "Can contain up to 5 encumbrance in items, but nothing with any dimension longer than 0.5m. When set in a niche in a wall, attempts to discover it require a formidable Perception check. Lock requires a hard Skulduggery check to break.",
+			"category": 6,
+			"price": 2500,
+			"restricted": false,
+			"encumbrance": 5,
+			"rarity": 7
+		},
+		{
+			"name": "Magna-Lock Safe",
+			"description": "Stores about 10 encumbrance. Cracking requires specialized tols and a formidable Skulduggery check",
+			"category": 6,
+			"price": 1000,
+			"restricted": false,
+			"encumbrance": 12,
+			"rarity": 5
+		},
+		{
+			"name": "Shadowcloak",
+			"description": "Hides wearer's identity, but once activated, wearer can't move around much without revealing itself. Can only operate for 1 hour before it must cool down and recharge for 4 hours. Discerning identifiable features of the wearer requires a daunting perception check.",
+			"category": 6,
+			"price": 2500,
+			"restricted": true,
+			"encumbrance": 2,
+			"rarity": 6
+		},
+		{
+			"name": "Fingerprint Masque",
+			"description": "Can fool basic fingerprint readers with easy Cool or Deception check. More advanced scanners require Average or Hard check. Daunting Perception check to notice physical presence of one.",
+			"category": 6,
+			"price": 1000,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 7
+		},
+		{
+			"name": "Forensics Investigation Kit",
+			"description": "Adds 1 automatic success to Perception checks to spot and gather evidence. May also count as the right tools for the job when making checks to analyze gathered evidence.",
+			"category": 6,
+			"price": 450,
+			"restricted": false,
+			"encumbrance": 4,
+			"rarity": 4
+		},
+		{
+			"name": "MCI-100 Magnacuffs",
+			"description": "Required formidable Coordination check to escape bindings",
+			"category": 6,
+			"price": 100,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 4
+		},
+		{
+			"name": "Thalassian Security Collar",
+			"description": "Slave collar. Removing without proper key requires a Daunting Skulduggery check. Wearer suffers 2 strain and 1 wound (ignores soak) on a failed check, and becomes disoriented for 5 rounds",
+			"category": 6,
+			"price": 300,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 5
+		},
+		{
+			"name": "Explosive Shackles",
+			"description": "Removing without proper key requires a Daunting Skulduggery check. If check fails, shackles detonate, inflicting 10 wounds on wearer and each character in Engaged range (ignores soak)",
+			"category": 6,
+			"price": 500,
+			"restricted": true,
+			"encumbrance": 2,
+			"rarity": 6
+		},
+		{
+			"name": "Dataspike",
+			"description": "Once per round, character can expend it to attempt ot disable a security program as a maneuver, this can include the use of Disable Security Program action. Reduce difficulty of subsequent Computers check to disable the program by 2, to a minimum of Simple.",
+			"category": 6,
+			"price": 100,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 3
+		},
+		{
+			"name": "Ealewon A-212 Tracing Console",
+			"description": "Can be installed to monitor a single system. Computers checks to slice teh system suffer 1 setback. A defending slicer using the console gains 2 boost to Computers checks to identify any intruder.",
+			"category": 6,
+			"price": 3000,
+			"restricted": false,
+			"encumbrance": 12,
+			"rarity": 6
+		},
+		{
+			"name": "Signature Modulation Pad",
+			"description": "Add 2 setback to checks attempting to acquire the user's slicing signature.",
+			"category": 6,
+			"price": 250,
+			"restricted": true,
+			"encumbrance": 2,
+			"rarity": 7
+		},
+		{
+			"name": "Crash Survival Kit",
+			"description": "Includes various emergency survival gear, e.g. thermal cloak, multipurpose knife, distress beacon, emergency comlinks, wire spool, ration bars, emergency medpac, respirators, water filter and jug, glow rod, high streingth microfiber, ration packs, flare gun. Might also inclue small blaster",
+			"category": 7,
+			"price": 300,
+			"restricted": false,
+			"encumbrance": 5,
+			"rarity": 2
+		},
+		{
+			"name": "Ration Pack",
+			"description": "Each pack is equivalent to 1 meal",
+			"category": 7,
+			"price": 5,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 0
+		},
+		{
+			"name": "Breath Mask/Respirator",
+			"description": "Allows user to breathe in otherwise unbreathable environments",
+			"category": 7,
+			"price": 25,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 1
+		},
+		{
+			"name": "Space Suit",
+			"description": "Suit for being in space",
+			"category": 7,
+			"price": 100,
+			"restricted": false,
+			"encumbrance": 4,
+			"rarity": 1
+		},
+		{
+			"name": "Tent",
+			"description": "It's a tent.",
+			"category": 7,
+			"price": 100,
+			"restricted": false,
+			"encumbrance": 4,
+			"rarity": 1
+		},
+		{
+			"name": "Thermal Cloak",
+			"description": "Allows user to remove up to 2 setback from any checks to resist extreme temperatures",
+			"category": 7,
+			"price": 200,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 1
+		},
+		{
+			"name": "Elysium Model 2 Atmospheric Processor",
+			"description": "Basically an atmospheric terraformer the size of a starcruiser",
+			"category": 7,
+			"price": 4500000,
+			"restricted": false,
+			"encumbrance": 10000,
+			"rarity": 7
+		},
+		{
+			"name": "GX-8 Water Vaporator",
+			"description": "Produces 1-3 litres of water",
+			"category": 7,
+			"price": 2000,
+			"restricted": false,
+			"encumbrance": 12,
+			"rarity": 2
+		},
+		{
+			"name": "Fasclean Atmospheric Reactive Dampener",
+			"description": "CO2 Scrubbers",
+			"category": 7,
+			"price": 200000,
+			"restricted": false,
+			"encumbrance": 300,
+			"rarity": 5
+		},
+		{
+			"name": "A99 Custom Biome Generator",
+			"description": "Does what it says on the box",
+			"category": 7,
+			"price": 9000,
+			"restricted": false,
+			"encumbrance": 45,
+			"rarity": 4
+		},
+		{
+			"name": "CN-15 Camouflage Netting",
+			"description": "Adds automatic 2 failure to all checks made to detect items concealed by it. One roll of netting can conceal one object up ot Silhouette 2, two rolls can conceal up to Silhouette 3, three rolls can conceal up to Silhouette 4. Also works against electronic scans.",
+			"category": 7,
+			"price": 100,
+			"restricted": false,
+			"encumbrance": 4,
+			"rarity": 2
+		},
+		{
+			"name": "CN-21 Camouflage Paint",
+			"description": "Adds automatic 1 failure to all checks made to detect items concealed by it. Only works on items or individuals of Silhouette 1 or smaller.",
+			"category": 7,
+			"price": 40,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 2
+		},
+		{
+			"name": "Imperial Army Canteen",
+			"description": "Holds 1.5L of water and includes built-in filtration",
+			"category": 7,
+			"price": 7,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 1
+		},
+		{
+			"name": "Scout 5 Field Goggles",
+			"description": "Just plain-old goggles",
+			"category": 7,
+			"price": 5,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 0
+		},
+		{
+			"name": "Imperial Army Field Rations",
+			"description": "Same as regular ration pack, but 1 ration can last 1 week",
+			"category": 7,
+			"price": 10,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 2
+		},
+		{
+			"name": "Fire Paste",
+			"description": "Light things on fire. On its own, burns for 1 hour.",
+			"category": 7,
+			"price": 3,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 1
+		},
+		{
+			"name": "Food Preparation System",
+			"description": "It's a hot plate.",
+			"category": 7,
+			"price": 20,
+			"restricted": false,
+			"encumbrance": 3,
+			"rarity": 1
+		},
+		{
+			"name": "CX-2000 Holographic Ghillie Suit",
+			"description": "+1 difficulty to all checks to locate wearer, as long as he remains immobile",
+			"category": 7,
+			"price": 800,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 8
+		},
+		{
+			"name": "Tauntaun Pup Tent",
+			"description": "Those inside can ignore temperatures up to -20 (assuming F because american)",
+			"category": 7,
+			"price": 30,
+			"restricted": false,
+			"encumbrance": 3,
+			"rarity": 2
+		},
+		{
+			"name": "Synthrope (20m)",
+			"description": "It's rope.",
+			"category": 7,
+			"price": 5,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 1
+		},
+		{
+			"name": "Electro-snare",
+			"description": "Survival check to place, opposed Perception check to avoid. 10 Stun Damage (+2 per success on Survival check)",
+			"category": 7,
+			"price": 50,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 5
+		},
+		{
+			"name": "Portable Survival Shelter",
+			"description": "Collapsible 1 person shelter that has everything you need to survive outdoors.",
+			"category": 7,
+			"price": 200,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 4
+		},
+		{
+			"name": "Electric Perimeter Fence",
+			"description": "Creates a fence of crackling energy. Anyone coming in contact with the fence beams suffers the effects of a stun grenade",
+			"category": 7,
+			"price": 800,
+			"restricted": false,
+			"encumbrance": 6,
+			"rarity": 5
+		},
+		{
+			"name": "PED-21 Distress Beacon",
+			"description": "Lasts up to 72 hours. Message can be picked up from low orbit or many kilometers away. 2 boost to Perception, Computers, Surveillance checks to anyone searching for someone with an active beacon",
+			"category": 7,
+			"price": 50,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 1
+		},
+		{
+			"name": "Field Kitchen",
+			"description": "Takes 30 minutes to set up. 2 boost to Survival and Knowledge (Education) checks to work with food",
+			"category": 7,
+			"price": 500,
+			"restricted": false,
+			"encumbrance": 5,
+			"rarity": 4
+		},
+		{
+			"name": "Viscera Field Dressing Kit",
+			"description": "Tools for butchering animals. 1 boost to Survival checks to harvest meat/bones/organs from prey animals",
+			"category": 7,
+			"price": 300,
+			"restricted": false,
+			"encumbrance": 3,
+			"rarity": 5
+		},
+		{
+			"name": "Condenser Unit",
+			"description": "Can either condense moisture (holds 2L), or be used as a smokeless grill. Can gather enough water each day to sustain one person, battery lasts 6 months",
+			"category": 7,
+			"price": 300,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 2
+		},
+		{
+			"name": "Portable Power Generator",
+			"description": "Can recharge equipment iwth a maneuver, or droids/larger things in an hour. Character next to one can ignore an \"out of ammo\" result. Usually not depleted by such use.",
+			"category": 7,
+			"price": 500,
+			"restricted": false,
+			"encumbrance": 10,
+			"rarity": 2
+		},
+		{
+			"name": "Pretormin Plastent",
+			"description": "4 person tent. Removes 2 setback from checks to resist hostile temperatures while sleeping, and downgrades difficulty of such checks once",
+			"category": 7,
+			"price": 300,
+			"restricted": false,
+			"encumbrance": 3,
+			"rarity": 2
+		},
+		{
+			"name": "Backpack",
+			"description": "Increase user's encumbrance threshold by 4",
+			"category": 8,
+			"price": 50,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 0
+		},
+		{
+			"name": "Climbing Gear",
+			"description": "User can climb otherwise unclimbable things",
+			"category": 8,
+			"price": 50,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 2
+		},
+		{
+			"name": "Datapad",
+			"description": "Basically a tablet",
+			"category": 8,
+			"price": 75,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 1
+		},
+		{
+			"name": "Emergency Repair Patch",
+			"description": "Stimpack for droids. Heals 3 wounds, can use 5 per day (no diminishing heal)",
+			"category": 8,
+			"price": 25,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 1
+		},
+		{
+			"name": "Extra Reloads",
+			"description": "Reloads for guns. Maneuver to reload",
+			"category": 8,
+			"price": 25,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 1
+		},
+		{
+			"name": "Fusion Lantern",
+			"description": "Provides light and heat in the surrounding area. Can also power small electronic devices",
+			"category": 8,
+			"price": 150,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 2
+		},
+		{
+			"name": "Glow Rod",
+			"description": "Flashlight",
+			"category": 8,
+			"price": 10,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 0
+		},
+		{
+			"name": "Jet Pack",
+			"description": "User can function as a silhouette 1, speed 2, handling 0, system strain 3 vehicle that functions in atmosphere, and requires piloting (planetary) to operate",
+			"category": 8,
+			"price": 4500,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 7
+		},
+		{
+			"name": "Tool Kit",
+			"description": "Required for most mechanics checks. Tools can be used as improvised weapons. Can also be used as medpac for droids",
+			"category": 8,
+			"price": 350,
+			"restricted": false,
+			"encumbrance": 4,
+			"rarity": 2
+		},
+		{
+			"name": "Utility Belt",
+			"description": "Increase characther's encumbrance threshold by 1",
+			"category": 8,
+			"price": 25,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 0
+		},
+		{
+			"name": "Mercantiler Datapad",
+			"description": "When used within region for which it's programmed, grants 1 boost to any Negotiation checks made to buy/sell goods",
+			"category": 8,
+			"price": 250,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 3
+		},
+		{
+			"name": "Musical Instrument (Common)",
+			"category": 8,
+			"price": "50-100",
+			"restricted": false,
+			"encumbrance": "2019-01-05T05:00:00.000Z",
+			"rarity": 2
+		},
+		{
+			"name": "Musical Instrument (High Quality)",
+			"category": 8,
+			"price": "500-1500",
+			"restricted": false,
+			"encumbrance": "2019-01-05T05:00:00.000Z",
+			"rarity": 4
+		},
+		{
+			"name": "Musical Instrument (Legendary)",
+			"category": 8,
+			"price": "20000+",
+			"restricted": false,
+			"encumbrance": "2019-01-05T05:00:00.000Z",
+			"rarity": 10
+		},
+		{
+			"name": "Thunderhead Portable Entertainment System",
+			"description": "Equipment to put on a concert",
+			"category": 8,
+			"price": 2500,
+			"restricted": false,
+			"encumbrance": 10,
+			"rarity": 4
+		},
+		{
+			"name": "Model 58 Concealment Holster",
+			"description": "+1 setback to Perception checks to discover concealed weapon. Can only hold light blaster pistols or holdout blasters",
+			"category": 8,
+			"price": 40,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 3
+		},
+		{
+			"name": "Imperial Army Entrenching Tool",
+			"description": "Shovel. Counts as improvised melee weapon that does +2 damage, crit 4, and doesn't break on threat or despair",
+			"category": 8,
+			"price": 20,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 1
+		},
+		{
+			"name": "Military Belt Pouch",
+			"description": "Can hold 2 items of Encumbrance 0. These can be drawn as an incidental.",
+			"category": 8,
+			"price": 10,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 0
+		},
+		{
+			"name": "Imperial Army Military Pack",
+			"description": "Backpack increases user's encumbrance capacity by 6, but has Cumbersome 2",
+			"category": 8,
+			"price": 60,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 0
+		},
+		{
+			"name": "MicroData P-2 Pocket Attaché",
+			"description": "Highly secure PalmPilot. Requires Daunting Computers check to slice. On failed check, data is wiped forever",
+			"category": 8,
+			"price": 800,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 6
+		},
+		{
+			"name": "Savior Anti-grav Chute",
+			"description": "Parachute. User takes no damage or strain from falls, but falls slowly.",
+			"category": 8,
+			"price": 450,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 5
+		},
+		{
+			"name": "EVA Powersuit",
+			"description": "Space suit for repairs and stuff. Wearer can fly in 0g and takes no penalties for it. Counts as having a tool kit for making repairs.",
+			"category": 8,
+			"price": 1500,
+			"restricted": false,
+			"encumbrance": 12,
+			"rarity": 7
+		},
+		{
+			"name": "CZ-88 Heavy Loader Arm",
+			"description": "Can perform checks to heft objects as if it has an Atheltics skill of 1 and Brawn of 5. Can be installed onto a vehicle of Silhouette 3 or larger as an attachment, using 1 hard point.",
+			"category": 8,
+			"price": 1500,
+			"restricted": false,
+			"encumbrance": 30,
+			"rarity": 3
+		},
+		{
+			"name": "Mechanical Dianoga",
+			"description": "Removes 2 setback from checks to remove system strain from starships and vehicles.",
+			"category": 8,
+			"price": 225,
+			"restricted": false,
+			"encumbrance": 4,
+			"rarity": 4
+		},
+		{
+			"name": "VX-A Intelligent Toolbox",
+			"description": "Counts as a tool kit, and reduces time required for repairs, crafting, and other Mechanics related tasks by 50%",
+			"category": 8,
+			"price": 2500,
+			"restricted": false,
+			"encumbrance": 3,
+			"rarity": 8
+		},
+		{
+			"name": "OR-Series Tech Recycling Station",
+			"description": "Character using it adds 2 boost to Perception and Mechanics checks to scavenge parts or raw materials, and can complete such checks in half the time. Can also recover supplies worth half the material price from failed crafting checks.",
+			"category": 8,
+			"price": 1500,
+			"restricted": false,
+			"encumbrance": 10,
+			"rarity": 5
+		},
+		{
+			"name": "Repulsor Clamp",
+			"description": "Can hold a single object of 10 encumbrance or less aloft. Having one on hand removes 1 setback from checks to repair hull trauma and critical hits on starships and vehicles",
+			"category": 8,
+			"price": 250,
+			"restricted": false,
+			"encumbrance": 3,
+			"rarity": 1
+		},
+		{
+			"name": "Bioscan",
+			"description": "Scanning an area for life signs gets 1 boost to any Perception checks opposing Stealth. Using it to verify a person's identity requires average Computers check and a biometric identifier for comparison.",
+			"category": 8,
+			"price": 2000,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 1
+		},
+		{
+			"name": "HoloNet Homing Beacon",
+			"description": "Allows user to track target so long as the beacon remains active",
+			"category": 8,
+			"price": 500,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 3
+		},
+		{
+			"name": "Rocket Boots",
+			"description": "Allow user to function as a Silhouette 1, Speed 1, Handling -3 System Strain 3 vehicle that can only operate in atmosphere. Requires Piloting (Planetary) to operate. Boots suffer 1 system strain at end of each round",
+			"category": 8,
+			"price": 2500,
+			"restricted": false,
+			"encumbrance": 2,
+			"rarity": 8
+		},
+		{
+			"name": "Tracker's Goggles",
+			"description": "Grants 1 boost to wearer's Perception checks to locate a target by sight. Remove 2 setback imposed due to concealment, darkness, or fog/mist from Ranged (Light) and Ranged (Heavy) checks",
+			"category": 8,
+			"price": 600,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 5
+		},
+		{
+			"name": "Mk. IV Modular Backpack",
+			"description": "+3 max Encumbrance. Can be equipped with up to 3 extra pouches",
+			"category": 8,
+			"price": 75,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 1
+		},
+		{
+			"name": "Modular Backpack Extra Pouch",
+			"description": "+1 max Encumbrance",
+			"category": 8,
+			"price": 15,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 1
+		},
+		{
+			"name": "Beast Call",
+			"description": "Plays back animal noises. Can also record sounds for later playback. Creatures make average Discipline check to resist being called to it. Average Computers check needed to record new sounds",
+			"category": 8,
+			"price": 100,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 3
+		},
+		{
+			"name": "\"Quickflash\" Burning Gel",
+			"description": "When applied, quickly burns through any substance, in any environment. Commonly used to gain access to doors/hatchways/etc. that are otherwise inaccessible. Contact with the gel acts like a weapon with Dam 10, Burn 5, Pierce 5.",
+			"category": 8,
+			"price": 150,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 5
+		},
+		{
+			"name": "Beastmaster Chem Lure",
+			"description": "Like the Beast Call but with pheromones (no recording). Requires a hard Discipline check to resist.",
+			"category": 8,
+			"price": 125,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 4
+		},
+		{
+			"name": "Excavator's Precision Tool Kit",
+			"description": "Basically an archeology toolkit.",
+			"category": 8,
+			"price": 500,
+			"restricted": false,
+			"encumbrance": 5,
+			"rarity": 7
+		},
+		{
+			"name": "Surveyor's Bag",
+			"description": "+2 max Encumbrance",
+			"category": 8,
+			"price": 50,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 1
+		},
+		{
+			"name": "Spacer's Duffel",
+			"description": "+2 max Encumbrance, but have Cumbersome 3",
+			"category": 8,
+			"price": 50,
+			"restricted": false,
+			"encumbrance": "-",
+			"rarity": 0
+		},
+		{
+			"name": "Specimen Containers (tiny)",
+			"description": "Contains specimens. Encumbrance capacity 1",
+			"category": 8,
+			"price": 10,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 1
+		},
+		{
+			"name": "Specimen Containers (small)",
+			"description": "Encumbrance capacity 3-5",
+			"category": 8,
+			"price": 25,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 2
+		},
+		{
+			"name": "Specimen Containers (medium)",
+			"description": "Encumbrance capacity 5-10",
+			"category": 8,
+			"price": 50,
+			"restricted": false,
+			"encumbrance": 3,
+			"rarity": 2
+		},
+		{
+			"name": "Specimen Containers (large)",
+			"description": "Encumbrance capacity 10-15",
+			"category": 8,
+			"price": 150,
+			"restricted": false,
+			"encumbrance": 5,
+			"rarity": 3
+		},
+		{
+			"name": "Holo V Audio/Visual Translator",
+			"description": "Fancy translation datapad that can do real-time translation and attempt to decipher and translate unknown languages. 1 boost to Knowledge (Lore) and Intellect checks to decipher/translate ancient languages",
+			"category": 8,
+			"price": 750,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 3
+		},
+		{
+			"name": "AG/l Mk. III Targeting Goggles",
+			"description": "Wearer counts target's Silhouette as 1 higher for Gunnery checks against ships/vehicles",
+			"category": 8,
+			"price": 1000,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 5
+		},
+		{
+			"name": "Custom Tool Kit",
+			"description": "Owner gets 1 boost to any check to maintain/repair anything. Character trying to use someone else's kit get 1 setback instead.",
+			"category": 8,
+			"price": 700,
+			"restricted": false,
+			"encumbrance": 5,
+			"rarity": 5
+		},
+		{
+			"name": "Workshop Manual",
+			"description": "Having correct manual downgrades difficulty of checks to maintain/repair vehicle/starship",
+			"category": 8,
+			"price": 100,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": "varies"
+		},
+		{
+			"name": "Avabush spice",
+			"description": "Character can only update 1 ability die to proficiency on any given check. If trying to lie or conceal the truth, 1 difficulty die upgraded to challenge",
+			"category": 9,
+			"price": 25,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 6
+		},
+		{
+			"name": "Avabush spice (100)",
+			"category": 9,
+			"price": 2000,
+			"restricted": true,
+			"encumbrance": 3,
+			"rarity": 7
+		},
+		{
+			"name": "Booster blue",
+			"description": "Character may upgrade 1 ability die on any Agility, Intellect, or Cunning related check. Effects last one scene/encounter. Character cannot remove strain at the end of any scene/encounter in which he uses it.",
+			"category": 9,
+			"price": 10,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 5
+		},
+		{
+			"name": "Booster blue (100)",
+			"category": 9,
+			"price": 750,
+			"restricted": true,
+			"encumbrance": 3,
+			"rarity": 6
+		},
+		{
+			"name": "Death sticks",
+			"description": "Cigarettes. Add 1 setback to anything character attempts during scene/encounter.",
+			"category": 9,
+			"price": 5,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 1
+		},
+		{
+			"name": "Death sticks (100)",
+			"category": 9,
+			"price": 250,
+			"restricted": true,
+			"encumbrance": 3,
+			"rarity": 2
+		},
+		{
+			"name": "Glitterstim",
+			"description": "Highly addictive. Character adds 3 boost to all Perception and Vigilance checks for current scene. Some users report gaining temporary telepathic abilities.",
+			"category": 9,
+			"price": 100,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 7
+		},
+		{
+			"name": "Glitterstim (100)",
+			"category": 9,
+			"price": 5000,
+			"restricted": true,
+			"encumbrance": 5,
+			"rarity": 8
+		},
+		{
+			"name": "Lesai",
+			"description": "A character using it at least once every 24 hours does not need to sleep, and suffers no penalties for lack of sleep. After any 8 hour period without stressful activities (e.g. combat). Leaves odd purple stains where it's applied. After going 24 hours without a dose, character finds it difficult to stay awake until receiving another does, or sleeping. Some Imperial officials claim that it turns users into amoral monsters without feelings or compassion.",
+			"category": 9,
+			"price": 5000,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 9
+		},
+		{
+			"name": "Lesai (20)",
+			"category": 9,
+			"price": 7500,
+			"restricted": true,
+			"encumbrance": 2,
+			"rarity": 10
+		},
+		{
+			"name": "Yarrock",
+			"description": "Lasts one scene. Character is not required to make any fear checks, and counts as succeeding automatically. Once used, character must add 1 setback to any WIllpower or Presence related  checks for the remainder of the session.",
+			"category": 9,
+			"price": 350,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 8
+		},
+		{
+			"name": "Yarrock (100)",
+			"category": 9,
+			"price": 20000,
+			"restricted": true,
+			"encumbrance": 3,
+			"rarity": 9
+		},
+		{
+			"name": "Impact",
+			"description": "Lasts 1 encounter. User can upgrade any Agility-based checks. After effects wear off, character suffers 1 setback to any Agility, Cunning, or Intellect-based checks for remainder of session.",
+			"category": 9,
+			"price": 125,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 6
+		},
+		{
+			"name": "Impact (!00)",
+			"category": 9,
+			"price": 10000,
+			"restricted": true,
+			"encumbrance": 5,
+			"rarity": 7
+		},
+		{
+			"name": "Muon Gold",
+			"description": "Lasts 1 encounter. User adds 1 boost to all Cunning and Presence based checks. Repeated use can impose temporary or lasting 1 setback to Intellect and Cunning based checks.",
+			"category": 9,
+			"price": 50,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 6
+		},
+		{
+			"name": "Muon Gold (100)",
+			"category": 9,
+			"price": 4000,
+			"restricted": true,
+			"encumbrance": 5,
+			"rarity": 6
+		},
+		{
+			"name": "Nala Tree Frog (12)",
+			"description": "Hutts like them",
+			"category": 9,
+			"price": 15,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 5
+		},
+		{
+			"name": "Marcan Herb",
+			"description": "Basically hookah",
+			"category": 9,
+			"price": 20,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 4
+		},
+		{
+			"name": "Marcan Herb (100)",
+			"category": 9,
+			"price": 1750,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 4
+		},
+		{
+			"name": "Ryll",
+			"description": "1 dose allows user to ignore one easy or average critical injury until end of scene/combat, 2 doses allows user to ignore one hard critical injury until end of scene/combat. Once effects end, user suffers effects of the injury as normal, and also suffers 2 setback on all check for remainder of session",
+			"category": 9,
+			"price": 50,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 4
+		},
+		{
+			"name": "Ryll (100)",
+			"category": 9,
+			"price": 4500,
+			"restricted": true,
+			"encumbrance": 25,
+			"rarity": 5
+		},
+		{
+			"name": "Gunjack Spice",
+			"description": "Increases user's Brawn by 1 until end of scene/encounter. Each dose upgrades difficulty of Agility, Intellect, and Cunning related checks once until end of session",
+			"category": 9,
+			"price": 75,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 5
+		},
+		{
+			"name": "Gunjack Spice (100)",
+			"category": 9,
+			"price": 7000,
+			"restricted": true,
+			"encumbrance": 25,
+			"rarity": 6
+		},
+		{
+			"name": "Neutron Pixie",
+			"description": "Grants user automatic 2 Advantage on Agility and Willpower related checks until end of encounter. Once effects end, character suffers automatic 1 Threat on all Brawn, Intellect, and Cunning Related checks for remainder of session",
+			"category": 9,
+			"price": 100,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 6
+		},
+		{
+			"name": "Neutron Pixie (100)",
+			"category": 9,
+			"price": 8500,
+			"restricted": true,
+			"encumbrance": 25,
+			"rarity": 7
+		},
+		{
+			"name": "Corellian Whiskey",
+			"description": "Fancy Whiskey",
+			"category": 9,
+			"price": 25,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 2
+		},
+		{
+			"name": "Corellian Whiskey (25)",
+			"category": 9,
+			"price": 500,
+			"restricted": false,
+			"encumbrance": 20,
+			"rarity": 2
+		},
+		{
+			"name": "Whyren's Reserve",
+			"description": "Really Fancy Whiskey",
+			"category": 9,
+			"price": 100,
+			"restricted": false,
+			"encumbrance": 1,
+			"rarity": 4
+		},
+		{
+			"name": "Whyren's Reserve (20)",
+			"category": 9,
+			"price": 1500,
+			"restricted": false,
+			"encumbrance": 10,
+			"rarity": 5
+		},
+		{
+			"name": "Ji Rikknit",
+			"description": "No real effects, but anyone who tries it must make an Easy Resilience check or gain a 1 value Addiction Obligation",
+			"category": 9,
+			"price": 50,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 6
+		},
+		{
+			"name": "Ji Rikknit (100)",
+			"category": 9,
+			"price": 3000,
+			"restricted": false,
+			"encumbrance": 5,
+			"rarity": 7
+		},
+		{
+			"name": "Nannarium Root",
+			"description": "User may upgrade the ability of any Intelligence or Cunning related check once, though doing so causes them to suffer 2 strain. Single dose lasts 1 hour.",
+			"category": 9,
+			"price": 200,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 6
+		},
+		{
+			"name": "Ryshcate",
+			"description": "Corellian cakes that makes them feel all nostalgic",
+			"category": 9,
+			"price": 10,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 2
+		},
+		{
+			"name": "Sleeppack",
+			"description": "Stimpack that puts people to sleep. Using on an aware and unwilling target requires hard Brawl or Melee check. Requires a hard Resilience check, failure inflicts 10 strain",
+			"category": 9,
+			"price": 250,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 3
+		},
+		{
+			"name": "Sulfur Inhaler (10)",
+			"description": "Devaronian can use a maneuver to inhale 1 dose, suffering 2 strain and adding 1 boost to any Brawn or Agility checks until end of encounter. Useless for other species.",
+			"category": 9,
+			"price": 200,
+			"restricted": false,
+			"encumbrance": 0,
+			"rarity": 3
+		},
+		{
+			"name": "Data Breaker",
+			"description": "Add 2 boost to any Computers check made to slice computers. Droids can have one installed internally.",
+			"category": 10,
+			"price": 1000,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 6
+		},
+		{
+			"name": "Flesh Camouflage Set",
+			"description": "Better disguise kit. Fools biometric scanners. Can mimick genetic sequence of a donor. Any checks made to ascertain user's true identity are formidable.",
+			"category": 10,
+			"price": 2500,
+			"restricted": true,
+			"encumbrance": 2,
+			"rarity": 7
+		},
+		{
+			"name": "Personal Stealth Field",
+			"description": "Renders user invisible. Stealth field can be prone to collapsing. Any check to ascertain the user's location by non-visual means is formidable.",
+			"category": 10,
+			"price": 20000,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 9
+		},
+		{
+			"name": "False Credentials",
+			"description": "Hard Computers check (or daunting Perception check without equipment) to recognize credentials as fake",
+			"category": 10,
+			"price": 800,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 7
+		},
+		{
+			"name": "Skifter",
+			"description": "1 boost to Skulduggery checks to cheat at gambling",
+			"category": 10,
+			"price": 500,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 6
+		},
+		{
+			"name": "Cargo Scanner",
+			"description": "Average Computers check to increase available encumbrance of a vehicle/ship with silhouette of 3 or more by 10%",
+			"category": 10,
+			"price": 1000,
+			"restricted": true,
+			"encumbrance": 0,
+			"rarity": 7
+		},
+		{
+			"name": "Ardos Disk",
+			"description": "Identifies the bearer as being under the protection of the Hutts. On displaying one, character adds 2 boost to any Charm or Negotiation checks made with Hutts or their henchmen/servants. If showing the sigil of a rival clan, can upgrade difficulty of checks instead, though Hutts will avoid harming or hindering the bearer.",
+			"category": 10,
+			"price": 10000,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 5
+		},
+		{
+			"name": "Credit Cleaner",
+			"description": "Fancy money launderer. Formidable Computers check to trace money cleaned with it.",
+			"category": 10,
+			"price": 2500,
+			"restricted": true,
+			"encumbrance": 12,
+			"rarity": 7
+		},
+		{
+			"name": "Com-Scan",
+			"description": "User can triangulate location and movement of known comlink or transceiver with an average Computers check. Function out to Planetary Close range",
+			"category": 10,
+			"price": 5000,
+			"restricted": true,
+			"encumbrance": 10,
+			"rarity": 6
+		},
+		{
+			"name": "Holographic Disguise Matrix",
+			"description": "Creates visual hologram around user. User can effectively impersonate visual appearance of whomever the device has recorded. Adds 2 boost to Deception checks to imposonate, and 2 setback to Perception checks to detect the imposter.",
+			"category": 10,
+			"price": 10000,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 9
+		},
+		{
+			"name": "Saline Pump",
+			"description": "1 boost to Clawdite's attempts to pass as another person using their species ability, 1 setback to checks against this. Non-clawdites get nothing from this",
+			"category": 10,
+			"price": 2500,
+			"restricted": true,
+			"encumbrance": 1,
+			"rarity": 7
+		}
 	]
 }

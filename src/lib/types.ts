@@ -90,3 +90,28 @@ export interface Attachment {
 	hardPoints: number
 	rarity: number
 }
+
+export enum GearCategory {
+	Communication,
+	Poison,
+	Detection,
+	Medical,
+	Cybernetic,
+	Recreation,
+	Security,
+	Survival,
+	Tool,
+	Drug,
+	Illegal
+}
+
+export interface Gear {
+	name: string
+	description: string
+	category: GearCategory
+	price: string
+	restricted: boolean
+	encumbrance: number
+	rarity: number
+
+}

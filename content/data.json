@@ -11137,8 +11137,7 @@
 			"encumbrance": 2,
 			"hardPoints": 1,
 			"rarity": 1,
-			"special": "If wearing gear appropriate to environment, can ignore 1 setback imposed by environment",
-			"sourcebook": "core"
+			"special": "If wearing gear appropriate to environment, can ignore 1 setback imposed by environment"
 		},
 		{
 			"name": "Armored Clothing",
@@ -11149,8 +11148,7 @@
 			"encumbrance": 3,
 			"hardPoints": 1,
 			"rarity": 6,
-			"special": "Average perception check to notice that clothing is plated",
-			"sourcebook": "core"
+			"special": "Average perception check to notice that clothing is plated"
 		},
 		{
 			"name": "Heavy Battle Armor",
@@ -11160,8 +11158,7 @@
 			"restricted": true,
 			"encumbrance": 6,
 			"hardPoints": 4,
-			"rarity": 7,
-			"sourcebook": "core"
+			"rarity": 7
 		},
 		{
 			"name": "Heavy Clothing",
@@ -11171,8 +11168,7 @@
 			"restricted": false,
 			"encumbrance": 1,
 			"hardPoints": 0,
-			"rarity": 0,
-			"sourcebook": "core"
+			"rarity": 0
 		},
 		{
 			"name": "Laminate",
@@ -11183,8 +11179,7 @@
 			"encumbrance": 4,
 			"hardPoints": 3,
 			"rarity": 5,
-			"special": "Like stormtrooper armor. Typically includes integrated comlink and magnification. Helps with adverse environments",
-			"sourcebook": "core"
+			"special": "Like stormtrooper armor. Typically includes integrated comlink and magnification. Helps with adverse environments"
 		},
 		{
 			"name": "Personal Deflector Shield",
@@ -11195,8 +11190,7 @@
 			"encumbrance": 3,
 			"hardPoints": 0,
 			"rarity": 8,
-			"special": "Can spend any despair to have it run out of power. Typically lasts about 10 minutes and requires 3 hours to recharge",
-			"sourcebook": "core"
+			"special": "Can spend any despair to have it run out of power. Typically lasts about 10 minutes and requires 3 hours to recharge"
 		},
 		{
 			"name": "Padded Armor",
@@ -11206,8 +11200,7 @@
 			"restricted": false,
 			"encumbrance": 2,
 			"hardPoints": 0,
-			"rarity": 1,
-			"sourcebook": "core"
+			"rarity": 1
 		},
 		{
 			"name": "Blast Vest",
@@ -11218,8 +11211,7 @@
 			"encumbrance": 3,
 			"hardPoints": 1,
 			"rarity": 3,
-			"special": "+2 Soak when wearer suffers damage from slugthrower or other physical projectile",
-			"sourcebook": "fly casual"
+			"special": "+2 Soak when wearer suffers damage from slugthrower or other physical projectile"
 		},
 		{
 			"name": "Mimetic Suit",
@@ -11230,8 +11222,7 @@
 			"encumbrance": 2,
 			"hardPoints": 2,
 			"rarity": 8,
-			"special": "+2 Upgrade Stealth while wearing suit. Can spend 3 threat or 1 despair on any stealth check the wearer makes while suit is active to have it run out of energy.",
-			"sourcebook": "fly casual"
+			"special": "+2 Upgrade Stealth while wearing suit. Can spend 3 threat or 1 despair on any stealth check the wearer makes while suit is active to have it run out of energy."
 		},
 		{
 			"name": "Smuggler's Trenchcoat",
@@ -11242,8 +11233,7 @@
 			"encumbrance": 3,
 			"hardPoints": 0,
 			"rarity": 7,
-			"special": "Can conceal up to 2 encumbrance worth of items. Checks made to find anything hidden within are opposed by wearer's Skulduggery",
-			"sourcebook": "fly casual"
+			"special": "Can conceal up to 2 encumbrance worth of items. Checks made to find anything hidden within are opposed by wearer's Skulduggery"
 		},
 		{
 			"name": "Creshaldyne Riot Armor",
@@ -11254,8 +11244,7 @@
 			"encumbrance": 3,
 			"hardPoints": 1,
 			"rarity": 6,
-			"special": "Includes a breath mask that filters out airborne toxins and gases. When staggered or disoriented, wearer reduces the duration by 1 round (min 1)",
-			"sourcebook": "far horizons"
+			"special": "Includes a breath mask that filters out airborne toxins and gases. When staggered or disoriented, wearer reduces the duration by 1 round (min 1)"
 		},
 		{
 			"name": "Reinforced Environment Gear",
@@ -11266,8 +11255,7 @@
 			"encumbrance": 2,
 			"hardPoints": 2,
 			"rarity": 4,
-			"special": "Wearer ignores 1 setback imposed by environmental conditions, reduce critical injuries from falling by 20. Includes a filter, granting 1 boost to Resilience checks to resist toxic atmospheres or airborned toxins",
-			"sourcebook": "far horizons"
+			"special": "Wearer ignores 1 setback imposed by environmental conditions, reduce critical injuries from falling by 20. Includes a filter, granting 1 boost to Resilience checks to resist toxic atmospheres or airborned toxins"
 		},
 		{
 			"name": "Kamperdine Armored Jacket",
@@ -11278,8 +11266,7 @@
 			"encumbrance": 2,
 			"hardPoints": 2,
 			"rarity": 4,
-			"special": "Wearer adds 1 advantage to any successful Charm, Deception, or Negotiation checks",
-			"sourcebook": "far horizons"
+			"special": "Wearer adds 1 advantage to any successful Charm, Deception, or Negotiation checks"
 		},
 		{
 			"name": "Beast-hide Warrior's Armor",
@@ -11290,8 +11277,7 @@
 			"encumbrance": 3,
 			"hardPoints": 0,
 			"rarity": 2,
-			"special": "Wearer gains automatic 1 Advantage on Coercion checks and auotmatic 1 Threat on Charm checks.",
-			"sourcebook": "dangerous covenant"
+			"special": "Wearer gains automatic 1 Advantage on Coercion checks and auotmatic 1 Threat on Charm checks."
 		},
 		{
 			"name": "\"Storm\" Charge Suit",
@@ -11302,8 +11288,7 @@
 			"encumbrance": 3,
 			"hardPoints": 0,
 			"rarity": 6,
-			"special": "If attack against wearer generates despair, attacker is automatically hit by attack dealing 8 damage to strain. If the attack generates 2 threat, attacker is disoriented for 1 round. Wearing this suit counts as being equipped with Shock Gloves.",
-			"sourcebook": "dangerous covenant"
+			"special": "If attack against wearer generates despair, attacker is automatically hit by attack dealing 8 damage to strain. If the attack generates 2 threat, attacker is disoriented for 1 round. Wearing this suit counts as being equipped with Shock Gloves."
 		},
 		{
 			"name": "Mk. III Flak Vest",
@@ -11314,8 +11299,7 @@
 			"encumbrance": 3,
 			"hardPoints": 1,
 			"rarity": 2,
-			"special": "Armor has +1 soak vs Blast quality",
-			"sourcebook": "dangerous covenant"
+			"special": "Armor has +1 soak vs Blast quality"
 		},
 		{
 			"name": "PX-11 \"Battlement\" Powered Armor",
@@ -11326,8 +11310,7 @@
 			"encumbrance": 4,
 			"hardPoints": 3,
 			"rarity": 7,
-			"special": "Forms a vacuum-sealed life support system that lasts up to 1 hour. Helmet includes a comlink and sensors allowing ignore up to 2 setback on all Perception, Surveillance, Vigilance, and combat skill checks due to vision-obscuring factors. Charge lasts 12 hours. +1 Brawn, +1 Athletics while wearing. If it loses power or stops functioning, encumbrance becomes 12, defense becomes 0, and wearer loses Brawn increase. 5 minutes to equip without help, half with help.",
-			"sourcebook": "dangerous covenant"
+			"special": "Forms a vacuum-sealed life support system that lasts up to 1 hour. Helmet includes a comlink and sensors allowing ignore up to 2 setback on all Perception, Surveillance, Vigilance, and combat skill checks due to vision-obscuring factors. Charge lasts 12 hours. +1 Brawn, +1 Athletics while wearing. If it loses power or stops functioning, encumbrance becomes 12, defense becomes 0, and wearer loses Brawn increase. 5 minutes to equip without help, half with help."
 		},
 		{
 			"name": "Protector 1 Combat Armor",
@@ -11337,8 +11320,7 @@
 			"restricted": true,
 			"encumbrance": 4,
 			"hardPoints": 3,
-			"rarity": 7,
-			"sourcebook": "dangerous covenant"
+			"rarity": 7
 		},
 		{
 			"name": "Mk. II \"Steelskin\" Armor",
@@ -11349,8 +11331,7 @@
 			"encumbrance": 8,
 			"hardPoints": 1,
 			"rarity": 7,
-			"special": "1 setback on all Brawn and Agility based checks while wearing. -1 rounds staggered or disoriented",
-			"sourcebook": "dangerous covenant"
+			"special": "1 setback on all Brawn and Agility based checks while wearing. -1 rounds staggered or disoriented"
 		},
 		{
 			"name": "Hutt Shell Armor",
@@ -11361,8 +11342,7 @@
 			"encumbrance": 6,
 			"hardPoints": 4,
 			"rarity": 9,
-			"special": "Wearer can hover up to 5m above the ground. Allows a Hutt to ignore effects of Awkward and Ponderous abilities. Wearer doesn't have to spend additional maneuvers to navigate difficult terrain. Only wearable by Hutts.",
-			"sourcebook": "lords of nal hutta"
+			"special": "Wearer can hover up to 5m above the ground. Allows a Hutt to ignore effects of Awkward and Ponderous abilities. Wearer doesn't have to spend additional maneuvers to navigate difficult terrain. Only wearable by Hutts."
 		},
 		{
 			"name": "Sakiyan Shadowsuit",
@@ -11373,8 +11353,7 @@
 			"encumbrance": 1,
 			"hardPoints": 1,
 			"rarity": 8,
-			"special": "Grants 2 boost to Stealth checks",
-			"sourcebook": "lords of nal hutta"
+			"special": "Grants 2 boost to Stealth checks"
 		},
 		{
 			"name": "Catch Vest",
@@ -11385,8 +11364,7 @@
 			"encumbrance": 1,
 			"hardPoints": 0,
 			"rarity": 3,
-			"special": "Has a soak value of 2 against Energy Weapons only, provides 1 soak against all others.",
-			"sourcebook": "suns of fortune"
+			"special": "Has a soak value of 2 against Energy Weapons only, provides 1 soak against all others."
 		},
 		{
 			"name": "Nomad Greatcoat",
@@ -11397,8 +11375,7 @@
 			"encumbrance": 1,
 			"hardPoints": 0,
 			"rarity": 4,
-			"special": "Reduces difficulty of Resilience checks to resist extreme cold by 1, removes 1 setback added to checks due to extreme cold.",
-			"sourcebook": "suns of fortune"
+			"special": "Reduces difficulty of Resilience checks to resist extreme cold by 1, removes 1 setback added to checks due to extreme cold."
 		},
 		{
 			"name": "Type III \"Berethron\" Armor",
@@ -11408,8 +11385,7 @@
 			"restricted": true,
 			"encumbrance": 3,
 			"hardPoints": 3,
-			"rarity": 6,
-			"sourcebook": "suns of fortune"
+			"rarity": 6
 		},
 		{
 			"name": "TX-3 Combat Flight Suit",
@@ -11420,8 +11396,7 @@
 			"encumbrance": 4,
 			"hardPoints": 2,
 			"rarity": 6,
-			"special": "Without external oxygen source, wearer can survive up to 24 hours in hard vacuum",
-			"sourcebook": "suns of fortune"
+			"special": "Without external oxygen source, wearer can survive up to 24 hours in hard vacuum"
 		},
 		{
 			"name": "Cloaking Coat",
@@ -11432,8 +11407,7 @@
 			"encumbrance": 4,
 			"hardPoints": 1,
 			"rarity": 6,
-			"special": "Upgrade difficulty of all checks to detect wearer using sensors or electronic forms of detection twice. Droids with an Intellect lower than wearer's Computers skill are also affected in the same way.",
-			"sourcebook": "special modifications"
+			"special": "Upgrade difficulty of all checks to detect wearer using sensors or electronic forms of detection twice. Droids with an Intellect lower than wearer's Computers skill are also affected in the same way."
 		},
 		{
 			"name": "Mechanic's Utility Suit",
@@ -11444,8 +11418,7 @@
 			"encumbrance": 5,
 			"hardPoints": 1,
 			"rarity": 3,
-			"special": "Wearer counts as having a tool kit",
-			"sourcebook": "special modifications"
+			"special": "Wearer counts as having a tool kit"
 		},
 		{
 			"name": "Merr-Sonn N-57 Armor",
@@ -11456,8 +11429,7 @@
 			"encumbrance": 5,
 			"hardPoints": 5,
 			"rarity": 6,
-			"special": "As a maneuver, wearer can recharge an energy weapon or device in the manner of an extra reload/power pack.",
-			"sourcebook": "special modifications"
+			"special": "As a maneuver, wearer can recharge an energy weapon or device in the manner of an extra reload/power pack."
 		},
 		{
 			"name": "P-14 Hazardous Industry Suit",
@@ -11468,8 +11440,7 @@
 			"encumbrance": 7,
 			"hardPoints": 2,
 			"rarity": 6,
-			"special": "Counts as a breath mask. Wearer adds 2 boost to Resilience checks to resist heat, cold, radiation, and other hostile environmental conditions. Wearer does not suffer effects of Burn or Disorient qualities. When suffering strain to take an extra maneuver, suffer 1 additional strain.",
-			"sourcebook": "special modifications"
+			"special": "Counts as a breath mask. Wearer adds 2 boost to Resilience checks to resist heat, cold, radiation, and other hostile environmental conditions. Wearer does not suffer effects of Burn or Disorient qualities. When suffering strain to take an extra maneuver, suffer 1 additional strain."
 		},
 		{
 			"name": "Armored Drop Suit",
@@ -11480,8 +11451,7 @@
 			"encumbrance": 6,
 			"hardPoints": 2,
 			"rarity": 7,
-			"special": "As a maneuver, wearer can engage flight system to function as a Silhouette 0, Speed 2, Handling 2, System Strain 3 vehicle requiring Piloting (Planetary) to operate. While engage and wearer is conscious to guide himself down, he does not suffer damage from falling",
-			"sourcebook": "no disintegration"
+			"special": "As a maneuver, wearer can engage flight system to function as a Silhouette 0, Speed 2, Handling 2, System Strain 3 vehicle requiring Piloting (Planetary) to operate. While engage and wearer is conscious to guide himself down, he does not suffer damage from falling"
 		},
 		{
 			"name": "Hunter's Trophy Armor (completed)",
@@ -11492,8 +11462,7 @@
 			"encumbrance": 4,
 			"hardPoints": 1,
 			"rarity": 9,
-			"special": "Wearer suffer 1 setback to Charm checks, but gains 2 boost to Coercion checks. Charm checks to impress or persuade of the wearer's prowess can get 2 boost instead of 1 setback",
-			"sourcebook": "no disintegration"
+			"special": "Wearer suffer 1 setback to Charm checks, but gains 2 boost to Coercion checks. Charm checks to impress or persuade of the wearer's prowess can get 2 boost instead of 1 setback"
 		},
 		{
 			"name": "Hunter's Trophy Armor (custom)",
@@ -11504,8 +11473,7 @@
 			"encumbrance": 4,
 			"hardPoints": 1,
 			"rarity": 6,
-			"special": "Same as completed, but must have some sort of hide to turn into completed armor",
-			"sourcebook": "no disintegration"
+			"special": "Same as completed, but must have some sort of hide to turn into completed armor"
 		},
 		{
 			"name": "Mandalorian Armor",
@@ -11516,8 +11484,7 @@
 			"encumbrance": 6,
 			"hardPoints": 5,
 			"rarity": 8,
-			"special": "Profile shows unmodified armor. Can buy modified armor with rarity +1 (or highest attachment's armor if higher), and added cost of the attachments",
-			"sourcebook": "no disintegration"
+			"special": "Profile shows unmodified armor. Can buy modified armor with rarity +1 (or highest attachment's armor if higher), and added cost of the attachments"
 		},
 		{
 			"name": "Enviro-suit",
@@ -11528,8 +11495,7 @@
 			"encumbrance": 2,
 			"hardPoints": 1,
 			"rarity": 2,
-			"special": "Wearer adds 1 setback to Agility-based or Perception checks. Protects wearer from environmental hazards up to 8 hours",
-			"sourcebook": "enter the unknown"
+			"special": "Wearer adds 1 setback to Agility-based or Perception checks. Protects wearer from environmental hazards up to 8 hours"
 		},
 		{
 			"name": "Shockrider Crash Suit",
@@ -11540,8 +11506,7 @@
 			"encumbrance": 2,
 			"hardPoints": 1,
 			"rarity": 2,
-			"special": "-1 strain from vehicle crits, -1 damage from fire",
-			"sourcebook": "enter the unknown"
+			"special": "-1 strain from vehicle crits, -1 damage from fire"
 		},
 		{
 			"name": "Tracker Utility Vest",
@@ -11552,8 +11517,7 @@
 			"encumbrance": "-",
 			"hardPoints": 1,
 			"rarity": 2,
-			"special": "+2 max Encumbrance",
-			"sourcebook": "enter the unknown"
+			"special": "+2 max Encumbrance"
 		},
 		{
 			"name": "Mountaineer Armor",
@@ -11564,8 +11528,7 @@
 			"encumbrance": 3,
 			"hardPoints": 2,
 			"rarity": 6,
-			"special": "Add 2 boost to Athletics checks to climb or rappel",
-			"sourcebook": "enter the unknown"
+			"special": "Add 2 boost to Athletics checks to climb or rappel"
 		},
 		{
 			"name": "Wing Commander Armored Flight Suit",
@@ -11576,8 +11539,7 @@
 			"encumbrance": 3,
 			"hardPoints": 1,
 			"rarity": 6,
-			"special": "-1 strain from vehicle crits, -1 damage from fire",
-			"sourcebook": "stay on target*"
+			"special": "-1 strain from vehicle crits, -1 damage from fire"
 		}
 	]
 }

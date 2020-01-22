@@ -16327,7 +16327,6 @@
 		},
 		{
 			"name": "A-Type Stiletto",
-			"imgName": "stiletto",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16371,7 +16370,6 @@
 		},
 		{
 			"name": "CL-1C Lancet Interceptor",
-			"imgName": "lancet",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 5,
@@ -17516,7 +17514,6 @@
 		},
 		{
 			"name": "Gymsnor-4 Light Freighter",
-			"imgName": "gymsnor4",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17610,7 +17607,6 @@
 		},
 		{
 			"name": "Luxurious-Class Yacht",
-			"imgName": "lxurious",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 4,
@@ -17658,7 +17654,7 @@
 		},
 		{
 			"name": "Conqueror-Class Assault Ship",
-			"imgName": "conquerer",
+			"imgName": "conqueror",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17704,7 +17700,6 @@
 		},
 		{
 			"name": "Y164 Slave Transport",
-			"imgName": "y164",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 3,
@@ -17775,7 +17770,6 @@
 		},
 		{
 			"name": "D-Type Stealth Freighter",
-			"imgName": "dtype",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 2,

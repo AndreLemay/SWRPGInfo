@@ -188,6 +188,7 @@ body,
 .tooltip {
 	width: 400px;
 	height: 600px;
+	opacity: 1 !important;
 }
 
 /*Need to override default bootstrap padding so these

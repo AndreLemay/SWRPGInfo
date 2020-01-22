@@ -18,7 +18,7 @@ export default () => {
 							field: 'name',
 							sortable: true,
 							render: data => {
-								let imgSrc = data.imgName ? require(`../../content/img/ship/${data.imgName.toLowerCase()}.jpg`) : null
+								let imgSrc = data.imgName ? require(`../../content/img/ships/${data.imgName.toLowerCase()}.jpg`) : null
 
 								return imgSrc ? (
 									<OverlayTrigger
@@ -29,10 +29,10 @@ export default () => {
 												<Image className="popupImg" src={imgSrc} fluid />
 											</Tooltip>
 										}>
-										<td>{data.name}</td>
+										<span>{data.name}</span>
 									</OverlayTrigger>
 								) : (
-									<td>{data.name}</td>
+									<span>{data.name}</span>
 								)
 							}
 						},

@@ -190,12 +190,6 @@ body,
 	height: 600px;
 }
 
-/* .popupImg {
-	width: 200px;
-	height: 200px;
-	object-fit: contain;
-} */
-
 /*Need to override default bootstrap padding so these
 cells end up with the same size as the characteristic ones*/
 .species .stats .field .col-6 {

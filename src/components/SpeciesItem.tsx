@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 import { Species } from '../lib/types'
 
 export default (species: Species) => {
-	let imgSrc = require(`../../content/img/${species.name.toLowerCase()}.jpg`)
+	let imgSrc = require(`../../content/img/species/${species.name.toLowerCase()}.jpg`)
 
 	return (
 		<Container className="species">

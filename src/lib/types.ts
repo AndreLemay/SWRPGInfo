@@ -165,6 +165,7 @@ export enum ShipType {
 
 export interface Ship {
 	name: string
+	imgName?: string
 	category: ShipType
 	silhouette: number
 	speed: number

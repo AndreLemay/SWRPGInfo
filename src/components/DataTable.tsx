@@ -67,7 +67,7 @@ class DataTable extends React.Component<DataTableProps> {
 
 		if (groups) {
 			let grouped = data.reduce((g, i) => {
-				;(g[i[groups.groupByField]] = g[i[groups.groupByField]] || []).push(i)
+				(g[i[groups.groupByField]] = g[i[groups.groupByField]] || []).push(i)
 
 				return g
 			}, {})

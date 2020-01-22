@@ -15834,6 +15834,7 @@
 	"ships": [
 		{
 			"name": "RZ-1 A-Wing Light Interceptor",
+			"imgName": "awing",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 6,
@@ -15858,6 +15859,7 @@
 		},
 		{
 			"name": "ARC-170 Starfighter",
+			"imgName": "arc170",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -15881,6 +15883,7 @@
 		},
 		{
 			"name": "T-65B X-Wing Multi-Role Starfighter",
+			"imgName": "xwing",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 5,
@@ -15904,6 +15907,7 @@
 		},
 		{
 			"name": "Cloakshape Fighter",
+			"imgName": "cloakshape",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -15925,6 +15929,7 @@
 		},
 		{
 			"name": "Firespray System Patrol Craft",
+			"imgName": "firespray",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 4,
@@ -15948,6 +15953,7 @@
 		},
 		{
 			"name": "JM-5000 Jumpmaster Long Range Scout",
+			"imgName": "jumpmaster",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 4,
@@ -15971,6 +15977,7 @@
 		},
 		{
 			"name": "Lambda Class T4-A Long Range Shuttle",
+			"imgName": "lambda",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 3,
@@ -15994,6 +16001,7 @@
 		},
 		{
 			"name": "TIE Fighter",
+			"imgName": "tie",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 5,
@@ -16015,6 +16023,7 @@
 		},
 		{
 			"name": "BTL-A4 Y-Wing",
+			"imgName": "ywing",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16038,6 +16047,7 @@
 		},
 		{
 			"name": "Z-95-AF4 Headhunter",
+			"imgName": "z95",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16059,6 +16069,7 @@
 		},
 		{
 			"name": "GAT-12H Skipray Blastboat",
+			"imgName": "skipray",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 4,
@@ -16082,6 +16093,7 @@
 		},
 		{
 			"name": "XG-1 \"Star Wing\" Assault Gunboat",
+			"imgName": "starwing",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16105,6 +16117,7 @@
 		},
 		{
 			"name": "Imperial Customs Frigate",
+			"imgName": "customs",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 3,
@@ -16128,6 +16141,7 @@
 		},
 		{
 			"name": "VT-49 Decimator",
+			"imgName": "vt49",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 3,
@@ -16151,6 +16165,7 @@
 		},
 		{
 			"name": "YQ-400 Monitor-Class System Patrol Ship",
+			"imgName": "yq400",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 3,
@@ -16172,6 +16187,7 @@
 		},
 		{
 			"name": "Regulator-Class Patrol Vessel",
+			"imgName": "regulator",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 4,
@@ -16193,6 +16209,7 @@
 		},
 		{
 			"name": "A-7 Hunter Interceptor",
+			"imgName": "a7",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 5,
@@ -16214,6 +16231,7 @@
 		},
 		{
 			"name": "Preybird-Class Starfighter",
+			"imgName": "preybird",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16237,6 +16255,7 @@
 		},
 		{
 			"name": "M3-A Scyk Interceptor",
+			"imgName": "scyk",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 5,
@@ -16260,6 +16279,7 @@
 		},
 		{
 			"name": "M22-T Krayt Gunship",
+			"imgName": "krayt",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 4,
@@ -16283,6 +16303,7 @@
 		},
 		{
 			"name": "HH-87 Starhopper Starfighter",
+			"imgName": "starhopper",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16306,6 +16327,7 @@
 		},
 		{
 			"name": "A-Type Stiletto",
+			"imgName": "stiletto",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16327,6 +16349,7 @@
 		},
 		{
 			"name": "Coneship",
+			"imgName": "coneship",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 1,
@@ -16348,6 +16371,7 @@
 		},
 		{
 			"name": "CL-1C Lancet Interceptor",
+			"imgName": "lancet",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 5,
@@ -16371,6 +16395,7 @@
 		},
 		{
 			"name": "LAF-250 Starfighter",
+			"imgName": "laf250",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16392,6 +16417,7 @@
 		},
 		{
 			"name": "HLAF-500 Starfighter",
+			"imgName": "hlaf500",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16415,6 +16441,7 @@
 		},
 		{
 			"name": "PPB Pocket Patrol Boat",
+			"imgName": "ppb",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16436,6 +16463,7 @@
 		},
 		{
 			"name": "PB-950 Patrol Boat",
+			"imgName": "pb950",
 			"category": 0,
 			"silhouette": 5,
 			"speed": 3,
@@ -16459,6 +16487,7 @@
 		},
 		{
 			"name": "Aggressor Assault Fighter",
+			"imgName": "aggressor",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 5,
@@ -16482,6 +16511,7 @@
 		},
 		{
 			"name": "Mandalorian Protectorate Starfighter",
+			"imgName": "mandalorian",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 6,
@@ -16505,6 +16535,7 @@
 		},
 		{
 			"name": "G-1A Heavy Starfighter",
+			"imgName": "g1a",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16528,6 +16559,7 @@
 		},
 		{
 			"name": "Kihraxz Light Starfighter",
+			"imgName": "kihraxz",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16552,6 +16584,7 @@
 		},
 		{
 			"name": "Auzituck-Class Gunship",
+			"imgName": "auzituck",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 3,
@@ -16576,6 +16609,7 @@
 		},
 		{
 			"name": "Delta-Class T-3C Shuttle",
+			"imgName": "delta",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 3,
@@ -16599,6 +16633,7 @@
 		},
 		{
 			"name": "KST-100 Kestrel Light Executive Transport",
+			"imgName": "kestrel",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16622,6 +16657,7 @@
 		},
 		{
 			"name": "AD-1S Modular Multi-Role Starfighter",
+			"imgName": "modular",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 3,
@@ -16643,6 +16679,7 @@
 		},
 		{
 			"name": "A-24 Sleuth-Class Scout Ship",
+			"imgName": "sleuth",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16666,6 +16703,7 @@
 		},
 		{
 			"name": "A-36 Pathfinder-Class Force Recon Vessel",
+			"imgName": "pathfinder",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 4,
@@ -16690,6 +16728,7 @@
 		},
 		{
 			"name": "E-9 Explorer-Class Armed Long-Range Scout ",
+			"imgName": "explorer",
 			"category": 0,
 			"silhouette": 4,
 			"speed": 3,
@@ -16713,6 +16752,7 @@
 		},
 		{
 			"name": "V-Wing Interceptor",
+			"imgName": "vwing",
 			"category": 0,
 			"silhouette": 3,
 			"speed": 4,
@@ -16735,6 +16775,7 @@
 		},
 		{
 			"name": "Action VI Bulk Transport",
+			"imgName": "action6",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 2,
@@ -16757,6 +16798,7 @@
 		},
 		{
 			"name": "ILH-KK Citadel-Class Light Freighter",
+			"imgName": "citadel",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -16780,6 +16822,7 @@
 		},
 		{
 			"name": "GR-75 Medium Transport",
+			"imgName": "gr75",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 3,
@@ -16802,6 +16845,7 @@
 		},
 		{
 			"name": "Sorosuub Luxury 3000 Space Yacht",
+			"imgName": "luxury3000",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -16824,6 +16868,7 @@
 		},
 		{
 			"name": "Space Master Medium Transport",
+			"imgName": "spacemaster",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 2,
@@ -16847,6 +16892,7 @@
 		},
 		{
 			"name": "Starwind Pleasure Yacht",
+			"imgName": "starwind",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 3,
@@ -16870,6 +16916,7 @@
 		},
 		{
 			"name": "Wayfarer-Class Medium Freighter",
+			"imgName": "wayfarer",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 3,
@@ -16893,6 +16940,7 @@
 		},
 		{
 			"name": "YG-4210 Light Freighter",
+			"imgName": "yg4210",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 2,
@@ -16916,6 +16964,7 @@
 		},
 		{
 			"name": "YG-4400 Light Freighter",
+			"imgName": "yg4400",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 4,
@@ -16939,6 +16988,7 @@
 		},
 		{
 			"name": "YT-1000 Light Freighter",
+			"imgName": "yt1000",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -16962,6 +17012,7 @@
 		},
 		{
 			"name": "YT-1200 Light Freighter",
+			"imgName": "yt1200",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 2,
@@ -16985,6 +17036,7 @@
 		},
 		{
 			"name": "YT-1210 Light Freighter",
+			"imgName": "yt1210",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 4,
@@ -17008,6 +17060,7 @@
 		},
 		{
 			"name": "YT-1300 Light Freighter",
+			"imgName": "yt1300",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17031,6 +17084,7 @@
 		},
 		{
 			"name": "YT-1760 Small Transport",
+			"imgName": "yt1760",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 4,
@@ -17054,6 +17108,7 @@
 		},
 		{
 			"name": "YT-2000 Light Freighter",
+			"imgName": "yt2000",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17077,6 +17132,7 @@
 		},
 		{
 			"name": "YT-2400 Light Freighter",
+			"imgName": "yt2400",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17100,6 +17156,7 @@
 		},
 		{
 			"name": "YV-666 Light Freighter",
+			"imgName": "yv666",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17123,6 +17180,7 @@
 		},
 		{
 			"name": "YV-560 Light Freighter",
+			"imgName": "yv560",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17146,6 +17204,7 @@
 		},
 		{
 			"name": "YV-929 Light Freighter",
+			"imgName": "yv929",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17169,6 +17228,7 @@
 		},
 		{
 			"name": "YZ-775 Medium Transport",
+			"imgName": "yz775",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 2,
@@ -17192,6 +17252,7 @@
 		},
 		{
 			"name": "Star Galleon Armed Transport",
+			"imgName": "stargalleon",
 			"category": 1,
 			"silhouette": 6,
 			"speed": 1,
@@ -17215,6 +17276,7 @@
 		},
 		{
 			"name": "Gozanti-Class Armed Transport",
+			"imgName": "gozanti",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 2,
@@ -17238,6 +17300,7 @@
 		},
 		{
 			"name": "C-ROC Gozanti-Class Cruiser",
+			"imgName": "croc",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 3,
@@ -17261,6 +17324,7 @@
 		},
 		{
 			"name": "VCX-100 Light Freighter",
+			"imgName": "vcx100",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 3,
@@ -17284,6 +17348,7 @@
 		},
 		{
 			"name": "WUD-500 Star Yacht",
+			"imgName": "wud500",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 4,
@@ -17307,6 +17372,7 @@
 		},
 		{
 			"name": "Starlight-Class Light Freighter",
+			"imgName": "starlight",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17330,6 +17396,7 @@
 		},
 		{
 			"name": "YKL37R Nova Courier",
+			"imgName": "nova",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17353,6 +17420,7 @@
 		},
 		{
 			"name": "GX-1 Short Hauler",
+			"imgName": "gx1",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 2,
@@ -17376,6 +17444,7 @@
 		},
 		{
 			"name": "Baudo-Class Star Yacht",
+			"imgName": "baudo",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 4,
@@ -17399,6 +17468,7 @@
 		},
 		{
 			"name": "Mobquet Medium Transport",
+			"imgName": "mobquet",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 1,
@@ -17422,6 +17492,7 @@
 		},
 		{
 			"name": "Gymsnor-3 Light Freighter",
+			"imgName": "gymsnor3",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17445,6 +17516,7 @@
 		},
 		{
 			"name": "Gymsnor-4 Light Freighter",
+			"imgName": "gymsnor4",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17468,6 +17540,7 @@
 		},
 		{
 			"name": "HWK-1000 Light Freighter",
+			"imgName": "hwk1000",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 5,
@@ -17490,6 +17563,7 @@
 		},
 		{
 			"name": "HWK-290 Light Freighter",
+			"imgName": "hwk290",
 			"category": 1,
 			"silhouette": 3,
 			"speed": 4,
@@ -17512,6 +17586,7 @@
 		},
 		{
 			"name": "HT-2200 Medium Freighter",
+			"imgName": "ht2200",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 2,
@@ -17535,6 +17610,7 @@
 		},
 		{
 			"name": "Luxurious-Class Yacht",
+			"imgName": "lxurious",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 4,
@@ -17557,6 +17633,7 @@
 		},
 		{
 			"name": "4R3 Light Assault Transport",
+			"imgName": "4r3",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17581,6 +17658,7 @@
 		},
 		{
 			"name": "Conqueror-Class Assault Ship",
+			"imgName": "conquerer",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17604,6 +17682,7 @@
 		},
 		{
 			"name": "Seltiss-2 Caravel",
+			"imgName": "seltiss",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17625,6 +17704,7 @@
 		},
 		{
 			"name": "Y164 Slave Transport",
+			"imgName": "y164",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 3,
@@ -17648,6 +17728,7 @@
 		},
 		{
 			"name": "TL-1200 Transport",
+			"imgName": "tl1200",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 3,
@@ -17671,6 +17752,7 @@
 		},
 		{
 			"name": "CSS-1 Corellian Star Shuttle",
+			"imgName": "css1",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 3,
@@ -17693,6 +17775,7 @@
 		},
 		{
 			"name": "D-Type Stealth Freighter",
+			"imgName": "dtype",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 2,
@@ -17716,6 +17799,7 @@
 		},
 		{
 			"name": "J-Type Star Skiff",
+			"imgName": "jtype",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 4,
@@ -17761,6 +17845,7 @@
 		},
 		{
 			"name": "Lancer-Class Pursuit Craft",
+			"imgName": "lancer",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 5,
@@ -17808,6 +17893,7 @@
 		},
 		{
 			"name": "Deep Space Recovery Vessel L-2783",
+			"imgName": "dsrv",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 2,
@@ -17832,6 +17918,7 @@
 		},
 		{
 			"name": "Ghtroc 720 Light Freighter",
+			"imgName": "ghtroc720",
 			"category": 1,
 			"silhouette": 4,
 			"speed": 3,
@@ -17855,6 +17942,7 @@
 		},
 		{
 			"name": "Xiytiar-Class Heavy Transport",
+			"imgName": "xiytiar",
 			"category": 1,
 			"silhouette": 5,
 			"speed": 2,

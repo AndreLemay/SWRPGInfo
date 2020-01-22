@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as Data from '../../content/data.json'
 import Layout from '../components/Layout'
-import { Container } from 'react-bootstrap'
+import { Container, OverlayTrigger, Tooltip, Image } from 'react-bootstrap'
 import DataTable from '../components/DataTable'
 import { ShipType, Ship } from '../lib/types'
 
@@ -16,7 +16,25 @@ export default () => {
 						{
 							label: 'Name',
 							field: 'name',
-							sortable: true
+							sortable: true,
+							render: data => {
+								let imgSrc = data.imgName ? require(`../../content/img/ship/${data.imgName.toLowerCase()}.jpg`) : null
+
+								return imgSrc ? (
+									<OverlayTrigger
+										placement="right"
+										overlay={
+											// tslint:disable-next-line: jsx-wrap-multiline
+											<Tooltip id={`tooltip-${data.name}`}>
+												<Image className="popupImg" src={imgSrc} fluid />
+											</Tooltip>
+										}>
+										<td>{data.name}</td>
+									</OverlayTrigger>
+								) : (
+									<td>{data.name}</td>
+								)
+							}
 						},
 						{
 							label: 'Silhouette',

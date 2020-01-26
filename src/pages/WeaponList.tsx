@@ -36,6 +36,11 @@ export default () => {
 							center: true
 						},
 						{
+							label: 'Range',
+							field: 'range',
+							sortable: true
+						},
+						{
 							label: 'Encumbrance',
 							field: 'encumbrance',
 							sortable: true,

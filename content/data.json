@@ -6216,7 +6216,7 @@
 							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
 							"column": 2,
 							"row": 5,
-							"passive": false,
+							"passive": true,
 							"connections": [true, true, true, false]
 						},
 						{

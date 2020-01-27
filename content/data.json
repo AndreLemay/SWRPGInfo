@@ -1023,7 +1023,7 @@
 							"name": "Dedication",
 							"description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6",
 							"column": 3,
-							"row": 3,
+							"row": 5,
 							"passive": true,
 							"connections": [true, true, true, false]
 						},
@@ -2841,7 +2841,7 @@
 							"name": "Toughened",
 							"description": "Gain +2 Wound Threshold",
 							"column": 1,
-							"row": 1,
+							"row": 2,
 							"passive": true,
 							"connections": [false, true, true, true]
 						},
@@ -3206,7 +3206,7 @@
 							"name": "Hard Headed",
 							"description": "When staggered or disoriented, perform the Hard Headed action: make a Daunting Discipline check to remove status. Difficulty reduced per rank of Hard Headed.",
 							"column": 2,
-							"row": 1,
+							"row": 2,
 							"passive": false,
 							"connections": [true, true, true, true]
 						},
@@ -3225,14 +3225,6 @@
 							"row": 2,
 							"passive": false,
 							"connections": [true, false, false, true]
-						},
-						{
-							"name": "Grit",
-							"description": "",
-							"column": 3,
-							"row": 1,
-							"passive": true,
-							"connections": [false, false, false, true]
 						},
 						{
 							"name": "Body Guard",
@@ -4162,10 +4154,10 @@
 						{
 							"name": "Armor Master",
 							"description": "When wearing armor, increase total Soal Value by 1.",
-							"column": 2,
-							"row": 1,
-							"passive": false,
-							"connections": [false, false, false, true]
+							"column": 3,
+							"row": 5,
+							"passive": true,
+							"connections": [true, true, true, false]
 						},
 						{
 							"name": "Heavy Hitter",
@@ -5293,7 +5285,7 @@
 							"name": "Grit",
 							"description": "Gain +1 Strain Threshold",
 							"column": 4,
-							"row": 1,
+							"row": 2,
 							"passive": true,
 							"connections": [true, true, false, true]
 						},
@@ -6215,9 +6207,9 @@
 							"name": "Jury Rigged",
 							"description": "Choose 1 weapon, armor, or other item, and give it a permanent improvement while it remains in use",
 							"column": 1,
-							"row": 4,
+							"row": 5,
 							"passive": true,
-							"connections": [false, true, false, false]
+							"connections": [false, false, true, false]
 						},
 						{
 							"name": "Dedication",
@@ -6238,10 +6230,10 @@
 						{
 							"name": "Custom Loadout",
 							"description": "May add 2 additional hardPoints to Signature Vehicle",
-							"column": 2,
-							"row": 1,
-							"passive": false,
-							"connections": [false, false, false, true]
+							"column": 4,
+							"row": 5,
+							"passive": true,
+							"connections": [false, true, false, false]
 						}
 					]
 				}

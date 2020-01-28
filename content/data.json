@@ -12108,7 +12108,7 @@
 			"rarity": 0
 		},
 		{
-			"name": "Laminate",
+			"name": "Laminate Armor",
 			"defense": 0,
 			"soak": 2,
 			"price": 2500,
@@ -12151,7 +12151,7 @@
 			"special": "+2 Soak when wearer suffers damage from slugthrower or other physical projectile"
 		},
 		{
-			"name": "Mimetic Suit",
+			"name": "Mk IX Personal Mimetic Concealment Suit",
 			"defense": 1,
 			"soak": 1,
 			"price": 8000,
@@ -12477,6 +12477,270 @@
 			"hardPoints": 1,
 			"rarity": 6,
 			"special": "-1 strain from vehicle crits, -1 damage from fire"
+		},
+		{
+			"name": "Alliance Light Stealth Armor",
+			"defense": 0,
+			"soak": 2,
+			"price": 2200,
+			"restricted": true,
+			"encumbrance": 3,
+			"hardPoints": 2,
+			"rarity": 7,
+			"special": "+1 Boost to Stealth checks"
+		},
+		{
+			"name": "Armored Half-Vest",
+			"defense": 1,
+			"soak": 1,
+			"price": 500,
+			"restricted": false,
+			"encumbrance": 3,
+			"hardPoints": 0,
+			"rarity": 5,
+			"special": "When the wearer suffers a Critical Injury, the armor becomes damaged 1 step."
+		},
+		{
+			"name": "Banal Apparel",
+			"defense": 0,
+			"soak": 0,
+			"price": 25,
+			"restricted": false,
+			"encumbrance": 0,
+			"hardPoints": 0,
+			"rarity": 0,
+			"special": "Upgrade difficulty of any checks to identify wearer once."
+		},
+		{
+			"name": "Cargo Clothes",
+			"defense": 0,
+			"soak": 0,
+			"price": 30,
+			"restricted": false,
+			"encumbrance": 1,
+			"hardPoints": 0,
+			"rarity": 0,
+			"special": "Wearer can carry up to 3 items of encumbrance 1 or lower without them counting towards the wearer's encumbrance value."
+		},
+		{
+			"name": "Climbsuit",
+			"defense": 0,
+			"soak": 1,
+			"price": 1450,
+			"restricted": false,
+			"encumbrance": 2,
+			"hardPoints": 2,
+			"rarity": 4,
+			"special": "Upgrade ability of checks to climb or rappel down a surface once. Reduces damage and strain suffered from falling by 5 and reduces any Critical Injury result from falling by 10"
+		},
+		{
+			"name": "Cresh \"Luck\" Armor",
+			"defense": 0,
+			"soak": 2,
+			"price": 1000,
+			"restricted": false,
+			"encumbrance": 4,
+			"hardPoints": 1,
+			"rarity": 5,
+			"special": "Adds automatic 1 Advantage to Vigilance checks."
+		},
+		{
+			"name": "Flare Jacket",
+			"defense": 0,
+			"soak": 1,
+			"price": 1500,
+			"restricted": false,
+			"encumbrance": 3,
+			"hardPoints": 0,
+			"rarity": 8,
+			"special": "Once per encounter, can trigger flash charges as a maneuver. All characters within short range must make a Hard Vigilance check, those who fail are staggered for 1 round, plus 1 additional round per 3 Threat."
+		},
+		{
+			"name": "Holographic Costume",
+			"defense": 1,
+			"soak": 0,
+			"price": 750,
+			"restricted": false,
+			"encumbrance": 2,
+			"hardPoints": 0,
+			"rarity": 8,
+			"special": "Wearing can switch between up to 10 outfits instantly. Recording a new outfit requires an Easy Computers check while in possession of a garment to be recorded, or a Daunting Computers check for a garment not currently on hand."
+		},
+		{
+			"name": "Imperial Hazard Trooper Armor",
+			"defense": 0,
+			"soak": 3,
+			"price": 18000,
+			"restricted": true,
+			"encumbrance": 4,
+			"hardPoints": 3,
+			"rarity": 8,
+			"special": "Once active, internal life support systems allow wearer to survive in radiation zones, acid and toxic environments, extreme pressures, and total vacuum for up to 24 hours. Also incorporates a high-powered comlink able to communicate from the ground to low-orbit. Equipped with a targeting system that removes 2 Setback due to darkness, smoke, or other environmental factors that obscure vision from Wearer's Perception, Vigilance, and combat checks."
+		},
+		{
+			"name": "Imperial Storm Commando Armor",
+			"defense": 0,
+			"soak": 2,
+			"price": 5000,
+			"restricted": true,
+			"encumbrance": 4,
+			"hardPoints": 4,
+			"rarity": 9,
+			"special": "Helmet is equipped with macrobinoculars and scanner goggles, as well as a comlink. Wearer removes 1 Setback due to vision-obscuring environmental factors from Perception, Vigilance, and combat checks. Adds 1 Setback to other characters' Perception checks to detect the wearer."
+		},
+		{
+			"name": "Individual Field Disruptor",
+			"defense": 1,
+			"soak": 0,
+			"price": 9500,
+			"restricted": true,
+			"encumbrance": 0,
+			"hardPoints": 0,
+			"rarity": 7,
+			"special": "Wearer with active field entering engaged range with droids deal 5 Stun Damage, and shorts out and deactivates other electronic devices for the remainder of the encounter. Making Melee attacks while the field is active counts as being armed with a Melee weapon with +2 damage adnd the Stun Damage quality."
+		},
+		{
+			"name": "Mk I Nightstalker Infiltrator Suit",
+			"defense": 0,
+			"soak": 2,
+			"price": 4800,
+			"restricted": true,
+			"encumbrance": 2,
+			"hardPoints": 1,
+			"rarity": 9,
+			"special": "Wearer adds automatic 1 Success to Stealth checks and automatic 1 Threat to social checks."
+		},
+		{
+			"name": "Mk IV Riot Armor",
+			"defense": 1,
+			"soak": 1,
+			"price": 1850,
+			"restricted": true,
+			"encumbrance": 3,
+			"hardPoints": 1,
+			"rarity": 6,
+			"special": "Includes a breath mask that filters out airborned toxins and gases (but doesn't allow breathing the wrong atmosphere). When staggered or disoriented, reduce duration of the effect by 1 round, to a minimum of 1."
+		},
+		{
+			"name": "Pioneer Armor",
+			"defense": 0,
+			"soak": 1,
+			"price": 200,
+			"restricted": false,
+			"encumbrance": 1,
+			"hardPoints": 2,
+			"rarity": 4,
+			"special": "+3 Encumbrance threshold"
+		},
+		{
+			"name": "Polis Massan Bodysuit",
+			"defense": 0,
+			"soak": 1,
+			"price": 300,
+			"restricted": false,
+			"encumbrance": 1,
+			"hardPoints": 1,
+			"rarity": 6,
+			"special": "Includes a head-mounted glowrow and an integrated utility belt."
+		},
+		{
+			"name": "Powered Capacitive Armor",
+			"defense": 1,
+			"soak": 1,
+			"price": 3000,
+			"restricted": true,
+			"encumbrance": 4,
+			"hardPoints": 2,
+			"rarity": 8,
+			"special": "As a maneuver, can power up or power down the armor. While powered up, gain +1 Soak and +1 Defense, but lose 1 free maneuver each turn."
+		},
+		{
+			"name": "Rebel Heavy Battle Armor",
+			"defense": 1,
+			"soak": 2,
+			"price": 6000,
+			"restricted": true,
+			"encumbrance": 5,
+			"hardPoints": 5,
+			"rarity": 8,
+			"special": "Equipped with a breath mask and respirator."
+		},
+		{
+			"name": "Reflect Body Glove",
+			"defense": 0,
+			"soak": 3,
+			"price": 2500,
+			"restricted": false,
+			"encumbrance": 2,
+			"hardPoints": 0,
+			"rarity": 5,
+			"special": "Add 2 Setback to Vigilance and Perception checks to notice a character is wearing it. After a successful combat check against the wearer, the suit's soak is reduced by 1, to a minimum of 0. Can be restored to its original soak by making an Average Mechanics check."
+		},
+		{
+			"name": "Riot Armor",
+			"defense": 0,
+			"soak": 2,
+			"price": 950,
+			"restricted": false,
+			"encumbrance": 3,
+			"hardPoints": 2,
+			"rarity": 4,
+			"special": ""
+		},
+		{
+			"name": "Seascape Diving Suit",
+			"defense": 0,
+			"soak": 2,
+			"price": 400,
+			"restricted": false,
+			"encumbrance": 3,
+			"hardPoints": 2,
+			"rarity": 2,
+			"special": "Provides 6 hours of atmosphere/food/water/etc. to the wearer. Suffer no movement penalties for traveling through water."
+		},
+		{
+			"name": "Secon Skin Armor",
+			"defense": 1,
+			"soak": 1,
+			"price": 2000,
+			"restricted": false,
+			"encumbrance": 2,
+			"hardPoints": 1,
+			"rarity": 7,
+			"special": "Add 2 Setback to Perception checks to notice armor on wearer."
+		},
+		{
+			"name": "Survivalist Armor",
+			"defense": 0,
+			"soak": 1,
+			"price": 350,
+			"restricted": false,
+			"encumbrance": 3,
+			"hardPoints": 2,
+			"rarity": 6,
+			"special": "+1 Encumbrance Threshold"
+		},
+		{
+			"name": "Thinsuit",
+			"defense": 0,
+			"soak": 1,
+			"price": 1200,
+			"restricted": false,
+			"encumbrance": 0,
+			"hardPoints": 0,
+			"rarity": 6,
+			"special": "Comes with a facemask and filtration system that purifies atmosphere for 6 hours, and provides 1 hour of internal power. Remove 2 Setback imposed by environment from checks."
+		},
+		{
+			"name": "Verpine Fiber Ultramesh Armor",
+			"defense": 0,
+			"soak": 1,
+			"price": 3000,
+			"restricted": false,
+			"encumbrance": 3,
+			"hardPoints": 2,
+			"rarity": 5,
+			"special": "As a maneuver, may power up or power down armor. While powered, gains +2 defense, but any character may spend 1 Triumph or 2 Advantage from a combat check against the wearer to cause it to run out of power (and can't be powered up until end of encounter)."
 		}
 	],
 	"attachments": [

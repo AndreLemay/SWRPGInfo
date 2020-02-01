@@ -2667,8 +2667,8 @@
 						{
 							"name": "Durable",
 							"description": "May reduce any Critical Injury suffered by 10 per rank of Durable to a minimum of 1.",
-							"column": 2,
-							"row": 1,
+							"column": 1,
+							"row": 2,
 							"passive": true,
 							"connections": [false, false, true, true]
 						},
